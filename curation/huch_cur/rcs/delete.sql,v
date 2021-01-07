@@ -1,0 +1,116 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2001.07.17.13.16.02;	author contrino;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.07.13.15.13.16;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.09.26.10.13.56;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@uses gid instead of gene name now
+@
+text
+@--  SET DOC OFF
+--  *************************************************************
+--
+--  Package: human chromosome
+--
+--  Purpose: deleting from table cromoloc    
+--
+--  Usage:   sqlplus username/password gid-to-be-deleted 
+--     
+--  note:    it will delete also from cromosptr (delete cascade)
+--
+--
+--  $Source: /homes/contrino/huch/curation/RCS/delete.sql,v $
+--  $Date: 2001/07/13 15:13:16 $
+--  $Author: contrino $
+--
+--  _____________________________________________________________
+--
+--  $Log: delete.sql,v $
+--  Revision 1.2  2001/07/13 15:13:16  contrino
+--  *** empty log message ***
+--
+--  Revision 1.1  2000/09/26 10:13:56  contrino
+--  Initial revision
+--
+--
+--  *************************************************************
+
+set verify off
+
+delete from proteomes.cromoloc
+where gid=&1
+;
+
+set feedback off
+prompt
+prompt use    commit    to save the changes
+prompt or   rollback    to discard them
+prompt NB       exit    will commit before exiting
+prompt
+set feedback on
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+--  Purpose:  deleting from table cromoloc    
+d8 1
+a8 1
+--  Usage:      sqlplus username/password gene-to-be-deleted 
+d10 1
+a10 1
+--  note:   it will delete also from cromosptr (delete cascade)
+d13 2
+a14 2
+--  $Source: /homes/contrino/Java/cromo/sql/curation/RCS/delete.sql,v $
+--  $Date: 2000/09/26 10:13:56 $
+d20 3
+d32 1
+a32 1
+where gene='&1'
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d9 2
+d13 3
+a15 3
+--  $Source$
+--  $Date$
+--  $Author$
+d19 4
+a22 1
+--  $Log$
+@

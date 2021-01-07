@@ -1,0 +1,146 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2002.02.05.14.45.34;	author contrino;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.09.13.15.43.25;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.08.08.16.20.56;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@added coordination (first stm)
+@
+text
+@--bimmol--348-361
+insert into entry (old_id, name, coordination)
+(select distinct id, name, coord 
+from alfa
+where name is not null)
+;
+
+--prx--770-798
+insert into entry (old_id, name)
+(select distinct id, term 
+from alfa
+where name is null
+and term is not null)
+;
+
+-- 1159
+@@add_ids
+
+-- prx NB many entry same instance!!--529 --551
+-- es: p101 e p292
+
+insert into instance (instance, id, species, state, centre)
+( 
+select distinct a.instance, e.id, a.specie, a.state, a.centre 
+from alfa a, entry e
+where e.old_id = a.id
+and a.name is null
+and a.instance is not null
+)
+;
+ 
+-- molbim--(516--??) 150
+insert into instance (instance, id)
+( select distinct a.term, e.id 
+from alfa a, entry e
+where e.old_id = a.id
+and a.term is not null
+and a.name is not null
+and instance is null
+)
+;
+
+@@add_id_inst
+--701
+
+
+
+
+-- db_xrefs
+
+@@dbxfiller
+
+@@relations
+
+@
+
+
+1.2
+log
+@working fine...
+@
+text
+@d2 2
+a3 2
+insert into entry (old_id, name)
+(select distinct id, name 
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a45 1
+-- db_xrefs
+a46 1
+@@dbxfiller
+d49 1
+a49 1
+-- relationships -- 1578 (but 1596 rel..?)
+d51 1
+a51 29
+insert into relations (id, parent)
+(-- for prx-molbim
+select a.id, b.id
+from entry a, entry b, rel c
+where b.old_id = c.parent
+and a.old_id = c.child
+--)
+union
+--(
+-- prx-prx
+select a.id, b.id
+from entry a, entry b, rel c, equivalence d
+where b.old_id = c.parent
+and c.child = d.code
+and a.old_id = d.kid
+)
+;
+
+
+-- first filling for path (ln=0 and ln=1)
+
+--len=0  --1148
+insert into path (id, child, pathlength)
+select distinct id , id , 0 from relations;
+
+
+--len=1  --1578
+insert into path (id, child, pathlength)
+select distinct parent, id , 1 from relations;
+d53 1
+@

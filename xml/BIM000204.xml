@@ -1,0 +1,5 @@
+<substructure id="BIM000204">
+ <bim>{Co(NE.His)(OE.Glu)}[Co{k2-(OD,OD.Asp)}(OH2)]{&#181;-(OD,OD.Asp)}{&#181;-(OE,OE.Glu)}{&#181;-(OH2)}</bim>
+ &BIM000205;
+ &BIM000206;
+</substructure>

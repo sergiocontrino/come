@@ -1,0 +1,7 @@
+<substructure id="BIM000270">
+ <bim>(C4A.Pxy)(NZ.Lys)</bim>
+ <term value="N6-pyridoxal phosphate-L-lysine" dbxref="RESID:AA0119">
+ </term>
+ <term value="2-lysine(3-hydroxy-2-methyl-5-phosphonooxymethyl-pyridin-4-ylmethane)" dbxref="PDBHET:LLP">
+ </term>
+</substructure>

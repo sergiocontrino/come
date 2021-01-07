@@ -1,0 +1,6 @@
+<term value="aromatic amino acid aminotransferase" id="PRX000828" dbxref="EC:2.6.1.57">
+ <instance value="aromatic amino acid aminotransferase" species="Escherichia coli" dbxref="SPTR:P04693">
+ </instance>
+ <instance value="aromatic amino acid aminotransferase" species="Paracoccus denitrificans" dbxref="SPTR:P95468">
+ </instance>
+</term>

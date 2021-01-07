@@ -1,0 +1,6 @@
+<substructure value="4'-hydroxycinnamate" id="MOL000064">
+ <term value="4'-hydroxycinnamic acid" dbxref="PDBHET:HC4">
+ </term>
+ <term value="4-coumarate" dbxref="COMPOUND:C00811">
+ </term>
+</substructure>

@@ -1,0 +1,11 @@
+<term value="arthropod hemocyanin" id="PRX000226" dbxref="InterPro:IPR000896">
+ <instance value="hemocyanin" species="Limulus polyphemus" state="deoxy" dbxref="PDB:1LLA">
+  &BIM000101;
+ </instance>
+ <instance value="hemocyanin" species="Limulus polyphemus" state="oxy" dbxref="PDB:1OXY">
+  &BIM000102;
+ </instance>
+ <instance value="hemocyanin" species="Limulus polyphemus" state="hydroxo-met" dbxref="PDB:1LL1">
+  &BIM000368;
+ </instance>
+</term>

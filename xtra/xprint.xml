@@ -1,0 +1,36 @@
+<substructure id="BIM000245">
+ <bim>heme(OD.Asp)(OE.Glu)(SD.Met)</bim>
+  &BIM000246;
+  &BIM000247;
+  &BIM000248;
+ <term value="hemediol-L-aspartyl ester-L-glutamyl ester-L-methionine sulfonium" dbxref="RESID:AA0280">
+ </term>
+ <term value="heme m">
+ </term>
+</substructure>
+<term value="trimethylamine dehydrogenase" id="PRX000014" dbxref="EC:1.5.99.7">
+ &BIM000137;
+ <instance value="trimethylamine dehydrogenase" species="Methylotrophus methylophilus" dbxref="PDB:1DJN">
+ </instance>
+ <instance value="trimethylamine dehydrogenase" species="Methylotrophus methylophilus" dbxref="PDB:2TMD">
+ </instance>
+</term>
+<substructure value="molybdopterin guanine dinucleotide" id="MOL000076">
+ <term value="molybdopterin guanosine dinucleotide" dbxref="PDBHET:MGD">
+ </term>
+ <term value="guanosine-5'-diphosphate pterin moiety of molybdopterin guanosine dinucleotide" dbxref="PDBHET:PGD">
+ </term>
+ <term value="molybdopterin guanine dinucleotide" dbxref="PDBHET:2MD">
+ </term>
+</substructure>
+<term value="P450 nitric oxide reductase" id="PRX000646">
+ <instance value="P450 nitric oxide reductase" species="Fusarium oxysporum" state="ligand-free" dbxref="PDB:1ROM">
+  &BIM000011;
+ </instance>
+ <instance value="P450 nitric oxide reductase" species="Fusarium oxysporum" state="CO-bound" dbxref="PDB:2ROM">
+  &BIM000212;
+ </instance>
+ <instance value="P450 nitric oxide reductase" species="Fusarium oxysporum" state="NO-bound" dbxref="PDB:1CL6">
+  &BIM000211;
+ </instance>
+</term>

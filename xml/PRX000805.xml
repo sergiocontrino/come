@@ -1,0 +1,6 @@
+<term value="(haem-bis-His)3 cytochrome c7" id="PRX000805">
+ <instance value="cytochrome c7" species="Desulfuromonas acetoxidans" dbxref="SPTR:P00137">
+ </instance>
+ <instance value="cytochrome c7" species="Geobacter sulfurreducens" dbxref="PDB:1OS6" lref="PUBMED:14744127">
+ </instance>
+</term>

@@ -1,0 +1,53 @@
+head	1.1;
+access;
+symbols;
+locks
+	contrino:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2001.03.23.17.55.32;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@--  SET DOC OFF
+--  *************************************************************
+--
+--  Purpose:
+--
+--  Usage:   add_syn issn 'title'
+--  NB       don't forget the ''  
+--
+--  $Source$
+--  $Date$
+--  $Author$
+--
+--  _____________________________________________________________
+--
+--  $Log$
+--
+--  *************************************************************
+--
+set verify off
+set feedback off
+set heading off
+
+insert into journal_synonym values ('&1', '&2');
+
+column journal_syn format a60
+select issn#, journal_syn from journal_synonym where issn#='&1';
+
+set verify on
+set feedback on
+set heading on@

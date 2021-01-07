@@ -1,0 +1,9 @@
+<substructure id="BIM000314">
+ <bim>Fe{(C12-1.por)(OE.Glu)}</bim>
+ &BIM000468;
+ <term value="heme CYP4A" lref="PUBMED:11821421">
+ </term>
+ <term value="hydroxyheme-L-glutamate ester" dbxref="RESID:AA0324">
+ </term>
+ <!-- this is major form of haem in CYP4A family -->
+</substructure>

@@ -1,0 +1,5 @@
+<term value="cytochrome bd ubiquinol oxidase subunit II" id="PRX000385" dbxref="InterPro:IPR003317">
+ <instance value="cytochrome bd ubiquinol oxidase subunit II" species="Escherichia coli" dbxref="SPTR:P11027">
+ </instance>
+ &CYTBD;
+</term>

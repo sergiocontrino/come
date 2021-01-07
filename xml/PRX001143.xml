@@ -1,0 +1,5 @@
+<term value="dihydrolipoamide S-succinyltransferase" id="PRX001143" dbxref="EC:2.3.1.61">
+ <instance value="dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex" species="Escherichia coli" dbxref="SPTR:P07016">
+ </instance>
+ &AKGDH;
+</term>

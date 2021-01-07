@@ -1,0 +1,7 @@
+<term value="low-potential cytochrome c550" id="PRX000668">
+ <instance value="cytochrome c-550" species="Synechococcus elongatus" dbxref="SPTR:P56150">
+ </instance>
+ <instance value="cytochrome c549" species="Arthrospira maxima" dbxref="PDB:1F1C">
+ </instance>
+ &ALGAPSII;
+</term>

@@ -1,0 +1,6 @@
+<term value="biotin synthase" id="PRX000289" dbxref="InterPro:IPR002684">
+ <instance value="biotin synthase" species="Escherichia coli" dbxref="SPTR:P12996" lref="PUBMED:14704425">
+  &BIM000462;
+  &BIM000469;
+ </instance>
+</term>

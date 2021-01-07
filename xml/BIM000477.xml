@@ -1,0 +1,4 @@
+<substructure id="BIM000477">
+ <!-- OC-6 with two missing ligands -->
+ <bim coordination="OC-6">Co(NE.His)2(OE.Gln)(OE.Glu)</bim>
+</substructure>

@@ -1,0 +1,7 @@
+<term value="Fe-coproporphyrin III bacterioferritin" id="PRX001171">
+ &MOL000032;
+ <instance value="bacterioferritin" species="Desulfovibrio desulfuricans" state="(Fe)3+:(Fe)3+" dbxref="PDB:1NFV">
+ </instance> 
+ <instance value="bacterioferritin" species="Desulfovibrio desulfuricans" state="(Fe)2+:(Fe)2+" dbxref="PDB:1NF4">
+ </instance> 
+</term>

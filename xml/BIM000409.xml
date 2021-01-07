@@ -1,0 +1,11 @@
+<substructure id="BIM000409">
+ <bim>(Mo|W){k2-(S,S.dtpp)}2*</bim>
+ &BIM000178;
+ &BIM000179;
+ &BIM000180;
+ &BIM000181;
+ &BIM000182;
+ &BIM000183;
+ &BIM000185;
+ &BIM000344;
+</substructure>

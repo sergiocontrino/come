@@ -1,0 +1,5 @@
+<term value="hydrogenase-linked carbon monoxide dehydrogenase, iron-sulphur subunit" id="PRX000986">
+ <instance value="iron-sulfur protein cooF" species="Rhodospirillum rubrum" dbxref="SPTR:P31894">
+ </instance>
+ &MEMBCOO;
+</term>

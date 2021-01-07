@@ -1,0 +1,5 @@
+<term value="hydrogenase-linked carbon monoxide dehydrogenase catalytic subunit" id="PRX000988">
+ <instance value="carbon monoxide dehydrogenase" species="Rhodospirillum rubrum" dbxref="SPTR:P31896">
+ </instance>
+ &MEMBCOO;
+</term>

@@ -1,0 +1,9 @@
+<substructure id="BIM000430">
+ <bim>Kcx</bim>
+ <term value="N6-carboxy-L-lysine" dbxref="RESID:AA0114">
+ </term>
+ <term value="lysine NZ-carboxylic acid" dbxref="PDBHET:KCX">
+ </term>
+ <term value="carboxylated lysine" dbxref="PDBHET:LCX">
+ </term>
+</substructure>

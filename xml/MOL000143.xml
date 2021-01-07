@@ -1,0 +1,8 @@
+<substructure value="OH" id="MOL000143">
+ <term value="hydroxyl anion" dbxref="CAS:14280-30-9">
+ </term>
+ <term value="hydroxide ion" dbxref="PDBHET:OH">
+ </term>
+ <term value="hydroxy group" dbxref="PDBHET:HYD">
+ </term>
+</substructure>

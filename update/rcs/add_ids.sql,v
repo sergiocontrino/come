@@ -1,0 +1,50 @@
+head	1.1;
+access;
+symbols;
+locks
+	contrino:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2001.10.18.10.27.14;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@declare
+
+CURSOR p_cursor IS
+SELECT old_id 
+FROM  entry
+;
+
+p_record p_cursor%ROWTYPE;
+rows     number(9);
+
+  BEGIN
+    rows := 0;	
+    FOR p_record IN p_cursor 
+
+LOOP
+
+update entry set id = seq_ids.nextval
+where old_id=p_record.old_id;
+
+	rows := rows + 1;
+--	dbms_output.put_line ( 'Inserted '||rows||' ids in entry' );
+
+    END LOOP;
+    dbms_output.put_line ( 'Inserted '||rows||' ids in entry' );
+end;
+/
+@

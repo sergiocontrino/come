@@ -1,0 +1,5 @@
+<term value="NADH:nitrite reductase flavohaemoprotein" id="PRX001201">
+ <instance value="nitrite reductase [NAD(P)H]" species="Bacillus subtilis" dbxref="SPTR:P42435">
+ </instance>
+ &NADHNIR;
+</term>

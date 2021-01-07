@@ -1,0 +1,6 @@
+<substructure value="violaxanthin" id="MOL000096">
+ <term value="(3S,5R,6S,3'S,5'R,6'S)-5,6,5',6'-diepoxy-5,6,5',6'-tetrahydro-beta,beta-carotene-3,3'-diol" dbxref="PDBHET:XAT">
+ </term>
+ <term value="violaxanthin" dbxref="COMPOUND:C08614">
+ </term>
+</substructure>

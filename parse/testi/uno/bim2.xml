@@ -1,0 +1,10 @@
+<substructure id="BIM000245">
+ <bim>heme(OD.Asp)(OE.Glu)(SD.Met)</bim>
+  BIM000246
+  BIM000247
+  BIM000248
+ <term value="hemediol-L-aspartyl ester-L-glutamyl ester-L-methionine sulfonium" dbxref="RESID:AA0280">
+ </term>
+ <term value="heme m">
+ </term>
+</substructure>

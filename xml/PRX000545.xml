@@ -1,0 +1,5 @@
+<term value="trimethylamine N-oxide reductase (cytochrome c)" id="PRX000545" dbxref="EC:1.7.2.3">
+ <instance value="trimethylamine N-oxide reductase" species="Shewanella massilia" state="(Mo)6+,dioxo" dbxref="PDB:1TMO">
+  &BIM000182;
+ </instance>
+</term>

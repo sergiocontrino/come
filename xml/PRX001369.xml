@@ -1,0 +1,6 @@
+<term value="(haem-bis-His)2, haem-His-Met cytochrome c7 domain" id="PRX001369">
+ <instance value="c7-type three-heme cytochrome domain" species="Geobacter sulfurreducens" dbxref="PDB:1RWJ" lref="PUBMED:15133162">
+ </instance>
+ &CYTC12H;
+ &CYTC27H;
+</term>

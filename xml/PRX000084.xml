@@ -1,0 +1,11 @@
+<term value="Fenna-Matthews-Olson complex" id="PRX000084">
+ &MOL000001;
+ &BIM000001;
+ &BIM000004;
+ &BIM000005;
+ &BIM000006;
+ <instance value="Fenna-Matthews-Olson complex" species="Chlorobium tepidum" dbxref="PDB:1KSA">
+ </instance>
+ <instance value="Fenna-Matthews-Olson complex" species="Prosthecochloris aestuarii" dbxref="PDB:4BCL">
+ </instance>
+</term>

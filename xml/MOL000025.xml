@@ -1,0 +1,12 @@
+<substructure value="haem*" id="MOL000025">
+ <term value="heme">
+ </term>
+ &MOL000013;
+ &MOL000017;
+ &MOL000018;
+ &MOL000020;
+ &MOL000021;
+ &MOL000032;
+ &MOL000038;
+ &MOL000171;
+</substructure>

@@ -1,0 +1,4 @@
+<term value="streptavidin" id="PRX001123" dbxref="InterPro:IPR005470">
+ <instance value="streptavidin" species="Streptomyces avidinii" state="biotin-bound" dbxref="PDB:2IZH">
+ </instance>
+</term>

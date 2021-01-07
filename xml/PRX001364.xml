@@ -1,0 +1,10 @@
+<term value="homodimeric molybdenum cofactor biosynthesis protein A" id="PRX001364" dbxref="InterPro:IPR010505">
+ <instance value="molybdenum cofactor biosynthesis protein A" species="Staphylococcus aureus" state="SAM-free" dbxref="PDB:1TV7" lref="PUBMED:15317939">
+  &BIM000520;
+  &BIM000520;
+ </instance>
+ <instance value="molybdenum cofactor biosynthesis protein A" species="Staphylococcus aureus" state="SAM-bound" dbxref="PDB:1TV8" lref="PUBMED:15317939">
+  &BIM000462;
+  &BIM000520;
+ </instance>
+</term>

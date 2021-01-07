@@ -1,0 +1,93 @@
+head	1.2;
+access;
+symbols;
+locks
+	pkersey:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2003.12.17.12.33.52;	author pkersey;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.12.09.18.08;	author pkersey;	state Exp;
+branches;
+next	;
+
+
+desc
+@fixing for PROT use.
+@
+
+
+1.2
+log
+@correcting for move to PROT.
+@
+text
+@--  SET DOC OFF
+--  *************************************************************
+--
+--  Package: human chromosome
+--
+--  Purpose:  deleting from table cromoloc    
+--
+--  Usage:      sqlplus username/password gene-to-be-deleted 
+--     
+--  note:   it will delete also from cromosptr (delete cascade)
+--
+--
+--  $Source: /ebi/sp/pro1/HUmanCHromosome/curation/RCS/delgene.sql,v $
+--  $Date: 2003/12/12 09:18:08 $
+--  $Author: pkersey $
+--
+--  _____________________________________________________________
+--
+--  $Log: delgene.sql,v $
+--  Revision 1.1  2003/12/12 09:18:08  pkersey
+--  Initial revision
+--
+--  Revision 1.2  2001/07/13 15:13:16  contrino
+--  *** empty log message ***
+--
+--  Revision 1.1  2000/09/26 10:13:56  contrino
+--  Initial revision
+--
+--
+--  *************************************************************
+
+set verify off
+
+delete from proteomes.cromoloc
+where gene='&1'
+;
+
+set feedback off
+prompt
+prompt use    commit    to save the changes
+prompt or   rollback    to discard them
+prompt NB       exit    will commit before exiting
+prompt
+set feedback on
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d13 3
+a15 3
+--  $Source: /homes/contrino/huch/curation/RCS/delete.sql,v $
+--  $Date: 2001/07/13 15:13:16 $
+--  $Author: contrino $
+d19 4
+a22 1
+--  $Log: delete.sql,v $
+d34 1
+a34 1
+delete from proteomes.cromoloc@@PRDB1.WORLD
+@

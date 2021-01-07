@@ -1,0 +1,6 @@
+<term value="cobalamin-dependent glycerol dehydratase" id="PRX001366" dbxref="EC:4.2.1.30">
+ <instance value="glycerol dehydratase" species="Klebsiella pneumoniae" state="1,2-propanediol-bound" dbxref="PDB:1IWP" lref="PUBMED:12230560">
+ </instance>
+ <instance value="glycerol dehydratase" species="Klebsiella pneumoniae" state="substrate-free" dbxref="PDB:1MMF" lref="PUBMED:12538056">
+ </instance>
+</term>

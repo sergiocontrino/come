@@ -1,0 +1,5 @@
+<substructure id="BIM000373">
+ <bim>{Cu(NE.His)3}{Cu(ND.His)(NE.His)2}{Cu(NE.His)2}*</bim>
+ &BIM000362;
+ &BIM000366;
+</substructure>

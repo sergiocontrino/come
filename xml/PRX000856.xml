@@ -1,0 +1,6 @@
+<term value="serine hydroxymethyltransferase" id="PRX000856" dbxref="InterPro:IPR001085">
+ <instance value="serine hydroxymethyltransferase" species="human" dbxref="SPTR:P34896">
+ </instance>
+ <instance value="serine hydroxymethyltransferase" species="Oryctolagus cuniculus" dbxref="SPTR:P07511">
+ </instance>
+</term>

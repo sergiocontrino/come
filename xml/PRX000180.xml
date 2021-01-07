@@ -1,0 +1,8 @@
+<term value="nitrous oxide reductase" id="PRX000180" dbxref="EC:1.7.99.6">
+  &BIM000105;
+  &BIM000109;
+ <instance value="nitrous oxide reductase" species="Pseudomonas nautica" dbxref="PDB:1QNI" lref="PUBMED:10700275">
+ </instance>
+ <instance value="nitrous oxide reductase" species="Pseudomonas stutzeri" dbxref="SPTR:P19573">
+ </instance>
+</term>

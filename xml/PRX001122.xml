@@ -1,0 +1,4 @@
+<term value="avidin" id="PRX001122" dbxref="InterPro:IPR005469">
+ <instance value="avidin" species="Gallus gallus" state="biotin-bound" dbxref="PDB:1AVD">
+ </instance>
+</term>

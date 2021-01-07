@@ -1,0 +1,14 @@
+<term value="vertebrate calmodulin" id="PRX000903">
+ <instance value="calmodulin" species="human" centre="EF1" dbxref="PDB:1CLL">
+  &BIM000288;
+ </instance>
+ <instance value="calmodulin" species="human" centre="EF2" dbxref="PDB:1CLL">
+  &BIM000289;
+ </instance>
+ <instance value="calmodulin" species="human" centre="EF3" dbxref="PDB:1CLL">
+  &BIM000286;
+ </instance>
+ <instance value="calmodulin" species="human" centre="EF4" dbxref="PDB:1CLL">
+  &BIM000287;
+ </instance>
+</term>

@@ -1,0 +1,7 @@
+<term value="malonate decarboxylase acyl carrier protein" id="PRX001178">
+ <instance value="malonate decarboxylase delta subunit" species="Acinetobacter calcoaceticus" dbxref="SPTR:O54415">
+ </instance>
+ <instance value="acyl carrier protein" species="Malonomonas rubra" dbxref="SPTR:O06925" lref="PUBMED:8664258">
+ </instance>
+ &MDC;
+</term>

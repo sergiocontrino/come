@@ -1,0 +1,11 @@
+<substructure id="BIM000507">
+ <bim>[{CaMn3(&#181;3-O)3}(NE.His)(OE.Glu){k2-(OE,OE.Glu)}(OD.Asp)]{Mn(OE.Glu)(OD.Asp)(OH2)2}{&#181;-(HCO3)}(&#181;4-O)
+</bim>
+ <term value="bis-L-aspartato tris-L-glutamato L-histidino calcium tetramanganese tetroxide" dbxref="RESID:AA0366">
+ </term>
+ &BIM000508;
+ &BIM000509;
+ &MOL000142;
+ &MOL000176;
+ &MOL000177;
+</substructure>

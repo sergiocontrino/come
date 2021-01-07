@@ -1,0 +1,6 @@
+<term value="hydroxymethylbilane synthase" id="PRX001186" dbxref="EC:4.3.1.8">
+ &BIM000412;
+ &MOL000167;
+ <instance value="porphobilinogen deaminase" species="Escherichia coli" dbxref="SPTR:P06983">
+ </instance>
+</term>

@@ -1,0 +1,23 @@
+<term value="animal-type metallothionein, three-metal-binding domain" id="PRX001295">
+ <instance value="metallothionein-2, beta domain" species="human" state="Cd-bound" dbxref="PDB:2MHU" lref="PUBMED:2388267">
+  &BIM000498;
+ </instance>
+ <instance value="metallothionein A, beta domain" species="Strongylocentrotus purpuratus" state="Cd-bound" dbxref="PDB:1QJL">
+  &BIM000498;
+ </instance>
+ <instance value="metallothionein-1, beta-N domain" species="Homarus americanus" state="Cd-bound" dbxref="PDB:1J5M">
+  &BIM000498;
+ </instance>
+ <instance value="metallothionein-1, beta-C domain" species="Homarus americanus" state="Cd-bound" dbxref="PDB:1J5L">
+  &BIM000498;
+ </instance>
+ <instance value="metallothionein-1, alpha domain" species="Callinectes sapidus" state="Cd-bound" dbxref="PDB:1DMC">
+  &BIM000498;
+ </instance>
+ <instance value="metallothionein-1, beta domain" species="Callinectes sapidus" state="Cd-bound" dbxref="PDB:1DME">
+  &BIM000498;
+ </instance>
+ &CRUMT;
+ &MAMMT;
+ &SURMT;
+</term>

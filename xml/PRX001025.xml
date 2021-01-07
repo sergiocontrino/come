@@ -1,0 +1,5 @@
+<term value="pyruvate oxidase" id="PRX001025" dbxref="EC:1.2.3.3">
+ <instance value="pyruvate oxidase" species="Lactobacillus plantarum" dbxref="SPTR:P37063">
+  &BIM000327;
+ </instance>
+</term>

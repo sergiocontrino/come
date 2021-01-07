@@ -1,0 +1,9 @@
+<term value="electron transfer flavoprotein, alpha:beta heterodimer" id="PRX000049" dbxref="GO:0008246">
+ <instance value="electron transfer flavoprotein" species="human" dbxref="PDB:1EFV" lref="PUBMED:8962055">
+ </instance>
+ <instance value="electron transfer flavoprotein" species="Paracoccus denitrificans" dbxref="PDB:1EFP" lref="PUBMED:10026281">
+ </instance>
+ <instance value="electron transferring flavoprotein" species="Methylophilus methylotrophus" dbxref="PDB:1O97" lref="PUBMED:12567183">
+ </instance>
+ &TMADHETF2;
+</term>

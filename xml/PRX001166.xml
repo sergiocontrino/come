@@ -1,0 +1,11 @@
+<term value="photosystem I PsaA:PsaB heterodimer" id="PRX001166" dbxref="InterPro:IPR001280">
+ &BIM000001;
+ &BIM000518;
+ &MOL000003;
+ &MOL000162;
+ <instance value="photosystem I P700 chlorophyll A apoprotein A1" species="Synechococcus elongatus" dbxref="SPTR:P25896">
+ </instance>
+ <instance value="photosystem I P700 chlorophyll A apoprotein A2" species="Synechococcus elongatus" dbxref="SPTR:P25897">
+ </instance>
+ &PSIRC;
+</term>

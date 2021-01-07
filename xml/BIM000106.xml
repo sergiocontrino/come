@@ -1,0 +1,6 @@
+<substructure id="BIM000106">
+ <bim>{Cu(ND.His)(SD.Met)}{Cu(ND.His)(O.*aa)}{&#181;-(SG.Cys)}2</bim>
+  &BIM000103;
+  &BIM000104;
+  &BIM000105;
+</substructure>

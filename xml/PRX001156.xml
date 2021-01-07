@@ -1,0 +1,5 @@
+<term value="acetoin:2,6-dichlorophenolindophenol oxidoreductase, alpha2:beta2 heterotetramer" id="PRX001156">
+ <instance value="E1 component of acetoin dehydrogenase enzyme system" species="Clostridium magnum" lref="PUBMED:8274006">
+ </instance>
+ &ACETDH;
+</term>

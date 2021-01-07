@@ -1,0 +1,21 @@
+<term value="B800-850 light-harvesting complex" id="PRX000083">
+ <instance value="LH2 B800-850" species="Rhodopseudomonas acidophila" centre="carotenoid" dbxref="PDB:1NKZ">
+  &MOL000049;
+ </instance>
+ <instance value="LH2 B800-850" species="Rhodopseudomonas acidophila" centre="B850" dbxref="PDB:1NKZ">
+  &BIM000001;
+ </instance>
+ <instance value="LH2 B800-850" species="Rhodopseudomonas acidophila" centre="B800" dbxref="PDB:1NKZ">
+  &BIM000491;
+ </instance>
+
+ <instance value="light-harvesting complex II" species="Rhodospirillum molischianum" centre="carotenoid" dbxref="PDB:1LGH">
+  &MOL000048;  
+ </instance>
+ <instance value="light-harvesting complex II" species="Rhodospirillum molischianum" centre="B850" dbxref="PDB:1LGH">
+  &BIM000001;
+ </instance>
+ <instance value="light-harvesting complex II" species="Rhodospirillum molischianum" centre="B800" dbxref="PDB:1LGH">
+  &BIM000002;
+ </instance>
+</term>

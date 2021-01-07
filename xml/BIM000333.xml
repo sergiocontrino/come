@@ -1,0 +1,7 @@
+<substructure id="BIM000333">
+ <bim>Fe(por)(NE.His)(NE.His|*)</bim>
+ &BIM000012;
+ &BIM000018;
+ &BIM000021;
+ &BIM000023;
+</substructure>

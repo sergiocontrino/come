@@ -1,0 +1,5 @@
+<term value="lactoperoxidase" id="PRX000340" dbxref="GO:0016686">
+ &BIM000243;
+ <instance value="lactoperoxidase" species="Bos taurus" dbxref="SPTR:P80025">
+ </instance>
+</term>

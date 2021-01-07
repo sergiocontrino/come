@@ -1,0 +1,7 @@
+<substructure id="BIM000345">
+ <!-- the sixth coordination position is vacant? see PDB:1B25 -->
+ <bim coordination="TPR-6">W{k2-(S,S.dtpp)}2(OH2)</bim>
+ &MOL000140;
+ <term value="tungstopterin" dbxref="PDBHET:PTT">
+ </term>
+</substructure>

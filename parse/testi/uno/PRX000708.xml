@@ -1,0 +1,6 @@
+<term value="cooA" id="PRX000708">
+ <instance inst="CO sensor protein cooA" species="Rhodospirillum" state="CO-free,Fe2+" dbxref="PDB:1FT9">
+ </instance>
+ <instance inst="CO sensor" species="Rhodospirillum rubrum" state="CO-bound" lref="PUBMED:11278259">
+ </instance>
+</term>

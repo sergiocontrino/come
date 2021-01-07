@@ -1,0 +1,5 @@
+<term value="myrosinase" id="PRX000703" dbxref="EC:3.2.3.1">
+ &BIM000226;
+ <instance value="myrosinase" species="Sinapis alba" dbxref="PDB:1MYR">
+ </instance>
+</term>

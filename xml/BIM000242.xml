@@ -1,0 +1,8 @@
+<substructure id="BIM000242">
+ <bim>Fe{(por)(CE.Tyr)(SG.Cys)2}</bim>
+ &BIM000249;
+ &BIM000250;
+ &BIM000251;
+ <term value="heme P460-bis-L-cysteine-L-tyrosine" dbxref="RESID:AA0266">
+ </term>
+</substructure>

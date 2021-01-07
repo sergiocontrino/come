@@ -1,0 +1,7 @@
+<substructure value="phaeophytin*" id="MOL000092">
+ <term value="pheophytin" dbxref="COMPOUND:C05797">
+ </term>
+ &MOL000090;
+ &MOL000091;
+ &MOL000163;
+</substructure>

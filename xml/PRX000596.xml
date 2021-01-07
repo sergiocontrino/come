@@ -1,0 +1,7 @@
+<term value="carbon monoxide oxidase, iron-sulphur subunit" id="PRX000596">
+ <instance value="carbon monoxide dehydrogenase small chain" species="Hydrogenophaga pseudoflava" dbxref="SPTR:P19915">
+ </instance>
+ <instance value="carbon monoxide dehydrogenase small chain" species="Oligotropha carboxidovorans" dbxref="SPTR:Q51324">
+ </instance>
+ &COOX;
+</term>

@@ -1,0 +1,11 @@
+<substructure id="BIM000426">
+ <!-- "generic" modified amino acid BIM -->
+ <bim>(modified amino acid residue)*</bim>
+ &BIM000277;
+ &BIM000428;
+ &BIM000429;
+ &BIM000430;
+ &BIM000474;
+ &BIM000475;
+ &BIM000492;
+</substructure>

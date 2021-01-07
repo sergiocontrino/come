@@ -1,0 +1,6 @@
+<substructure value="(HCO3)-" id="MOL000177">
+ <term value="HCO3-" dbxref="COMPOUND:C00288">
+ </term>
+ <term value="bicarbonate ion" dbxref="PDBHET:BCT">
+ </term>
+</substructure>

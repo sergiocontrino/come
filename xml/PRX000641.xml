@@ -1,0 +1,6 @@
+<term value="glutamate mutase" id="PRX000641" dbxref="EC:5.4.99.1">
+ <instance value="glutamate mutase" species="Clostridium cochlearium" state="methylcobalamin-bound" dbxref="PDB:1CB7">
+  &BIM000210;
+  &MOL000085;
+ </instance>
+</term>

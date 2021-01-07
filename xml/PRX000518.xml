@@ -1,0 +1,8 @@
+<term value="quinone reductase 1" id="PRX000518">
+ <instance value="quinone reductase 1" species="human" dbxref="SPTR:P15559">
+ </instance>
+ <instance value="quinone reductase 1" species="Mus musculus" dbxref="SPTR:Q64669">
+ </instance>
+ <instance value="quinone reductase 1" species="Rattus norvegicus" dbxref="SPTR:P05982">
+ </instance>
+</term>

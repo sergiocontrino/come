@@ -1,0 +1,14 @@
+<term value="protozoan calmodulin" id="PRX000904">
+ <instance value="calmodulin" species="Paramecium tetraurelia" centre="EF1" dbxref="SPTR:P07463">
+  &BIM000288;
+ </instance>
+ <instance value="calmodulin" species="Paramecium tetraurelia" centre="EF2" dbxref="SPTR:P07463">
+  &BIM000289;
+ </instance>
+ <instance value="calmodulin" species="Paramecium tetraurelia" centre="EF3" dbxref="SPTR:P07463">
+  &BIM000290;
+ </instance>
+ <instance value="calmodulin" species="Paramecium tetraurelia" centre="EF4" dbxref="SPTR:P07463">
+  &BIM000291;
+ </instance>
+</term>

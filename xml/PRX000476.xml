@@ -1,0 +1,8 @@
+<term value="methanol dehydrogenase" id="PRX000476" dbxref="EC:1.1.99.8">
+ <instance value="methanol dehydrogenase" species="Methylobacterium extorquens" lref="PUBMED:7735834">
+ </instance>
+ <instance value="methanol dehydrogenase" species="Methylophilus methylotrophus" dbxref="PDB:4AAH">
+ </instance>
+ <instance value="methanol dehydrogenase" species="Methylophilus methylotrophus" dbxref="PDB:1G72">
+ </instance>
+</term>

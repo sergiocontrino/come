@@ -1,0 +1,8 @@
+<term value="squid-type diisopropylfluorophosphatase" id="PRX001208">
+ <instance value="diisopropylfluorophosphatase" species="Loligo vulgaris" centre="Ca1" dbxref="PDB:1E1A" lref="PUBMED:14501113">
+  &BIM000422;
+ </instance>
+ <instance value="diisopropylfluorophosphatase" species="Loligo vulgaris" centre="Ca2" dbxref="PDB:1E1A" lref="PUBMED:14501113">
+  &BIM000421;
+ </instance>
+</term>

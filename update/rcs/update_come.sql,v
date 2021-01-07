@@ -1,0 +1,104 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.11.28.11.49.32;	author contrino;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.06.11.13.14.12;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.10.18.10.28.50;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@no need to correct relations now (done correctly in fill)
+@
+text
+@prompt =================== 
+prompt Let's clean up...
+prompt ===================
+@@truncate
+
+prompt =========== 
+prompt Refill...
+prompt ===========
+@@fill
+
+prompt ======================== 
+prompt Add some constraint...
+prompt ========================
+@@post
+
+
+prompt 
+prompt COMe's ready...
+prompt
+
+exit;
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@a15 13
+prompt ==================
+prompt Correcting * rel
+prompt ==================
+
+update relations
+set type='isKindOf'
+where type='isKindOf*'
+;
+
+update relations
+set ptoc='includes'
+where ptoc='includes*'
+;
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+prompt 
+d3 1
+a3 1
+prompt
+d6 1
+a6 1
+prompt 
+d8 1
+a8 1
+prompt
+d11 1
+a11 1
+prompt 
+d13 1
+a13 1
+prompt
+d15 14
+@

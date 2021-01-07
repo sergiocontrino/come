@@ -1,0 +1,5 @@
+<substructure id="BIM000447">
+ <bim>(FAD|FMN)(SG.Cys)</bim>
+ &BIM000201;
+ &BIM000446;
+</substructure>

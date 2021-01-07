@@ -1,0 +1,4 @@
+<substructure id="BIM000372">
+ <!-- TBPY-5 with a missing axial ligand -->
+ <bim coordination="TBPY-5">Cu(ND.His)2(SD.Met)(SG.Cys)</bim>
+</substructure>

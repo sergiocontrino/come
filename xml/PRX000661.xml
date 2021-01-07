@@ -1,0 +1,5 @@
+<term value="membrane-bound nitrate reductase, cytochrome b subunit" id="PRX000661">
+ <instance value="respiratory nitrate reductase 1 gamma chain" species="Escherichia coli" dbxref="SPTR:P11350">
+ </instance>
+ &MEMBNR;
+</term>

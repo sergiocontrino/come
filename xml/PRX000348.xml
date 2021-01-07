@@ -1,0 +1,9 @@
+<term value="fumarate reductase/succinate dehydrogenase iron-sulphur protein" id="PRX000348" dbxref="InterPro:IPR004489">
+ &BIM000055;
+ &BIM000008;
+ <instance value="fumarate reductase iron-sulfur protein" species="Escherichia coli" dbxref="SPTR:P00364">
+ </instance>
+ <instance value="fumarate reductase iron-sulfur protein" species="Wolinella succinogenes" dbxref="SPTR:P17596">
+ </instance>
+ &MFRDAB;
+</term>

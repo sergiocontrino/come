@@ -1,0 +1,4 @@
+<term value="tRNA-methylthiotransferase" id="PRX001363" dbxref="InterPro:IPR006463">
+ <instance value="MiaB protein" species="Escherichia coli" dbxref="SPTR:P77645" lref="PUBMED:11882645">
+ </instance>
+</term>

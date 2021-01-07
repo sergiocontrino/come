@@ -1,0 +1,35 @@
+head	1.1;
+access;
+symbols;
+locks
+	pkersey:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2003.12.12.09.19.56;	author pkersey;	state Exp;
+branches;
+next	;
+
+
+desc
+@fixing for PROT use.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@COLUMN GENE format a15
+column acc  format a9
+column chromosome format a2
+column location format a17
+column status format a1 head "s"
+column source format a1 head S
+column userstamp format a5
+COLUMN Gid format 99999
+column loclink format 999999 head "LLid"
+
+@

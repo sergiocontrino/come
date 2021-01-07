@@ -1,0 +1,12 @@
+<term value="acetyl-CoA synthase subunit" id="PRX000405">
+ <instance value="carbon monoxide dehydrogenase alpha subunit" species="Moorella thermoacetica" centre="A-cluster" state="(Cu)+:(Ni)2+" lref="PUBMED:12386327" dbxref="SPTR:P27988">
+  &BIM000338;
+ </instance>
+ <instance value="carbon monoxide dehydrogenase alpha subunit" species="Moorella thermoacetica" centre="A-cluster" state="(Ni)0:(Ni)2+" lref="PUBMED:12627225" dbxref="SPTR:P27988">
+  &BIM000395;
+ </instance>
+ <instance value="carbon monoxide dehydrogenase alpha subunit" species="Moorella thermoacetica" centre="A-cluster" state="(Zn)2+:(Ni)2+" lref="PUBMED:12627225" dbxref="SPTR:P27988">
+  &BIM000398;
+ </instance>
+ &CODHACS;
+</term>

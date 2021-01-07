@@ -1,0 +1,4 @@
+<term value="urea carboxylase" id="PRX001119" dbxref="EC:6.3.4.6">
+ <instance value="urea amidolyase" species="Saccharomyces cerevisiae" dbxref="SPTR:P32528">
+ </instance>
+</term>

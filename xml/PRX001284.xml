@@ -1,0 +1,5 @@
+<term value="cobalt nitrile hydratase, alpha2:beta2 heterotetramer" id="PRX001284">
+ <instance value="cobalt-containing nitrile hydratase" species="Pseudonocardia thermophila" state="aqua" dbxref="PDB:1IRE" lref="PUBMED:11700034">
+  &BIM000472;
+ </instance>
+</term>

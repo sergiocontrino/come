@@ -1,0 +1,12 @@
+<term value="CO sensor CooA" id="PRX000708" lref="PUBMED:14622029">
+ &BIM000334;
+ <instance value="CO-sensing transcriptional activator CooA" species="Rhodospirillum rubrum" state="(Fe)3+,CO-free" lref="PUBMED:10052937">
+  &BIM000496;
+ </instance>
+ <instance value="CO-sensing transcriptional activator CooA" species="Rhodospirillum rubrum" state="(Fe)2+,CO-free" dbxref="PDB:1FT9" lref="PUBMED:11017196">
+  &BIM000229;
+ </instance>
+ <instance value="CO-sensing transcriptional activator CooA" species="Rhodospirillum rubrum" state="(Fe)2+,CO-bound" lref="PUBMED:11278259">
+  &BIM000023;
+ </instance>
+</term>

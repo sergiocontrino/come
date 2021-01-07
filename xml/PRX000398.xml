@@ -1,0 +1,10 @@
+<term value="nickel superoxide dismutase" id="PRX000398" dbxref="GO:0016954">
+ <instance value="superoxide dismutase [Ni]" species="Streptomyces coelicolor" dbxref="SPTR:P80735">
+ </instance>
+ <instance value="nickel-containing superoxide dismutase" state="oxidised, as isolated" species="Streptomyces seoulensis" lref="PUBMED:15173586" dbxref="PDB:1Q0D">
+  &BIM000523;
+ </instance>
+ <instance value="nickel-containing superoxide dismutase" state="thiosulphate-reduced" species="Streptomyces seoulensis" lref="PUBMED:15173586" dbxref="PDB:1Q0K">
+  &BIM000524;
+ </instance>
+</term>

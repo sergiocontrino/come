@@ -1,0 +1,22 @@
+grant select on entry to selcome;
+grant select on instance to selcome;
+grant select on db_xref to selcome;
+grant select on coordination to selcome;
+grant select on database to selcome;
+grant select on BIM to selcome;
+grant select on bim_lego to selcome;
+grant select on alfa to selcome;
+grant select on equivalence to selcome;
+grant select on rel to selcome;
+grant select on relations to selcome;
+grant select on path to selcome;
+
+grant insert, delete, update, select on entry to curcome;
+grant insert, delete, update, select on instance to curcome;
+grant insert, delete, update, select on database to curcome;
+grant insert, delete, update, select on db_xref to curcome;
+grant insert, delete, update, select on coordination to curcome;
+grant insert, delete, update, select on relations to curcome;
+grant insert, delete, update, select on path to curcome;
+grant insert, delete, update, select on bim to curcome;
+grant select on seq_ids to curcome;

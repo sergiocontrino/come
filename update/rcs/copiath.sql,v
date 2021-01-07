@@ -1,0 +1,29 @@
+head	1.1;
+access;
+symbols;
+locks
+	contrino:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2003.06.11.13.14.33;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@copy from come/come@@aedwd to come/come@@aedwp replace path using select * from path;
+
+select count (*) from path;
+
+exit;
+@

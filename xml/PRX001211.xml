@@ -1,0 +1,10 @@
+<term value="phototropin LOV1 domain" id="PRX001211" lref="PUBMED:12668455">
+ <instance value="Phot-LOV1 domain" species="Chlamydomonas reinhardtii" state="dark" dbxref="PDB:1N9L">
+ </instance>
+ <instance value="Phot-LOV1 domain" species="Chlamydomonas reinhardtii" state="illuminated" dbxref="PDB:1N9N">
+ </instance>
+ <instance value="Phot-LOV1 domain" species="Chlamydomonas reinhardtii" state="illuminated,covalent intermediate" dbxref="PDB:1N9O">
+  &BIM000436;
+ </instance>
+ &PHOTOTROPIN;
+</term>

@@ -1,0 +1,7 @@
+<term value="eosinophil peroxidase" id="PRX000339" dbxref="GO:0016685">
+<!-- in about one-third of EPO molecules, the haem is bound to Asp and Glu via ether links; in the majority of EPO molecules, the haem is bound to Glu only, while the methyl group at C12 remains unmodified -->
+ <instance value="eosinophil peroxidase" species="human" dbxref="SPTR:P11678">
+ </instance>
+ &EPOMAJ;
+ &EPOMIN;
+</term>

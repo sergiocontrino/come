@@ -1,0 +1,131 @@
+#! /bin/sh
+#
+#  *************************************************************
+#
+#  Purpose:    
+#
+#  Usage:      
+#
+#
+#  $Source$
+#  $Date$
+#  $Author$
+#
+#  _____________________________________________________________
+#
+#  $Log$
+#
+#  *************************************************************
+
+clear
+
+if test -z "$1"
+then echo
+  echo "usage: upd entry_name"
+  echo 
+  echo "e.g. > upd prx010000"
+  echo
+  exit
+fi
+
+echo -n $ORACLE_SID $TWO_TASK
+
+  echo "========================================"
+  echo
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then
+    echo -n "username: "
+    read u
+    echo -n "password: "
+    read p
+    echo
+fi
+
+touch $1;
+if test cut -d"$s" != "s"
+  then 
+
+
+
+    if test "$c" = "p"
+    then	
+      sqlplus -s $u/$p @show $1
+      sqlplus -s $u/$p @updPM $1
+
+  echo "Do you want to update relationships for $1?"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+    then 
+sqlplus  -s $u/$p @updrel $1  
+    fi  
+
+
+fi
+
+    elif test "$c" = "m"
+    then 
+      sqlplus -s $u/$p @addM
+    elif test "$c" = "b"
+    then 
+      sqlplus -s $u/$p @addB
+    elif test "$c" = "i"
+    then 
+      sqlplus -s $u/$p @addI
+      sqlplus -s $u/$p @addDBX
+    else
+      echo "You have entered an illegal code." 
+    fi
+
+echo
+echo "-Running loading scripts:" 
+echo "Press [s] to skip to the next step, any other key to continue";
+read s;
+if test "$s" != "s"
+then	cd $LD
+  echo -n "username: "
+  read u
+  echo -n "password: "
+  read p
+  echo
+echo "Running post-processing.."
+sqlplus $u/$p @execute aefill ('$1')
+  echo       	
+  echo "Adding ids (dm tables) for $1:"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+    then 
+sqlplus  $u/$p @execute idfill ('$1')  
+    fi  
+  fi
+  echo
+  echo "Updating ae2__gene_species__dm for $1:"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then	
+sqlplus  $u/$p @utils/fill_gn_species $1  
+fi
+  echo
+  echo "Upcasing ae2__gene_all__dm (case insensitive query):"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then	
+sqlplus  $u/$p @utils/upcase_gn_all  
+fi
+
+  echo
+  echo "Copying absolute into ratio (when the latter is null) for $1:"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then	
+sqlplus  $u/$p @utils/fill_ratio $1  
+fi
+fi
+echo "$1 ready in DW. Bye!!"
+echo

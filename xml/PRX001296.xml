@@ -1,0 +1,6 @@
+<term value="M3-cluster,M4-cluster metallothionein" id="PRX001296" dbxref="InterPro:IPR000006">
+ <instance value="metallothionein-2" species="human" dbxref="SPTR:P02795" lref="PUBMED:1593628">
+ </instance>
+ <instance value="metallothionein-3" species="Mus musculus" dbxref="SPTR:P28184" lref="PUBMED:1631128">
+ </instance>
+</term>

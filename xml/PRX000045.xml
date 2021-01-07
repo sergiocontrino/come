@@ -1,0 +1,6 @@
+<term value="rubredoxin" id="PRX000045" dbxref="InterPro:IPR001052">
+ <instance value="rubredoxin" species="Pyrococcus furiosus" state="oxidised" dbxref="PDB:1CAA">
+ </instance>
+ <instance value="rubredoxin" species="Pyrococcus furiosus" state="reduced" dbxref="PDB:1CAD">
+ </instance>
+</term>

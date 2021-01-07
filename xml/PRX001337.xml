@@ -1,0 +1,7 @@
+<term value="class III ribonucleotide reductase, catalytic subunit" id="PRX001337">
+ <instance value="anaerobic ribonucleotide-triphosphate reductase" species="bacteriophage T4" dbxref="PDB:1HK8">
+ </instance>
+ <instance value="anaerobic ribonucleotide-triphosphate reductase" species="Escherichia coli" dbxref="SPTR:P28903">
+ </instance>
+ &RNRIII;
+</term>

@@ -1,0 +1,5 @@
+<term value="S-ribosylhomocysteinase" id="PRX001188" lref="PUBMED:12764602">
+ <instance value="autoinducer-2 production protein LuxS" species="Bacillus subtilis" dbxref="SPTR:O34667">
+ &BIM000414;
+ </instance>
+</term>

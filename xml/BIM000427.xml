@@ -1,0 +1,7 @@
+<substructure id="BIM000427">
+ <!-- "generic" BIM -->
+ <bim>bioinorganic motif*</bim>
+ &BIM000424;
+ &BIM000425;
+ &BIM000426;
+</substructure>

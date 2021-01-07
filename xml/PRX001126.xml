@@ -1,0 +1,12 @@
+<term value="manganese 3,4-dihydroxyphenylacetate 2,3-dioxygenase" id="PRX001126">
+ <instance value="homoprotocatechuate 2,3-dioxygenase" species="Arthrobacter globiformis" state="native" dbxref="PDB:1F1R">
+  &BIM000510;
+ </instance>
+ <instance value="homoprotocatechuate 2,3-dioxygenase" species="Arthrobacter globiformis" state="native" dbxref="PDB:1F1U">
+  &BIM000511;
+ </instance>
+ <instance value="homoprotocatechuate 2,3-dioxygenase" species="Arthrobacter globiformis" state="3,4-dihydroxyphenylacetate-bound" dbxref="PDB:1F1V">
+  &MOL000159;
+  &BIM000391;
+ </instance>
+</term>

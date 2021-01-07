@@ -1,0 +1,8 @@
+<term value="aconitate hydratase" id="PRX000286" dbxref="EC:4.2.1.3">
+ <instance value="aconitase" species="Sus scrofa" state="inactive,Fe3S4" dbxref="PDB:5ACN">
+  &BIM000054;
+ </instance>
+ <instance value="aconitase" species="Sus scrofa" state="active,Fe3S4" dbxref="PDB:6ACN">
+  &BIM000008;
+ </instance>
+</term>

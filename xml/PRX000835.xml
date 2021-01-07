@@ -1,0 +1,6 @@
+<term value="cystathionine gamma-synthase" id="PRX000835" dbxref="EC:4.2.99.9">
+ <instance value="cystathionine gamma-synthase" species="Escherichia coli" dbxref="SPTR:P00935">
+ </instance>
+ <instance value="cystathionine gamma-synthase" species="Neurospora crassa" dbxref="SPTR:P38675">
+ </instance>
+</term>

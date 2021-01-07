@@ -1,0 +1,6 @@
+<term value="soluble Ni-Fe hydrogenase, alpha:beta heterodimer" id="PRX000972">
+ <instance value="Ni-Fe hydrogenase" species="Desulfovibrio vulgaris" dbxref="PDB:1H2A">
+ </instance>
+ <instance value="Ni-Fe hydrogenase" species="Desulfovibrio desulfuricans" dbxref="PDB:1E3D">
+ </instance>
+</term>

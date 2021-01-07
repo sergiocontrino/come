@@ -1,0 +1,6 @@
+<substructure value="thiamine diphosphate" id="MOL000121">
+ <term value="thiamin diphosphate" dbxref="COMPOUND:C00068">
+ </term>
+ <term value="thiamine diphosphate" dbxref="PDBHET:TPP">
+ </term>
+</substructure>

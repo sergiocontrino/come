@@ -1,0 +1,6 @@
+<term value="propanediol dehydratase" id="PRX000639" dbxref="EC:4.2.1.28">
+ <instance value="propanediol dehydratase" species="Klebsiella oxytoca" state="1,2-propanediol-bound" dbxref="PDB:1DIO">
+ </instance>
+ <instance value="propanediol dehydratase" species="Klebsiella oxytoca" state="substrate-free" dbxref="PDB:1IWB">
+ </instance>
+</term>

@@ -1,0 +1,5 @@
+<term value="tryptophan 5-monooxygenase" id="PRX001058" dbxref="EC:1.14.16.4">
+ <instance value="tryptophan 5-monooxygenase" species="human" state="dihydrobiopterin-bound" dbxref="PDB:1MLW" lref="PUBMED:12379098">
+  &BIM000036;
+ </instance>
+</term>

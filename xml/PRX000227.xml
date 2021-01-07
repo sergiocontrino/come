@@ -1,0 +1,12 @@
+<term value="molluscan hemocyanin" id="PRX000227">
+ <instance value="hemocyanin" species="Octopus dofleini" state="oxy" dbxref="PDB:1JS8" lref="PUBMED:9614947">
+  &BIM000486;
+ </instance>
+ <instance value="hemocyanin" species="Rapana thomasiana" state="deoxy" dbxref="PDB:1LNL" lref="PUBMED:12767214">
+  &BIM000485;
+ </instance>
+ <instance value="hemocyanin" species="Haliotis tuberculata" lref="PUBMED:10756103">
+ </instance>
+ <instance value="hemocyanin" species="Sepia officinalis" lref="PUBMED:10669601">
+ </instance>
+</term>

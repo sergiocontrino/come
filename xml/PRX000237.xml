@@ -1,0 +1,5 @@
+<term value="cystathionine beta-synthase" id="PRX000237" dbxref="EC:4.2.1.22">
+ &BIM000020;
+ <instance value="cystathionine beta-synthase" species="human" dbxref="SPTR:P35520" lref="PUBMED:11483494">
+ </instance>
+</term>

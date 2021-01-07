@@ -1,0 +1,10 @@
+<substructure id="BIM000277">
+ <bim>(C1.pyruvoyl)*</bim>
+ <term value="pyruvoyl group" dbxref="PDBHET:PVL">
+ </term>
+ <term value="pyruvic acid" dbxref="RESID:AA0127">
+ </term>
+ &BIM000276;
+ &BIM000278;
+ &BIM000279;
+</substructure>

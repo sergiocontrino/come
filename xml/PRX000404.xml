@@ -1,0 +1,6 @@
+<term value="carbon monoxide dehydrogenase subunit" id="PRX000404">
+ <instance value="carbon monoxide dehydrogenase beta subunit" species="Moorella thermoacetica" dbxref="SPTR:P27989">
+ &BIM000401;
+ </instance>
+ &CODHACS;
+</term>

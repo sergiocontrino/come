@@ -1,0 +1,6 @@
+<substructure value="ADP" id="MOL000173">
+ <term value="adenosine 5'-diphosphate" dbxref="COMPOUND:C00008">
+ </term>
+ <term value="adenosine-5'-diphosphate" dbxref="PDBHET:ADP">
+ </term>
+</substructure>

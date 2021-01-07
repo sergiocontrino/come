@@ -1,0 +1,8 @@
+<term value="nitrosocyanin" id="PRX000200">
+ <instance value="nitrosocyanin" species="Nitrosomonas europaea" state="(Cu)2+" dbxref="PDB:1IBY">
+  &BIM000320;
+ </instance>
+ <instance value="nitrosocyanin" species="Nitrosomonas europaea" state="(Cu)+" dbxref="PDB:1IBZ">
+  &BIM000086;
+ </instance>
+</term>

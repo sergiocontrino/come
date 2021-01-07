@@ -1,0 +1,17 @@
+<term value="Fe2S2/Fe4S4/H-cluster iron hydrogenase" id="PRX000064">
+ <instance value="iron hydrogenase" species="Clostridium pasteurianum" centre="H-cluster" dbxref="PDB:1FEH">
+ &BIM000214;
+ </instance>
+ <instance value="iron hydrogenase" species="Clostridium pasteurianum" centre="FS2" dbxref="PDB:1FEH">
+ &BIM000055;
+ </instance>
+ <instance value="iron hydrogenase" species="Clostridium pasteurianum" centre="FS4A" dbxref="PDB:1FEH">
+  &BIM000008;
+ </instance>
+ <instance value="iron hydrogenase" species="Clostridium pasteurianum" centre="FS4B" dbxref="PDB:1FEH">
+  &BIM000008;
+ </instance>
+ <instance value="iron hydrogenase" species="Clostridium pasteurianum" centre="FS4C" dbxref="PDB:1FEH">
+  &BIM000059;
+ </instance>
+</term>

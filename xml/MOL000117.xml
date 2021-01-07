@@ -1,0 +1,10 @@
+<substructure value="Mo" id="MOL000117">
+ <term value="molybdenum" dbxref="COMPOUND:C000150">
+ </term>
+ <term value="molybdenum atom" dbxref="PDBHET:MO">
+ </term>
+ <term value="molybdenum(IV) ion" dbxref="PDBHET:4MO">
+ </term>
+ <term value="molybdenum(VI) ion" dbxref="PDBHET:6MO">
+ </term>
+</substructure>

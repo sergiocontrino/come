@@ -1,0 +1,5 @@
+<term value="tryptophan synthase beta subunit" id="PRX000812" dbxref="InterPro:IPR000993">
+ <instance value="tryptophan synthase beta subunit" species="Salmonella typhimurium" dbxref="SPTR:P00933">
+ </instance>
+ &TRPSYNTHASE;
+</term>

@@ -1,0 +1,6 @@
+<substructure value="Mg" id="MOL000114">
+ <term value="magnesium" dbxref="COMPOUND:C00305">
+ </term>
+ <term value="magnesium ion" dbxref="PDBHET:MG">
+ </term>
+</substructure>

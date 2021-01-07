@@ -1,0 +1,24 @@
+<!-- compas DTD -->
+<!-- created 1-Jun-2000 -->
+<!-- last modified 22-Mar-2001 -->
+
+<!ELEMENT term (term+ | instance+ | substructure )>
+<!ELEMENT instance (#PCDATA)>
+<!ELEMENT substructure (#PCDATA)>
+<!-- ELEMENT bim (#PCDATA) -->
+<!ELEMENT history (created, modified)>
+<!ELEMENT created (#PCDATA)>
+<!ELEMENT modified (#PCDATA)>
+
+<!ATTLIST term
+ value CDATA #REQUIRED
+ id ID #REQUIRED
+>
+
+<!-- BIM.dtd contains a list of BIM files -->
+<!ENTITY % BIM SYSTEM "BIM.dtd" >
+  %BIM;
+
+<!-- MOL.dtd contains a list of MOL files -->
+<!ENTITY % MOL SYSTEM "MOL.dtd" >
+  %MOL;

@@ -1,0 +1,7 @@
+<term value="cobalt nitrile hydratase alpha subunit" id="PRX001283">
+ <instance value="high-molecular weight cobalt-containing nitrile hydratase subunit alpha" species="Rhodococcus rhodochrous" dbxref="SPTR:P21219">
+ </instance>
+ <instance value="cobalt-containing nitrile hydratase subunit alpha" species="Pseudonocardia thermophila" dbxref="SPTR:Q7SID2">
+ </instance>
+ &CONHASE;
+</term>

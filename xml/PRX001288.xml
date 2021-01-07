@@ -1,0 +1,5 @@
+<term value="cytochrome b6f complex, Rieske subunit" id="PRX001288">
+ <instance value="cytochrome b6-f complex iron-sulfur subunit, chloroplast" species="Spinacia oleracea" dbxref="SPTR:P08980">
+ </instance>
+ &CYTB6F;
+</term>

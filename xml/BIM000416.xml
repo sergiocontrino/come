@@ -1,0 +1,4 @@
+<substructure id="BIM000416">
+ <!-- TBPY-5 with a missing equatorial ligand -->
+ <bim coordination="TBPY-5">Fe(NE.His)3(OD.Asp)</bim>
+</substructure>

@@ -1,0 +1,61 @@
+head	1.1;
+access;
+symbols;
+locks
+	contrino:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2002.05.01.10.57.01;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@--  SET DOC OFF
+--  *************************************************************
+--
+--  Package: human chromosome
+--
+--  Purpose: deleting from table cromosptr    
+--
+--  Usage:   sqlplus username/password acc-to-be-deleted 
+--     
+--  note:    it will ask for the acc
+--
+--
+--  $Source$
+--  $Date$
+--  $Author$
+--  ____________________________________________________________
+--  
+--  $Log$
+--
+--  *************************************************************
+
+set verify off
+
+accept gid prompt 'Please enter the relevant gid for &1: '
+
+delete from proteomes.cromosptr
+where acc='&1'
+and gid=&gid
+;
+
+set feedback off
+prompt
+prompt use    commit    to save the changes
+prompt or   rollback    to discard them
+prompt NB       exit    will commit before exiting
+prompt
+set feedback on
+@

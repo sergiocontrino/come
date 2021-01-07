@@ -1,0 +1,6 @@
+<term value="iron-sulphur flavoprotein sulphide dehydrogenase, alpha subunit" id="PRX000067">
+ <instance value="SudA protein" species="Pyrococcus furiosus" lref="PUBMED:10968624"> 
+ &BIM000062;
+ </instance>
+ &SUD;
+</term>

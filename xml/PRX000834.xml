@@ -1,0 +1,6 @@
+<term value="cystathionine beta-lyase" id="PRX000834" dbxref="EC:4.4.1.8">
+ <instance value="cystathionine beta-lyase" species="Escherichia coli" dbxref="SPTR:P06721">
+ </instance>
+ <instance value="cystathionine beta-lyase" species="Saccharomyces cerevisiae" dbxref="SPTR:P43623">
+ </instance>
+</term>

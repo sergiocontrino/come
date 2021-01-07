@@ -1,0 +1,6 @@
+<term value="p-cresol methylhydroxylase" id="PRX000589" dbxref="EC:1.17.99.1">
+ <instance value="p-cresol methylhydroxylase" species="Pseudomonas putida" state="substrate-free" dbxref="PDB:1DII">
+ </instance>
+ <instance value="p-cresol methylhydroxylase" species="Pseudomonas putida" state="p-cresol-bound" dbxref="PDB:1DIQ">
+ </instance>
+</term>

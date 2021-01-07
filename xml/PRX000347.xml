@@ -1,0 +1,8 @@
+<term value="fumarate reductase/succinate dehydrogenase flavoprotein" id="PRX000347" dbxref="InterPro:IPR003952">
+ &BIM000138;
+ <instance value="fumarate reductase flavoprotein" species="Escherichia coli" dbxref="SPTR:P00363">
+ </instance>
+ <instance value="fumarate reductase flavoprotein" species="Wolinella succinogenes" dbxref="SPTR:P17412">
+ </instance>
+ &MFRDAB;
+</term>

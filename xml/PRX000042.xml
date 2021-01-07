@@ -1,0 +1,6 @@
+<term value="desulfoferrodoxin" id="PRX000042" dbxref="InterPro:IPR002742">
+ <instance value="desulfoferrodoxin" species="Desulfovibrio desulfuricans" dbxref="PDB:1DFX">
+  &BIM000027;
+  &BIM000040;
+ </instance>
+</term>

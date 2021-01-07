@@ -1,0 +1,12 @@
+<term value="rubrerythrin" id="PRX000046" dbxref="InterPro:IPR003251">
+ <instance value="rubrerythrin" species="Desulfovibrio vulgaris" state="oxidised, as isolated under anaerobic conditions" dbxref="PDB:1JYB">
+  &BIM000352;
+ </instance>
+ <instance value="rubrerythrin" species="Desulfovibrio vulgaris" state="oxidised, as isolated under aerobic conditions" dbxref="PDB:1B71">
+  &BIM000084;
+ </instance>
+ <instance value="rubrerythrin" species="Desulfovibrio vulgaris" state="oxidised, reconstituted" dbxref="PDB:1RYT">
+  &BIM000083;
+ </instance>
+</term>
+

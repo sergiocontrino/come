@@ -1,0 +1,570 @@
+<html><head><title>README</title></head>
+<body BGCOLOR="silver" LINK="darkgreen" VLINK="darkblue" ALINK="darkred">
+<h1>What should you expect to see in COME?</h1>
+
+<table border="0" cellpadding="5">
+<tr>
+<td align=right>
+</td>
+</tr>
+</table>
+<p align=right>
+<i>Created: 5 April 2001</i>
+<br><i>Last modified: 30 May 2001</i>
+</p>
+<hr>
+<ol>
+<li><a href="#molecule">Molecule</a>
+<ul>
+<a href="#1.1">Example <b>1.1</b></a>
+</ul>
+</li>
+<a name="1.1">
+<li><a href="#BIM">Bioinorganic motif</a>
+<ul>
+<a href="#2.1">Example <b>2.1</b>: mononuclear metal centre</a>
+<br><a href="#2.2">Example <b>2.2</b>: mononuclear metal centre with didentate
+binding</a>
+<br><a href="#2.3">Example <b>2.3</b>: dinuclear metal centre</a>
+<br><a href="#2.4">Example <b>2.4</b>: polynuclear metal centre</a>
+<br><a href="#2.5">Examples <b>2.5</b> and <b>2.6</b>: 
+metal-tetrapyrrole complex</a>
+<br><a href="#2.7">Example <b>2.7</b>: metal-molybdopterin complex</a>
+<br><a href="#2.8">Example <b>2.8</b>: organic prosthetic group</a>
+</ul>
+</li>
+<li><a href="#protein">Protein</a>
+<ul>
+<a href="#3.1">Example <b>3.1</b></a>
+</ul></li>
+<li><a href="#relationships">Relationships in ontology</a>
+<ul>
+<a href="#4.1">Example <b>4.1</b>: kind of relationship for PRX</a>
+<br><a href="#4.2">Example <b>4.2</b>: child with many parents</a>
+<br><a href="#4.3">Example <b>4.3</b>: kind of * relationship for BIM</a>
+<br><a href="#4.4">Example <b>4.4</b>: kind of * relationship for MOL</a>
+<br><a href="#4.5">Example <b>4.5</b>: consists of relationship for BIM</a>
+</ul>
+</li>
+<li><a href="#references">References and related documents</a></li>
+</ol>
+<hr>
+<p>
+
+The experimental ontology for bioinorganic centres, aka COME, is currently 
+available from 
+<a href="COME.xml">http://www.ebi.ac.uk/~kirill/come/COME.xml</a>
+and could be navigated with Microsoft Internet Explorer (version 5+).
+</p><p>
+COME consists of three types of entities: Molecule (MOL), 
+Bioinorganic Motif (BIM), and Bioinorganic Proteins (PRX). 
+The structure of these three file types is explained in subsequent sections.
+</p><p>
+XML was chosen because it is well suited to represent hierarchies and is
+easy to read with any text editor. 
+(Also, I am not a programmer, so I really had no choice.)
+</p>
+
+<a name="molecule">
+<h2>1. Molecule</h2>
+
+<p>
+Both Molecule (MOL) and Bioinorganic Motif (BIM) entities consist of 
+<font face="Arial"><font color="darkred">substructure</font></font> elements. "Substructure"
+literally means that these elements are part of a bigger structure, i.e. 
+complete protein. MOL is an entity representing "small molecule" (as opposed to
+macromolecule) which, in complex with polypeptide, forms a functional protein.
+</p>
+<a name="1.1">
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure value</font>="<font color="black"><b>bacteriochlorophyll a</b></font>" <font color="darkred">id</font>="<font color="black"><b>MOL000001</b></font>"&#62;
+  <ul>&#60;<font color="darkred">term value</font>="<font color="black"><b>bacteriochlorophyll a</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>PDBHET:BCL</b></font>" /&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;
+</ul></font></td>
+<td align=right><b>(1.1)</b></td></tr>
+</table>
+
+<p>
+As you can see, there are (yet?) no systematic names or chemical formulae. 
+Instead, the MOL entities (sometimes) contain cross-references to 
+chemical and/or crystallography databases 
+(<font face="Arial"><font color="darkred">dbxref</font></font>) or cross-references to the 
+bibliography databases (<font face="Arial"><font color="darkred">lref</font></font>).
+The databases currently cross-referenced are:
+COMPOUND (component of 
+<a href="http://www.genome.ad.jp/dbget/ligand.html">LIGAND</a> database),
+<a href="http://www.biochem.ucl.ac.uk/bsm/pdbsum/hetgroups/">PDBHET</a> (HET 
+groups derived from PDB) and
+<a href="http://pir.georgetown.edu/pirwww/search/textresid.html">RESID</a>.
+The bibliography database referenced to in MOL, BIM and PRX entries is MEDLINE.
+</p>
+
+<a name="BIM">
+<h2>2. Bioinorganic motif</h2>
+
+<p>
+The definition of Bioinorganic Motif (BIM) is given elsewhere
+[<a href="#ref1">1</a>].
+In COME representation, every BIM consists of at least one
+<a href="centres.html">centre</a> and two or more
+<a href="ligands.html">ligands</a>.
+<a name="2.1">
+For <b>mononuclear</b> metal centres, BIMs look like this:
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000165</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>TBPY-5</b></font>"&#62;<font color="black"><b>Zn(NE.His)2(OD.Asp)(OH2)2</b></font>&#60;/<font color="darkred">bim</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.1)</b></td></tr>
+</table>
+
+<p>
+The <font face="Arial"><font color="darkred">bim</font></font> element includes
+a BIM itself.
+The rule for writing a mononuclear centre BIM: first comes the metal, then 
+endogenous ligands (amino acid residues), then exogenous ligands, e.g. water
+(see the <a href="ligands.html">list of ligands</a>).
+This is pretty simplistic description, it does not take into account 
+stereochemistry at the metal atom.
+The <font face="Arial"><font color="darkred">coordination</font></font> attribute is not 
+mandatory for it may be unknown. It also makes no sense for polynuclear metal
+centres.
+
+In the example <b>(2.1)</b>, one zinc atom is coordinated by 
+N<sup><font face="symbol">e</font></sup> atoms of two His residues, one 
+O<sup><font face="symbol">d</font></sup> atom of Asp residue and two water 
+molecules. The coordination geometry is trigonal bipyramidal 
+(<font face="Arial"><b>TBPY-5</b></font>; see the <a href="polyhedra.html">list
+of coordination polyhedra</a>).
+</p>
+<a name="2.2">
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000176</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>T-4</b></font>"&#62;<font color="black"><b>Zn(ND.His)2{k2-(O,SG.Cys)}</b></font>&#60;/<font color="darkred">bim</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.2)</b></td></tr>
+</table>
+
+<p>
+In the example <b>(2.2)</b>, the zinc atom is tetrahedrally 
+(<font face="Arial"><b>T-4</b></font>) coordinated by N<sup><font face="symbol">d</font></sup> 
+atoms of two His residues and by two atoms of Cys residue, 
+S<sup><font face="symbol">g</font></sup> and mainchain oxygen
+(<font face="Arial"><b>k2</b></font> prefix designates didentate binding).
+</p><p><a name="2.3">
+For <b>dinuclear</b> metal centres, BIMs look like this:
+</p>
+
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000104</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim</font>&#62;<font color="black"><b>{Cu(ND.His)(SD.Met)}{Cu(ND.His)(O.Glu)}{&#181;-(SG.Cys)}2</b></font>&#60;/<font color="darkred">bim</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.3)</b></td></tr>
+</table>
+<p>
+where every metal atom and its unique ligands are enclosed in braces and
+<font face="Arial"><b>&#181;</b></font> prefix designates bridging ligands.
+</p>
+<p>
+<a name="2.4">
+For <b>polynuclear</b> metal centres, BIMs look like this:
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000059</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim</font>&#62;<font color="black"><b>(Fe4S4)(NE.His)(SG.Cys)3</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  <br>&#60;<font color="darkred">term dbxref</font>="<font color="black"><b>RESID:AA0284</b></font>" /&#62;</br>
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.4)</b></td></tr>
+</table>
+<p>
+For simplicity, the cubane iron-sulfur unit is represented as 
+<font face="Arial"><b>(Fe4S4)</b></font>
+and not <font face="Arial"><b>{Fe4(&#181;3-S)4}</b></font>.
+</p>
+
+<p><a name="2.5">
+The rule for writing a BIM for centre containing <b>metal-organic group 
+complex</b>: 
+first comes the metal, then organic group, then amino acid residues,
+then exogenous ligands (e.g. CO).
+For metal-tetrapyrrole (heme, chlorophyll, cobalamin) proteins, BIMs look
+like this:
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000209</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>SPY-5</b></font>"&#62;<font color="black"><b>Co(Crn)(NE.His)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.5)</b></td></tr>
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000212</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(SG.Cys)(CO)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.6)</b></td></tr>
+</table>
+<p>
+
+where <font face="Arial"><b>Crn</b></font> = corrin ligand, <font face="Arial"><b>por</b></font> = porphyrin 
+ligand. These ligands are assumed always to be tetradentate, that's why 
+I do not write <font face="Arial"><b>{k4-(N,N,N,N.por)}</b></font>. 
+<a name="2.7">
+For molybdopterin-containing proteins, BIMs look like this:
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000181</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>TPR-6</b></font>"&#62;<font color="black"><b>Mo{k2-(S1',S2'.molybdopterin)}2(SeG.Sec)(OH)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.7)</b></td></tr>
+</table>
+<p>
+<a name="2.8">
+Finally, for a purely <b>organic prosthetic group</b> covalently attached to 
+the polypeptide, MOL description is not enough and BIM files are used, although
+without metal:
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000201</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim</font>&#62;<font color="black"><b>(C8M.FAD)(SG.Cys)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  <br>&#60;<font color="darkred">term value</font>="<font color="black"><b>8alpha-(S-cysteinyl)FAD</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>RESID:AA0143</b></font>" /&#62;</br>
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(2.8)</b></td></tr>
+</table>
+
+<a name="protein">
+<h2>3. Protein</h2>
+
+<p> 
+The <b>protein</b> (PRX) entity refers to the functional protein as well as
+separate protein domains and subunits. A typical low-level PRX entity is 
+shown below:
+</p>
+<a name="3.1">
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">term value</font>="<font color="black"><b>NADPH:P450 reductase</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000111</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>EC:1.6.2.4</b></font>"&#62;
+ <ul>&#60;<font color="darkred">instance value</font>="<font color="black"><b>NADPH:P450 reductase</b></font>" <font color="darkred">species</font>="<font color="black"><b>rat</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>PDB:1AMO</b></font>" /&#62;
+</ul>&#60;/<font color="darkred">term</font>&#62;</ul></font></td>
+<td align=right><b>(3.1)</b></td></tr>
+</table>
+<p>
+The PRX entity minimally includes the 
+<font face="Arial"><font color="darkred">term</font></font> element with 
+mandatory attributes 
+<font face="Arial"><font color="darkred">value</font></font> and
+<font face="Arial"><font color="darkred">id</font></font>. 
+It also may include 
+<font face="Arial"><font color="darkred">instance</font></font> elements as 
+well as MOL, BIM and other PRX entities.
+The <font face="Arial"><font color="darkred">instance</font></font> element has
+mandatory attributes 
+<font face="Arial"><font color="darkred">value</font></font> and
+<font face="Arial"><font color="darkred">species</font></font>. 
+The role of <font face="Arial"><font color="darkred">instance</font></font> is
+to provide the external evidence that the protein in question does exist. 
+There are no <font face="Arial"><font color="darkred">id</font></font> 
+attribute for <font face="Arial"><font color="darkred">instance</font></font> 
+(yet?) but either <font face="Arial"><font color="darkred">dbxref</font></font>
+or <font face="Arial"><font color="darkred">lref</font></font> have to be 
+provided (while they are not always available for the parent
+<font face="Arial"><font color="darkred">term</font></font>). 
+The databases currently cross-referenced are: 
+<a href="http://www.ebi.ac.uk/swissprot/">SPTR</a>
+(SWISS-PROT and TrEMBL), <a href="http://pdb-browsers.ebi.ac.uk/">PDB</a>,
+<a href="http://www.ebi.ac.uk/interpro/">InterPro</a>, EC
+(<a href="http://www.expasy.ch/enzyme/">ENZYME</a>),
+<a href="http://www.merops.co.uk/">MEROPS</a> and
+<a href="http://genome-www.stanford.edu/GO/">GO</a>.
+The other attributes are
+<font face="Arial"><font color="darkred">centre</font></font> (for proteins containing more than
+one bioinorganic centre) and <font face="Arial"><font color="darkred">state</font></font>.
+</p>
+<a name="relationships">
+<h2>4. Relationships in ontology</h2>
+
+<p><a name="4.1">
+The example below shows the part of COME ontology (where 
+"<font face="Arial" color="red">+</font>" means that everything in hierarchy 
+below this particular level is hidden; 
+"<font face="Arial" color="red">-</font>" means that <i>not</i> everything is 
+hidden):
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul><font color="red">-</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>complex protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000001</b></font>"&#62;
+  <ul><font color="red">-</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>metalloprotein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000002</b></font>"&#62;
+    <ul><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>calcium protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000482</b></font>"&#62;
+    <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>cadmium protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000664</b></font>"&#62;
+    <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>cobalt protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000631</b></font>"&#62;
+    <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>copper protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000009</b></font>"&#62;
+    <br><font color="red">-</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>iron protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000004</b></font>"&#62;
+      <ul><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>mononuclear iron protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000005</b></font>"&#62;
+      <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>diiron-carboxylate protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000006</b></font>"&#62;
+      <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>Fe,Ni protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000082</b></font>"&#62;
+      <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>iron-sulfur protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000007</b></font>"&#62;
+        <ul><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>Fe2S2 protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000053</b></font>"&#62;
+        <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>Fe4S4/Fe3S4 protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000054</b></font>"&#62;
+        <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>P-cluster protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000055</b></font>"&#62;
+        <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>M-cluster protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000056</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>InterPro:IPR000318</b></font>"&#62;
+        <br><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>hybrid cluster protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000057</b></font>"&#62;
+      </ul><font color="red">+</font> &#60;<font color="darkred">term value</font>="<font color="black"><b>heme protein</b></font>" <font color="darkred">id</font>="<font color="black"><b>PRX000008</b></font>"&#62;</font>
+</ul></ul></ul>...</ul></td>
+<td align=right><b>(4.1)</b></td></tr>
+</table>
+<p>
+Example <b>(4.1)</b> illustrates the <b>kind of</b> relationship. 
+<font face="Arial"><b>Fe2S2 protein</b></font> is kind of <font face="Arial"><b>iron-sulfur protein</b></font>
+which is kind of <font face="Arial"><b>iron protein</b></font> which is kind of 
+<font face="Arial"><b>metalloprotein</b></font>.
+</p>
+<p>
+An important feature of this relationship is <b>inheritance</b>. For example, 
+all proteins belonging to <font face="Arial"><b>Fe2S2 protein</b></font> class will inherit
+substructure <font face="Arial"><b>(Fe2S2)(SG.Cys)2*</b></font> (BIM000063).
+</p><p>
+<a name="4.2">
+An entity may have more than one parent, as example <b>(4.2)</b> shows:
+</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="3" bgcolor="white" align="center">
+<table width="100%" border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightgreen" align="center">
+PRX000002: metalloprotein</td></tr></table></td>
+<td colspan="2" bgcolor="white" align="center">
+<table width="100%" border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="yellow" align="center">
+PRX000230: organic prosthetic group protein</td></tr></table></td>
+<td rowspan="5" align=right><b>(4.2)</b></td></tr>
+
+<tr>
+<td colspan="2" bgcolor="white" align="center">
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000004: iron protein
+</td></tr></table>
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000007: iron-sulfur protein
+</td></tr></table>
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000053: Fe2S2 protein
+</td></tr></table></td>
+<td bgcolor="white" align="center">
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000599: molybdenum protein</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+<td bgcolor="white" align="center">
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000429: pterin protein
+</td></tr></table><img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000011: molybdopterin protein</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+<td bgcolor="white" align="center">
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000269: flavoprotein</td></tr></table></td>
+</tr>
+
+<tr>
+<td bgcolor="white" align="center">
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000598: four-helix bundle Fe2S2 domain</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+<td bgcolor="white" align="center">
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000058: Fe2S2 ferredoxin
+</td></tr></table><img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000062: plant-type ferredoxin domain
+</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+<td colspan="2" bgcolor="white" align="center">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000102: metal-molybdopterin protein
+</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+<td bgcolor="white" align="center">
+<img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000016: FAD protein</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+</tr>
+
+<tr>
+<td colspan="2" bgcolor="white" align="center">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000066: xanthine oxidase-like Fe2S2 protein
+</td></tr></table><img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000596: carbon monoxide oxidase S subunit</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+
+<td colspan="2" bgcolor="white" align="center">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000597: xanthine oxidase-like molybdopterin protein
+</td></tr></table><img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000594: carbon monoxide oxidase L subunit</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+<td bgcolor="white" align="center">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000588: vanillyl-alcohol oxidase-like flavoprotein
+</td></tr></table><img src="GIF/downarrow.gif">
+<table border="0" cellspacing="3" cellpadding="8"><tr><td bgcolor="lightblue">
+PRX000595: carbon monoxide oxidase M subunit</td></tr></table>
+<img src="GIF/downarrow.gif"></td>
+</tr>
+<tr><td colspan="5" bgcolor="white" align="center">
+<table width="80%" border="0" cellspacing="3" cellpadding="8">
+<tr><td bgcolor="orange" align="center">PRX000559: carbon monoxide oxidase</td></tr></table>
+</td></tr>
+</table>
+
+<p>
+In the example <b>(4.2)</b>, carbon monoxide oxidase inherits the features from
+each subunit, viz. two different Fe<sub>2</sub>S<sub>2</sub> clusters, 
+molybdenum cofactor (Mo-molybdopterin complex) and FAD.
+</p>
+
+<p>
+<a name="4.3">
+Example <b>(4.3)</b> shows the variant of <b>kind of</b> relationship which I
+use to create ontologies of BIM and MOL entities, called <b>kind of *</b>. 
+(Note the asterisk in <font face="Arial" color="darkred">bim</font>!)
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000025</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim</font>&#62;<font color="black"><b>Fe(por)(NE.His)*</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000007</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>SPY-5</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000018</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)(NO)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000019</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)(OH)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000021</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)(O2)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000022</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)(CO2)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000023</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)(CO)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000024</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)(O2-)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000198</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Fe(por)(NE.His)(CN)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(4.3)</b></td></tr>
+</table>
+<p>
+<font face="Arial"><b>BIM000025</b></font> is a feature of 
+heme-His proteins (<font face="Arial"><b>PRX000148</b></font>).
+The <b>kind of *</b> relationship means that all heme-His proteins inherit 
+<i>at least</i> one BIM that is kind of 
+<font face="Arial"><b>BIM000025</b></font>.
+<a name="4.4">
+Similarly, the <b>kind of *</b> relationship could be applied to the MOL 
+entities <b>(4.4)</b>, with the difference that there are no BIMs and asterisk 
+is now part of <font face="Arial" color="darkred">substructure value</font>:
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure value</font>="<font color="black"><b>FAD*</b></font>" <font color="darkred">id</font>="<font color="black"><b>MOL000041</b></font>"&#62;
+  <ul>&#60;<font color="darkred">term value</font>="<font color="black"><b>flavin adenine dinucleotide</b></font>" /&#62;
+  <br>&#60;<font color="darkred">substructure value</font>="<font color="black"><b>FAD</b></font>" <font color="darkred">id</font>="<font color="black"><b>MOL000039</b></font>"&#62;
+  <ul>&#60;<font color="darkred">term value</font>="<font color="black"><b>flavin-adenine dinucleotide</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>PDBHET:FAD</b></font>" /&#62;
+  <br>&#60;<font color="darkred">term value</font>="<font color="black"><b>FAD</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>COMPOUND:C00016</b></font>" /&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure value</font>="<font color="black"><b>FADH2</b></font>" <font color="darkred">id</font>="<font color="black"><b>MOL000040</b></font>"&#62;
+  <ul>&#60;<font color="darkred">term value</font>="<font color="black"><b>dihydroflavine-adenine dinucleotide</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>PDBHET:FDA</b></font>" /&#62;
+  <br>&#60;<font color="darkred">term value</font>="<font color="black"><b>FADH2</b></font>" <font color="darkred">dbxref</font>="<font color="black"><b>COMPOUND:C01352</b></font>" /&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure value</font>="<font color="black"><b>FADH&#183;</b></font>" <font color="darkred">id</font>="<font color="black"><b>MOL000042</b></font>"&#62;
+  <ul>&#60;<font color="darkred">term value</font>="<font color="black"><b>flavin adenine dinucleotide semiquinone radical</b></font>" /&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(4.4)</b></td></tr>
+</table>
+<p>
+<a name="4.5">
+Example <b>(4.5)</b> illustrates the <b>consists of</b> relationship. 
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td bgcolor="white"><font face="Arial" color="blue">
+<ul>
+&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000204</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim</font>&#62;<font color="black"><b>{Co(NE.His)(OE.Glu)}[Co{k2-(OD,OD.Asp)}(OH2)]{µ-(OD,OD.Asp)}{µ-(OE,OE.Glu)}{µ-(OH2)}</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000205</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>TBPY-5</b></font>"&#62;<font color="black"><b>Co(NE.His)(OD.Asp)(OE.Glu)2(OH2)</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+  <br>&#60;<font color="darkred">substructure id</font>="<font color="black"><b>BIM000206</b></font>"&#62;
+  <ul>&#60;<font color="darkred">bim coordination</font>="<font color="black"><b>OC-6</b></font>"&#62;<font color="black"><b>Co(OD.Asp){k2-(OD,OD.Asp)}(OE.Glu)(OH2)2</b></font>&#60;/<font color="darkred">bim</font>&#62;
+  </ul>&#60;/<font color="darkred">substructure</font>&#62;
+</ul>&#60;/<font color="darkred">substructure</font>&#62;</ul></font></td>
+<td align=right><b>(4.5)</b></td></tr>
+</table>
+<p>
+In this example, the dinuclear metal centre consists of two mononuclear 
+centres. Note that for the mononuclear centres it is possible to indicate their
+coordination geometry. On the other hand, 
+<font face="Arial"><b>BIM000204</b></font> is not just a sum of
+<font face="Arial"><b>BIM000205</b></font> and 
+<font face="Arial"><b>BIM000206</b></font>. 
+Nothing in <font face="Arial"><b>BIM000205</b></font> and 
+<font face="Arial"><b>BIM000206</b></font> indicates which ligands bridge the
+two metal atoms.
+</p>
+
+<a name="references">
+<h2>5. References and related documents</h2>
+<ol>
+<a name="ref1">
+<li><a href="http://www3.ncbi.nlm.nih.gov/htbin-post/Entrez/query?uid=20570697&form=6&db=m&Dopt=r">
+Degtyarenko, K.N. (2000)</a>
+Bioinorganic motifs: towards functional classification of metalloproteins.
+<a href="http://bioinformatics.oupjournals.org/cgi/content/abstract/16/10/851">
+<i>Bioinformatics</i> <b>16</b>, 851-864</a>.
+<li><a href="centres.html">Glossary of of inorganic and organic centres in 
+bioinorganic motifs</a>.
+<li><a href="ligands.html">Glossary of ligands in bioinorganic motifs</a>.
+<li><a href="polyhedra.html">List of coordination polyhedra</a>.
+</ol>
+
+<! One principle common for the ontology should be mentioned:
+the most relevant cross-reference is chosen for each hierarchy level.> 
+</p>
+<hr>
+
+</font>
+</body>
+</html>

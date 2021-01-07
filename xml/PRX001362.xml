@@ -1,0 +1,5 @@
+<term value="homodimeric spore photoproduct lyase" id="PRX001362" dbxref="InterPro:IPR004594">
+ <instance value="spore photoproduct lyase" species="Bacillus subtilis" dbxref="SPTR:P37956" lref="PUBMED:11470912">
+  &BIM000518;
+ </instance>
+</term>

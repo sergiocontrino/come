@@ -1,0 +1,8 @@
+<term value="cytochrome f" id="PRX000248" dbxref="InterPro:IPR002325">
+ &BIM000016;
+ <instance value="apocytochrome f" species="Chlamydomonas reinhardtii" dbxref="SPTR:P23577">
+ </instance>
+ <instance value="apocytochrome f" species="Phormidium laminosum" dbxref="SPTR:P95522">
+ </instance>
+ &CYTB6F;
+</term>

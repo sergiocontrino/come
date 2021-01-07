@@ -1,0 +1,6 @@
+<term value="calcineurin catalytic subunit" id="PRX000940">
+ <instance value="calcineurin subunit A" species="human" dbxref="SPTR:Q08209">
+  &BIM000312;
+ </instance>
+ &CALCIN;
+</term>

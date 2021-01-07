@@ -1,0 +1,8 @@
+<term value="outer membrane decahaem cytochrome c" id="PRX001353">
+ <instance value="deca-heme c-type cytochrome OmcA" species="Shewanella putrefaciens" dbxref="SPTR:O87539" lref="PUBMED:9733973">
+ </instance>
+ <instance value="deca-heme c-type cytochrome MtrC" species="Shewanella putrefaciens" dbxref="SPTR:O87540" lref="PUBMED:11169112">
+ </instance>
+ <instance value="deca-heme c-type cytochrome MtrF" species="Shewanella putrefaciens" dbxref="SPTR:O87538">
+ </instance>
+</term>

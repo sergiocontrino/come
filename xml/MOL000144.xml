@@ -1,0 +1,6 @@
+<substructure value="biotin" id="MOL000144">
+ <term value="biotin" dbxref="COMPOUND:C00120">
+ </term>
+ <term value="biotin" dbxref="PDBHET:BTN">
+ </term>
+</substructure>

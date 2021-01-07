@@ -1,0 +1,8 @@
+<term value="protocatechuate 3,4-dioxygenase" id="PRX000145" dbxref="EC:1.13.11.3">
+ <instance value="protocatechuate 3,4-dioxygenase" species="Pseudomonas putida" state="substrate-free" dbxref="PDB:2PCD" >
+  &BIM000042;
+ </instance>
+ <instance value="protocatechuate 3,4-dioxygenase" species="Pseudomonas putida" state="3,4-dihydroxybenzoic acid-bound" dbxref="PDB:3PCA">
+  &BIM000043;
+ </instance>
+</term>

@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Welcome to COMe</title>
+  </head>
+
+<body BGCOLOR="white" LINK="000066" VLINK="003333" ALINK="darkred">
+
+<table width="100%" border="0" cellpadding="5">
+<tr>
+<td align=right>
+These pages are hosted by the
+<br><a href="http://www.ebi.ac.uk/">European Bioinformatics Institute</a>
+</td>
+<td align=right width=10%><a href="http://www.ebi.ac.uk/">
+<img src="http://www.ebi.ac.uk/come/icons/ebi.gif" border=0 alt="the EBI homepage"></a></td>
+</tr>
+</table>
+<hr>
+<p><center>
+<table cellspacing="5" cellpadding="5">
+<tr><td><h1>Welcome to</h1></td>
+<td><img src="http://www.ebi.ac.uk/come/icons/come.gif" alt="COMe"></td>
+<td><h1>!</h1></td>
+</tr>
+
+<tr align=center><td colspan=3>
+<font size="+2" face="Arial,Helvetica" color="336666"><b>the bioinorganic motif database</b></font>
+<p>version 4.3 (November 2004)</p>
+</td>
+</tr>
+</table>
+</center>
+</p>
+
+<table width=100% align=center>
+
+<tr><td>
+<b>COMe</b> is an attempt to classify metalloproteins and some other complex
+proteins using the concept of <i>bioinorganic motif</i>.
+</td></tr>
+<tr><td>
+A bioinorganic motif (BIM) may be defined as a common structural
+feature of a class of functionally related, but not necessarily homologous,
+proteins, that includes the metal atom(s) and first coordination shell ligands.
+</td></tr>
+</table>
+<p>
+
+<!-- DOWNTIME ANNOUNCEMENT
+
+<table border="1" cellspacing="0" cellpadding="4" align="center" bordercolor =" #999999" bgcolor=lightgrey>
+ <tr class =" tablebody" valign="top">
+ <td colspan=3 align="center"><b><font color=darkred>*** COMe Downtime Notice: *** </font></b><br/>
+ <b>On XXX XXX XXX, COMe will be affected by scheduled maintenance work on site
+between YY:00 GMT and ZZ:00 GMT.</b></td>
+</tr>
+</table>
+-->
+
+<p>
+<table width=100%>
+<tr><th colspan=3 align=center>COMe is also...</th></tr>
+<tr bgcolor="CCCCCC"><td><b>C</b>lassification <b>O</b>f <b>Me</b>talloproteins 
+</td><td><b>CO</b>factors and <b>Me</b>tals
+</td><td><b>COM</b>plex proteins, <b>e</b>tc.
+</td></tr>
+<tr bgcolor="CCCCCC"><td><b>C</b>o-<b>O</b>rdination of <b>Me</b>tals
+</td><td>English word <b>come</b> (cf. GO)
+</td><td>Italian word <i>come</i> (how)
+</tr>
+</table>
+<p>
+Read the paper "COMe: the ontology of bioinorganic proteins"
+(<a href="http://www.biomedcentral.com/1472-6807/4/3/"><i>BMC Structural Biology</i> <b>4</b>:3, 2004)</a>
+
+<p>
+Discover more about the
+<a href="http://www.ebi.ac.uk/come/docs/readme.html">organisation</a> of COMe and its
+XML format, or start browsing the relational implementation of the database
+<a href="http://www.ebi.ac.uk/come/entry?gn=PRX000001">from the
+top of the hierarchy</a>, or through the
+<a href="http://www.ebi.ac.uk/come/docs/periodic.html">Periodic Table</a>,
+or list of
+<a href="http://www.ebi.ac.uk/come/docs/vitamins.html">Vitamins</a>,
+or list of
+<a href="http://www.ebi.ac.uk/come/docs/cofactors.html">ENZYME cofactors</a>, or...
+<br>
+<p>
+
+<!-- COMe in-->
+<table cellspacing="5" cellpadding="5" border="0" width=100%>
+<tr bgcolor=silver><td colspan=3>
+You can query by COMe ID or using a case sensitive or insensitive text search...
+</td></tr>
+
+<tr><td valign="top">
+<FORM METHOD="POST" ACTION="http://www.ebi.ac.uk/come/broker">
+Please enter:
+<select name="view">
+   <option value="entry"><b>COMe ID</b></option> 
+   <option value="byXref"><b>cross-reference ID</b></option>
+   <option value="findIns" selected><b>text (case insensitive)</b></option>
+   <option value="find"><b>text (case sensitive)</b></option>
+</select>
+<td valign="top">
+<INPUT NAME="query_term">
+</td>
+<td valign="top">
+<INPUT TYPE="submit" VALUE="Retrieve">
+<INPUT TYPE="reset" VALUE="Clear">
+</FORM> 
+</td>
+</tr>
+<tr bgcolor=silver><td colspan=3>
+... or use our predefined queries ...
+</td></tr>
+
+<tr><td valign="top">
+<FORM METHOD="POST" ACTION="http://www.ebi.ac.uk/come/broker">
+<INPUT type="hidden" name="view" value="comeIN" checked>
+Choose a residue:
+<td valign="top">
+<select name="query_term">
+<option value=".Ala">Ala</option>
+<option value=".Arg">Arg</option>
+<option value=".Asn" selected>Asn</option>
+<option value=".Asp">Asp</option>
+<option value=".Cys">Cys</option>
+<option value=".Gln">Gln</option>
+<option value=".Glu">Glu</option>
+<option value=".Gly">Gly</option>
+<option value=".His">His</option>
+<option value=".Ile">Ile</option>
+<option value=".Leu">Leu</option>
+<option value=".Lys">Lys</option>
+<option value=".Kcx">N6-carboxylysine</option>
+<option value=".Met">Met</option>
+<option value=".Fme">N-formylmethionine</option>
+<option value=".Phe">Phe</option>
+<option value=".Pro">Pro</option>
+<option value=".Sec">Sec</option>
+<option value=".Ser">Ser</option>
+<option value=".Thr">Thr</option>
+<option value=".Trp">Trp</option>
+<option value=".Tyr">Tyr</option>
+<option value=".Val">Val</option>
+<option value=".Xaa">Xaa</option>
+</select>
+</td>
+
+<td align="top">
+<INPUT TYPE="submit" VALUE="Retrieve">
+</FORM> 
+</td></tr>
+
+<tr><td valign="top">
+<FORM METHOD="POST" ACTION="http://www.ebi.ac.uk/come/broker">
+<INPUT type="hidden" name="view" value="find" checked>
+
+Choose a keyword:
+</td>
+<td valign="top">
+<select name="query_term">
+<option value="S-adenosylmethionine" selected>S-adenosylmethionine</option>
+<option value="ADP">ADP</option>
+<option value="AMP">AMP</option>
+<option value="calcium">calcium</option>
+<option value="cadmium">cadmium</option>
+<option value="carotenoid">carotenoid</option>
+<option value="chlorophyll">chlorophyll</option>
+<option value="cobalt">cobalt</option>
+<option value="copper">copper</option>
+<option value="diiron-carboxylate">diiron-carboxylate</option>
+<option value="dtpp">dtpp</option>
+<option value="dinuclear">dinuclear</option>
+<option value="flavin">flavin</option>
+<option value="iron">iron</option>
+<option value="mononuclear">mononuclear</option>
+<option value="iron-sulphur">iron-sulphur</option>
+<option value="haem">haem</option>
+<option value="magnesium">magnesium</option>
+<option value="manganese">manganese</option>
+<option value="molybdenum">molybdenum</option>
+<option value="nickel">nickel</option>
+<option value="nicotinamide">nicotinamide</option>
+<option value="pterin">pterin</option>
+<option value="pyridoxal">pyridoxal</option>
+<option value="quinone">quinone</option>
+<option value="tetrapyrrole">tetrapyrrole</option>
+<option value="thiamine">thiamine</option>
+<option value="tungsten">tungsten</option>
+<option value="vanadium">vanadium</option>
+<option value="zinc">zinc</option>
+</b>
+</select>
+</td>
+<td valign="top">
+<INPUT TYPE="submit" VALUE="Retrieve"> 
+</FORM> 
+</td>
+</tr>
+<tr bgcolor=silver><td colspan=3>
+... or have a look at the paths through the ontology
+</td></tr>
+<tr><td valign="top">
+<FORM METHOD="POST" ACTION="http://www.ebi.ac.uk/come/broker">
+Please enter:
+<select name="view">
+   <option value="pathrough" selected><b>COMe ID</b></option> 
+   <option value="comePath"><b>COMe path no.</b></option>
+</select>
+<td valign="top">
+<INPUT NAME="query_term">
+</td>
+<td valign="top">
+<INPUT TYPE="submit" VALUE="Retrieve"> 
+<INPUT TYPE="reset" VALUE="Clear"> 
+</FORM> 
+</td>
+</tr>
+</table>
+<hr>
+<b>COMe</b> version 4.3 contains 517 BIM, 178 MOL and 1361 PRX (2056 entries)
+<br>
+<a href="mailto:kirill@ebi.ac.uk">Kirill Degtyarenko</a> and
+<a href="mailto:contrino@ebi.ac.uk">Sergio Contrino</a>
+<p><i>
+<!-- Created: Thu Aug 16 08:28:04 BST 2001 -->
+<!-- hhmts start -->
+Last modified: Mon Nov 15 11:00:01 GMT 2004
+<!-- hhmts end -->
+</i>
+</p>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<substructure value="Cd" id="MOL000119">
+ <term value="cadmium" dbxref="COMPOUND:C01413">
+ </term>
+ <term value="cadmium ion" dbxref="PDBHET:CD">
+ </term>
+</substructure>

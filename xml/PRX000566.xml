@@ -1,0 +1,5 @@
+<term value="manganese superoxide dismutase" id="PRX000566" dbxref="GO:0008383">
+ &BIM000190;
+ <instance value="superoxide dismutase [Mn]" species="Escherichia coli" dbxref="SPTR:P00448">
+ </instance>
+</term>

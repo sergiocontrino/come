@@ -1,0 +1,9 @@
+<term value="haem sensor protein" id="PRX000709">
+<!-- this group includes proteins that can switch haem iron ligands -->
+ &COOA;
+ &CYTCD1CYTC;
+ &CYTCIIA;
+ &CYTCPRIME2;
+ &CYTD1;
+ &GLOBIN6;
+</term>

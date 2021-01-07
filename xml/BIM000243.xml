@@ -1,0 +1,9 @@
+<substructure id="BIM000243">
+ <bim>Fe{(por)(OD.Asp)(OE.Glu)}</bim>
+  &BIM000247;
+  &BIM000467;
+ <term value="hemediol-L-aspartyl ester-L-glutamyl ester" dbxref="RESID:AA0279">
+ </term>
+ <term value="heme l" lref="PUBMED:9774411">
+ </term>
+</substructure>

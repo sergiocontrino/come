@@ -1,0 +1,8 @@
+<term value="dimeric dihaem split-Soret cytochrome c" id="PRX000246">
+ <instance value="split-Soret cytochrome c" centre="haem c" species="Desulfovibrio desulfuricans" dbxref="PDB:1H21">
+  &BIM000012;
+ </instance>
+ <instance value="split-Soret cytochrome c" centre="iron-sulphur" species="Desulfovibrio desulfuricans" lref="PUBMED:12589573">
+  &MOL000130;
+ </instance>
+</term>

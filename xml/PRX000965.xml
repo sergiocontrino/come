@@ -1,0 +1,8 @@
+<term value="soluble dicluster Fe8S8 bacterial-type ferredoxin" id="PRX000965">
+ <instance value="ferredoxin" species="Clostridium acidurici" centre="cluster I" dbxref="PDB:2FDN">
+  &BIM000008;
+ </instance>
+ <instance value="ferredoxin" species="Clostridium acidurici" centre="cluster II" dbxref="PDB:2FDN">
+  &BIM000008;
+ </instance>
+</term>

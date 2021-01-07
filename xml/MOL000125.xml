@@ -1,0 +1,6 @@
+<substructure value="tetrahydrofolate" id="MOL000125">
+ <term value="(6S)-5,6,7,8-tetrahydrofolate" dbxref="PDBHET:THG">
+ </term>
+ <term value="tetrahydrofolate" dbxref="COMPOUND:C00101">
+ </term>
+</substructure>

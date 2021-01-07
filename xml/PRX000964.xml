@@ -1,0 +1,12 @@
+<term value="zinc-containing dicluster archaeal-type ferredoxin" id="PRX000964">
+ <instance value="zinc-containing ferredoxin 1" species="Sulfolobus tokodaii" centre="cluster I" dbxref="PDB:1XER">
+  &BIM000054;
+ </instance>
+ <instance value="zinc-containing ferredoxin 1" species="Sulfolobus tokodaii" centre="cluster II" dbxref="PDB:1XER">
+  &BIM000054;
+ <!-- The second Fe3S4 cluster is thought to be a result of oxidative degradation of original Fe4S4 cluster; see PUBMED:10827091 -->
+ </instance>
+ <instance value="zinc-containing ferredoxin 1" species="Sulfolobus tokodaii" centre="Zn" dbxref="PDB:1XER">
+  &BIM000093;
+ </instance>
+</term>

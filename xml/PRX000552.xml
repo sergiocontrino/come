@@ -1,0 +1,9 @@
+<term value="formate dehydrogenase N, catalytic subunit" id="PRX000552">
+ <instance value="formate dehydrogenase, nitrate-inducible, major subunit" species="Escherichia coli" centre="FeS-0" dbxref="SPTR:P24183">
+  &BIM000008;
+ </instance>
+ <instance value="formate dehydrogenase, nitrate-inducible, major subunit" species="Escherichia coli" centre="Moco" state="(Mo)6+,hydroxido" dbxref="SPTR:P24183">
+  &BIM000181;
+ </instance>
+ &FDN;
+</term>

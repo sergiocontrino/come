@@ -1,0 +1,8 @@
+<substructure value="S" id="MOL000141">
+ <term value="sulfur atom" dbxref="CAS:7704-34-9">
+ </term>
+ <term value="sulfur" dbxref="COMPOUND:C00087">
+ </term>
+ <term value="sulfur atom" dbxref="PDBHET:S">
+ </term>
+</substructure>

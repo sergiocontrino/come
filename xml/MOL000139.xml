@@ -1,0 +1,6 @@
+<substructure value="NO2" id="MOL000139">
+ <term value="nitrogen oxide anion" dbxref="CAS:14797-65-0">
+ </term>
+ <term value="nitrite ion" dbxref="PDBHET:NO2">
+ </term>
+</substructure>

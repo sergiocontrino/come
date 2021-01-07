@@ -1,0 +1,5 @@
+<term value="oxalate oxidase" id="PRX000857" dbxref="EC:1.2.3.4">
+ <instance value="oxalate oxidase 1" species="Hordeum vulgare" dbxref="PDB:1FI2">
+  &BIM000273;
+ </instance>
+</term>

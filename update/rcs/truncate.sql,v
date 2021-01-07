@@ -1,0 +1,52 @@
+head	1.1;
+access;
+symbols;
+locks
+	contrino:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2001.10.18.10.28.27;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@truncate table DB_XREF ;
+truncate table ENTRY ;
+truncate table INSTANCE ;
+truncate table PATH ;
+truncate table RELATIONS ;
+drop sequence SEQ_IDS ;
+create sequence seq_ids;
+
+
+alter table entry
+drop constraint pk_entry 
+;
+ 
+alter table instance 
+drop constraint pk_instance
+;
+
+alter table db_xref 
+drop constraint pk_xref
+;
+
+alter table database 
+drop constraint pk_db
+;
+
+alter table coordination
+drop constraint pk_coordination
+;
+@

@@ -1,0 +1,6 @@
+<term value="nickel-responsive transcriptional regulator NikR regulatory domain" id="PRX001210">
+ <instance value="nickel responsive regulator" species="Escherichia coli" state="Ni-bound" dbxref="SPTR:P28910">
+  &BIM000423;
+ </instance>
+ &NIKR;
+</term>

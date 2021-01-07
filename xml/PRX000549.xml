@@ -1,0 +1,8 @@
+<term value="biotin sulphoxide reductase" id="PRX000549">
+ <instance value="biotin sulfoxide reductase 1" species="Escherichia coli" dbxref="SPTR:P20099">
+ </instance>
+ <instance value="biotin sulfoxide reductase 2" species="Escherichia coli" dbxref="SPTR:P46923">
+ </instance>
+ <instance value="biotin sulfoxide reductase" species="Rhodobacter sphaeroides" dbxref="SPTR:P54934">
+ </instance>
+</term>

@@ -1,0 +1,8 @@
+<term value="parvalbumin alpha" id="PRX000934">
+ <instance value="parvalbumin alpha" species="Rattus norvegicus" centre="EF1" dbxref="PDB:1RTP">
+  &BIM000308;
+ </instance>
+ <instance value="parvalbumin alpha" species="Rattus norvegicus" centre="EF2" dbxref="PDB:1RTP">
+  &BIM000307;
+ </instance>
+</term>

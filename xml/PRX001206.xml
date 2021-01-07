@@ -1,0 +1,5 @@
+<term value="zinc-responsive transcriptional regulator ZntR" id="PRX001206">
+ <instance value="HTH-type transcriptional regulator zntR" species="Escherichia coli" state="(Zn)2+" dbxref="SPTR:P36676" lref="PUBMED:12958362">
+ &BIM000418;
+ </instance>
+</term>

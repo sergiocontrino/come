@@ -1,0 +1,5 @@
+<term value="NADH:plastoquinone oxidoreductase Fe8S8 ferredoxin subunit" id="PRX000766">
+ <instance value="NADH:plastoquinone oxidoreductase subunit I" species="Synechocystis sp." dbxref="SPTR:P26525">
+ </instance>
+ &NDH;
+</term>

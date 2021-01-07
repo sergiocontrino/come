@@ -1,0 +1,5 @@
+<substructure id="BIM000445">
+ <bim>(C8M.FAD|C8M.FMN)(NE.His)</bim>
+ &BIM000138;
+ &BIM000440;
+</substructure>

@@ -1,0 +1,6 @@
+<substructure value="NAD*" id="MOL000030">
+ <term value="nicotinamide adenine dinucleotide">
+ </term>
+ &MOL000026;
+ &MOL000027;
+</substructure>

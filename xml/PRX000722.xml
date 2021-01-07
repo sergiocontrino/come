@@ -1,0 +1,6 @@
+<term value="pyridoxamine-phosphate oxidase" id="PRX000722" dbxref="InterPro:IPR000659">
+ <instance value="pyridoxamine-phosphate oxidase" species="Escherichia coli" dbxref="SPTR:P28225">
+ </instance>
+ <instance value="pyridoxamine-phosphate oxidase" species="Saccharomyces cerevisiae" dbxref="PDB:1CI0">
+ </instance>
+</term>

@@ -1,0 +1,11 @@
+<term value="class B beta-lactamase" id="PRX000480" dbxref="InterPro:IPR001018">
+ <instance value="beta-lactamase" species="Bacillus cereus" dbxref="SPTR:P04190">
+ &BIM000161;
+ </instance>
+ <instance value="beta-lactamase" species="Bacteroides fragilis" dbxref="SPTR:P25910">
+ &BIM000161;
+ </instance>
+ <instance value="beta-lactamase" species="Xanthomonas maltophilia" dbxref="SPTR:P52700">
+ &BIM000164;
+ </instance>
+</term>

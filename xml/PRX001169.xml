@@ -1,0 +1,6 @@
+<term value="echinenone cytochrome b6" id="PRX001169">
+ &MOL000094;
+ <instance value="cytochrome b6" species="Synechocystis sp." lref="PUBMED:11418097">
+ </instance>
+ &ECYTB6F;
+</term>

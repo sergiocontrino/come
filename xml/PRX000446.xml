@@ -1,0 +1,8 @@
+<term value="purple bacteria-type core light-harvesting complex" id="PRX000446">
+ <instance value="B875 light-harvesting complex" species="Rubrivivax gelatinosus" centre="carotenoid" lref="PUBMED:7926041">
+  &MOL000104;
+ </instance>
+ <instance value="B875 light-harvesting complex" species="Rhodobacter sphaeroides" centre="carotenoid" lref="PUBMED:8830681">
+  &MOL000105;
+ </instance>
+</term>

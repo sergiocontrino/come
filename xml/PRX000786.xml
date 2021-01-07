@@ -1,0 +1,5 @@
+<term value="respiratory chain cytochrome b" id="PRX000786">
+ <instance value="cytochrome b" species="Bos taurus" dbxref="SPTR:P00157">
+ </instance>
+ &CYTBC1;
+</term>

@@ -1,0 +1,8 @@
+<term value="calgizzarin" id="PRX000924">
+ <instance value="calgizzarin" species="Sus scrofa" centre="EF1" dbxref="PDB:1QLS">
+  &BIM000301;
+ </instance>
+ <instance value="calgizzarin" species="Sus scrofa" centre="EF2" dbxref="PDB:1QLS">
+  &BIM000287;
+ </instance>
+</term>

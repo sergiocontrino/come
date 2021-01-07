@@ -1,0 +1,7 @@
+<term value="Mo carbon monoxide oxidase catalytic subunit" id="PRX001086">
+ &MOL000079;
+ &BIM000188;
+ <instance value="carbon monoxide dehydrogenase large chain" species="Hydrogenophaga pseudoflava" dbxref="SPTR:P19913">
+ </instance>
+ &MOCOOX;
+</term>

@@ -1,0 +1,6 @@
+<term value="eukaryotic ornithine decarboxylase" id="PRX000832" dbxref="EC:4.1.1.17">
+ <instance value="ornithine decarboxylase" species="Trypanosoma brucei" dbxref="PDB:1QU4">
+ </instance>
+ <instance value="ornithine decarboxylase" species="human" dbxref="SPTR:P11926">
+ </instance>
+</term>

@@ -1,0 +1,7 @@
+<substructure id="BIM000067">
+ <bim>[{Fe4(&#181;3-S)3}(SG.Cys)2][{Fe4(&#181;3-S)3}(OG.Ser)(N.Cys)(SG.Cys)2]{&#181;-(SG.Cys)}2(&#181;4-S)</bim>
+ <term value="hexakis-L-cysteinyl L-serinyl octairon heptasulfide" dbxref="RESID:AA0300">
+ </term>
+ &BIM000008;
+ &BIM000260;
+</substructure>

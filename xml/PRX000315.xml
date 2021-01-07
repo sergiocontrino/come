@@ -1,0 +1,9 @@
+<term value="methane monooxygenase hydroxylase" id="PRX000315">
+ <instance value="methane monooxygenase hydroxylase" species="Methylococcus capsulatus" state="reduced">
+  &BIM000080;
+ </instance>
+ <instance value="methane monooxygenase hydroxylase" species="Methylococcus capsulatus" state="oxidised" dbxref="PDB:1MTY">
+  &BIM000081;
+ </instance>
+ &MMO;
+</term>

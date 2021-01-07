@@ -1,0 +1,14 @@
+<term value="flavocytochrome c3" id="PRX000252">
+ <instance value="flavocytochrome c3" centre="haem 1" species="Shewanella frigidimarina" dbxref="SPTR:Q02469">
+  &BIM000012;
+ </instance>
+ <instance value="flavocytochrome c3" centre="haem 2" species="Shewanella frigidimarina" dbxref="SPTR:Q02469">
+  &BIM000012;
+ </instance>
+ <instance value="flavocytochrome c3" centre="haem 3" species="Shewanella frigidimarina" dbxref="SPTR:Q02469">
+  &BIM000012;
+ </instance>
+ <instance value="flavocytochrome c3" centre="haem 4" species="Shewanella frigidimarina" dbxref="SPTR:Q02469">
+  &BIM000012;
+ </instance>
+</term>

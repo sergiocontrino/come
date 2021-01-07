@@ -1,0 +1,5 @@
+<term value="M4-cluster metallothionein" id="PRX001303" dbxref="InterPro:IPR000518">
+ <instance value="metallothionein" species="Synechococcus sp." state="Zn-bound" dbxref="PDB:1JJD" lref="PUBMED:11493688">
+  &BIM000502;
+ </instance>
+</term>

@@ -1,0 +1,6 @@
+<term value="M3-cluster,M3-cluster metallothionein" id="PRX001304" dbxref="InterPro:IPR002045">
+ <instance value="metallothionein-1" species="Homarus americanus" dbxref="SPTR:P29499" lref="PUBMED:8043573">
+ </instance>
+ <instance value="metallothionein-1" species="Callinectes sapidus" dbxref="SPTR:P55949" lref="PUBMED:7819257">
+ </instance>
+</term>

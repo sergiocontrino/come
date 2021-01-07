@@ -1,0 +1,6 @@
+<substructure id="BIM000399">
+ <!-- (X) is a ligand of unknown nature, may be SO -->
+ <bim>{Zn(SG.Cys)(X)}{Ni(N.Gly)(N.Cys)}{&#181;-(SG.Cys)}2</bim>
+ &BIM000339;
+ &BIM000400;
+</substructure>

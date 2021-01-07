@@ -1,0 +1,6 @@
+<term value="plant ascorbate peroxidase" id="PRX000334" dbxref="InterPro:IPR002207">
+ <instance value="L-ascorbate peroxidase, cytosolic" species="Pisum sativum" dbxref="SPTR:P48534">
+ </instance>
+ <instance value="ascobate peroxidase" species="Glycine max" dbxref="PDB:1OAF">
+ </instance>
+</term>

@@ -1,0 +1,8 @@
+<term value="osteonectin" id="PRX000936">
+ <instance value="osteonectin" species="human" centre="EF1" dbxref="PDB:1SRA">
+  &BIM000309;
+ </instance>
+ <instance value="osteonectin" species="human" centre="EF2" dbxref="PDB:1SRA">
+  &BIM000297;
+ </instance>
+</term>

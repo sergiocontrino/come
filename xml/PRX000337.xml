@@ -1,0 +1,6 @@
+<term value="diarylpropane peroxidase" id="PRX000337" dbxref="EC:1.11.1.14">
+ <instance value="ligninase H8" species="Phanerochaete chrysosporium" dbxref="SPTR:P06181">
+ </instance>
+ <instance value="ligninase LG2" species="Phanerochaete chrysosporium" dbxref="SPTR:P49012">
+ </instance>
+</term>

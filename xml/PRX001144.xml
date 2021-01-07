@@ -1,0 +1,5 @@
+<term value="oxoglutarate dehydrogenase (lipoamide)" id="PRX001144" dbxref="EC:1.2.4.2">
+ <instance value="2-oxoglutarate dehydrogenase E1 component" species="Escherichia coli" dbxref="SPTR:P07015">
+ </instance>
+ &AKGDH;
+</term>

@@ -1,0 +1,5 @@
+<term value="alkaline phosphatase" id="PRX000512" dbxref="InterPro:IPR001952">
+ &BIM000172;
+ <instance value="alkaline phosphatase" species="Escherichia coli" dbxref="SPTR:P00634">
+ </instance>
+</term>

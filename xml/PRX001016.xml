@@ -1,0 +1,6 @@
+<term value="zinc peptide deformylase" id="PRX001016">
+ <instance value="peptide deformylase, mitochondrial" species="Arabidopsis thaliana" dbxref="SPTR:Q9FV53" lref="PUBMED:11733990">
+ </instance>
+ <instance value="peptide deformylase" species="Leptospira interrogans" dbxref="SPTR:Q93LE9" lref="PUBMED:11976499">
+ </instance>
+</term>

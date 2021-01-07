@@ -1,0 +1,8 @@
+<term value="peptidylglycine monooxygenase" id="PRX000216" dbxref="InterPro:IPR000720">
+ &BIM000100;
+ &BIM000099;
+ <instance value="peptidylglycine monooxygenase" species="Rattus norvegicus" state="oxidised" dbxref="PDB:1OPM">
+ </instance>
+ <instance value="peptidylglycine monooxygenase" species="Rattus norvegicus" state="reduced" dbxref="PDB:3PHM">
+ </instance>
+</term>

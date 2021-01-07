@@ -1,0 +1,9 @@
+<substructure id="BIM000475">
+ <bim>Cys(OH)</bim>
+ <term value="S-hydroxy-cysteine" dbxref="PDBHET:CEA">
+ </term>
+ <term value="3-sulfenoalanine" lref="PUBMED:6692818">
+ </term>
+ <term value="L-cysteine sulfenic acid" dbxref="RESID:AA0205">
+ </term>
+</substructure>

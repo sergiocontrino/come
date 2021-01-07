@@ -1,0 +1,5 @@
+<term value="monomeric periplasmic nitrate reductase" id="PRX001226">
+ <instance value="periplasmic nitrate reductase" species="Desulfovibrio desulfuricans" centre="Moco" state="(Mo)6+,hydroxo" dbxref="PDB:2NAP">
+  &BIM000185;
+ </instance>
+</term>

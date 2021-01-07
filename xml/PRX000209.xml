@@ -1,0 +1,15 @@
+<term value="ceruloplasmin" id="PRX000209" dbxref="EC:1.16.3.1">
+ <instance value="ceruloplasmin" species="human" centre="Cu1" dbxref="PDB:1KCW">
+  &BIM000087;
+ </instance>
+ <instance value="ceruloplasmin" species="human" centre="Cu2" dbxref="PDB:1KCW">
+  &BIM000085;
+ </instance>
+
+ <instance value="ceruloplasmin" species="human" centre="Cu4" dbxref="PDB:1KCW">
+  &BIM000085;
+ </instance>
+ <instance value="ceruloplasmin" species="human" centre="trinuclear copper" dbxref="PDB:1KCW">
+  &BIM000371;
+ </instance>
+</term>

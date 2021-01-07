@@ -1,0 +1,7 @@
+<substructure id="BIM000424">
+ <!-- "generic" metal-containing BIM -->
+ <bim>M(*aa)*</bim>
+ &BIM000450;
+ &BIM000452;
+ &BIM000455;
+</substructure>

@@ -1,0 +1,116 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.11.28.11.50.19;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.10.18.10.28.02;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@removed obsolete stuff, corrected doc off
+@
+text
+@/*  to be done after filling entry, instance */
+
+alter table entry
+add constraint pk_entry 
+primary key ( id )
+;
+ 
+alter table instance 
+add constraint pk_instance
+primary key (id_instance)
+;
+
+alter table db_xref 
+add constraint pk_xref
+primary key (id_dbx)
+;
+
+alter table database 
+add constraint pk_db
+primary key (dbcode)
+;
+
+alter table coordination
+add constraint pk_coordination
+primary key (coorcode)
+;
+
+
+
+
+SET DOC OFF
+/*
+alter table BIM
+add constraint fk_BIM_lego 
+foreign key (id_brick)
+references bim_lego (id_brick)
+;
+
+alter table db_xref 
+add constraint fk_db
+foreign key  (dbcode)
+references database (dbcode)
+;
+
+-- path
+
+create index i_path_id on path(id)
+storage (initial 1M next 2M maxextents 200 pctincrease 0)
+;
+
+create index i_path_child on path(child)
+storage (initial 1M next 2M maxextents 200 pctincrease 0)
+;
+
+create index i_path_rel on path(id, child)
+storage (initial 1M next 2M maxextents 200 pctincrease 0)
+;
+*/
+
+
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a38 6
+alter table term 
+add constraint fk_motif
+foreign key  (id_motif)
+references motif (id_motif)
+;
+
+d45 1
+a45 7
+alter table Motif
+add constraint fk_coordination 
+foreign key ( bim_coordination )
+references coordination (coorcode)
+;
+*/
+
+a46 2
+-- path
+/*
+@

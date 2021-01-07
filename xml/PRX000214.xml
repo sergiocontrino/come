@@ -1,0 +1,11 @@
+<term value="phenylalanine 4-hydroxylase" id="PRX000214" dbxref="EC:1.14.16.1">
+ <instance value="phenylalanine 4-hydroxylase" species="Chromobacterium violaceum" state="dihydrobiopterin-bound" dbxref="PDB:1LTZ">
+  &BIM000111;
+ </instance>
+ <instance value="phenylalanine 4-hydroxylase" species="human" state="substrate-free" dbxref="PDB:1PAH">
+  &BIM000036;
+ </instance>
+ <instance value="phenylalanine 4-hydroxylase" species="human" state="L-Dopa-bound" dbxref="PDB:6PAH">
+  &BIM000337;
+ </instance>
+</term>

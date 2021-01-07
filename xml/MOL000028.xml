@@ -1,0 +1,6 @@
+<substructure value="NADPH" id="MOL000028">
+ <term value="dihydro-nicotinamide-adenine-dinucleotide phosphate" dbxref="PDBHET:NDP">
+ </term>
+ <term value="NADPH" dbxref="COMPOUND:C00005">
+ </term>
+</substructure>

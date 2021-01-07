@@ -1,0 +1,10 @@
+<term value="galactose oxidase" id="PRX000219" dbxref="EC:1.1.3.9">
+ &BIM000383;
+<!-- in galactose oxidase, a thioether bond CE.Tyr-SG.Cys, where Tyr is one of the copper ligands, is formed; see BIM000265 -->
+ <instance value="galactose oxidase" species="Dactylium dendroides" centre="Cu" dbxref="PDB:1GOF">
+  &BIM000097;
+ </instance>
+ <instance value="galactose oxidase" species="Dactylium dendroides" centre="Cu" dbxref="PDB:1GOG">
+  &BIM000266;
+ </instance>
+</term>

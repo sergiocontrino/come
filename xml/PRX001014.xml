@@ -1,0 +1,6 @@
+<term value="heterodisulphide reductase cytochrome b subunit" id="PRX001014">
+ <!-- contains two haem b groups -->
+ <instance value="heterodisulfide reductase subunit HdrE" species="Methanosarcina barkeri" dbxref="SPTR:P96796">
+ </instance>
+ &CYTBHDR;
+</term>

@@ -1,0 +1,9 @@
+<term value="mammalian-type purple acid phosphatase" id="PRX000031">
+ <instance value="purple acid phosphatase" species="Sus scrofa" dbxref="PDB:1UTE">
+  &BIM000072;
+ </instance>
+ <instance value="purple acid phosphatase" species="Rattus norvegicus" dbxref="PDB:1QFC">
+  &BIM000072;
+ </instance>
+</term>
+

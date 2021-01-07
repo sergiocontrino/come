@@ -1,0 +1,6 @@
+<substructure value="Fe4S4" id="MOL000131">
+ <term value="iron/sulfur cluster" dbxref="PDBHET:FS4">
+ </term>
+ <term value="iron/sulfur cluster" dbxref="PDBHET:SF4">
+ </term>
+</substructure>

@@ -1,0 +1,5 @@
+<term value="5'-nucleotidase" id="PRX000810" dbxref="InterPro:IPR002224">
+ <instance value="5'-nucleotidase" species="Escherichia coli" dbxref="PDB:2USH">
+  &BIM000271;
+ </instance>
+</term>

@@ -1,0 +1,5 @@
+<term value="acetyl-CoA carboxylase biotin carboxyl carrier" id="PRX001098" dbxref="InterPro:IPR001249">
+ <instance value="biotin carboxyl carrier protein of acetyl-CoA carboxylase" species="Escherichia coli" dbxref="SPTR:P02905">
+ </instance>
+ &ACC;
+</term>

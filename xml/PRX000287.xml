@@ -1,0 +1,14 @@
+<term value="formate acetyltransferase activating enzyme" id="PRX000287" dbxref="EC:1.97.1.4">
+ <instance value="pyruvate formate-lyase activating enzyme" species="Clostridium pasteurianum" dbxref="SPTR:Q46267">
+ </instance>
+
+ <instance value="pyruvate formate-lyase activating enzyme" species="Escherichia coli" state="as isolated under anaerobic conditions" lref="PUBMED:10708574">
+  &BIM000054;
+ </instance>
+
+ <instance value="pyruvate formate-lyase activating enzyme" species="Escherichia coli" state="dithionite-reduced" lref="DOI:10.1021/ja003335p">
+ <!-- PUBMED:11902903  -->
+ <!-- DOI:10.1021/ja003335p -->
+  &BIM000520;
+ </instance>
+</term>

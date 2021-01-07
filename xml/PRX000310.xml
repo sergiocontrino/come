@@ -1,0 +1,8 @@
+<term value="monocluster Fe4S4 bacterial-type ferredoxin" id="PRX000310">
+ <instance value="ferredoxin" species="Thermotoga maritima" dbxref="SPTR:P46797">
+  &BIM000008;
+ </instance>
+ <instance value="ferredoxin" species="Pyrococcus furiosus" dbxref="SPTR:P29603" lref="PUBMED:7547865">
+  &BIM000061;
+ </instance>
+</term>

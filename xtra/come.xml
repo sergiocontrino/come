@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+
+<!-- external DTD  -->
+
+<!DOCTYPE COME [
+<!ENTITY % COME SYSTEM "COME.dtd">
+%COME;
+
+<!-- CLASS.dtd contains a list of class files for COME ontology -->
+<!ENTITY % CLASS SYSTEM "CLASS.dtd">
+%CLASS;
+]>
+
+<term value="Kinda Ontology for Bioinorganic Centres" version="5.6.7">
+<!-- contains: 524 BIM ; 179 MOL ; 1378 PRX -->
+ &COMPLEXPROT;
+
+ <history>
+  <created date="17/05/2000" by="Kirill Degtyarenko" />
+  <modified date="31/05/2000" by="Kirill Degtyarenko" />
+  <modified date="6/10/2000" by="Kirill Degtyarenko" />
+  <modified date="16/12/2002" by="Kirill Degtyarenko" />
+  <modified date="18/12/2003" by="Kirill Degtyarenko" />
+  <modified date="22/11/2004" by="Kirill Degtyarenko" />
+  <modified date="14/12/2004" by="Kirill Degtyarenko" />
+  <modified date="18/03/2005" by="Kirill Degtyarenko" />
+  <modified date="7/06/2005" by="Kirill Degtyarenko" />
+<!-- for history of individual entries see external DTD files -->
+ </history>
+</term>

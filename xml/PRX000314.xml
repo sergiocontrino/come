@@ -1,0 +1,9 @@
+<term value="class I ribonucleotide reductase R2 protein" id="PRX000314" dbxref="InterPro:IPR000358">
+ <instance value="class I ribonucleotide reductase R2 protein" species="Escherichia coli" state="reduced" dbxref="PDB:1XIK">
+  &BIM000078;
+ </instance>
+ <instance value="class I ribonucleotide reductase R2 protein" species="Escherichia coli" state="oxidised" dbxref="PDB:1RIB">
+  &BIM000079;
+ </instance>
+ &RNRI;
+</term>

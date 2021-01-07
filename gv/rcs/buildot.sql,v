@@ -1,0 +1,109 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.12.03.14.34.28;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.15.15.43.29;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@--  SET DOC OFF
+--  ****************************************************************************
+--
+--  Purpose: to build dot files for graphviz
+--
+--  Usage:   sqlplus username/password @@buildot {PRX|MOL|BIM|...}
+--
+--  Note:    build a sql script (get.arg) that call the script upath for each
+--           entry involved. run the get script. rm the get script  
+--
+--  $Source: /homes/contrino/come/gv/sql/RCS/buildot.sql,v $
+--  $Date: 2003/10/15 15:43:29 $
+--  $Author: contrino $
+--  ____________________________________________________________________________
+--  
+--  $Log: buildot.sql,v $
+--  Revision 1.1  2003/10/15 15:43:29  contrino
+--  Initial revision
+--  ****************************************************************************
+
+set pages 0
+set feedback off
+set verify off
+
+--set timing on
+
+set term off
+
+spool get.&1
+
+select '@@upath '||old_id
+from entry
+where old_id like '&1%'
+;
+
+spool off
+
+set term on;
+
+@@get.&1
+
+set feedback on;
+
+
+prompt dot file(s) ready!!
+
+!rm get.&1
+
+exit;@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+--  *************************************************************
+d4 1
+a4 1
+--  Purpose:    to biuld dot files for graphviz
+d6 1
+a6 1
+--  Usage:      sqlplus username/password @@buildot {PRX|MOL|BIM|...}
+d8 2
+d11 4
+a14 4
+--  $Source$
+--  $Date$
+--  $Author$
+--  ____________________________________________________________
+d16 5
+a20 4
+--  $Log$
+--
+--
+--  *************************************************************
+d45 3
+a47 1
+prompt done!! ciao
+@

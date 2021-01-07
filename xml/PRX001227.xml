@@ -1,0 +1,6 @@
+<term value="beta-carotene cytochrome b6f complex" id="PRX001227">
+ <instance value="cytochrome b6f complex" species="Chlamydomonas reinhardtii" dbxref="PDB:1Q90" lref="PUBMED:14647374">
+ </instance>
+ <instance value="cytochrome b6f complex" species="Mastigocladus laminosus" dbxref="PDB:1VF5" lref="PUBMED:14526088">
+ </instance>
+</term>

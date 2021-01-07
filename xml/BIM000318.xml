@@ -1,0 +1,8 @@
+<substructure id="BIM000318">
+ <!-- linear Fe3S4 cluster -->
+ <bim>{Fe(&#181;-S)2Fe(&#181;-S)2Fe}(SG.Cys)4</bim>
+ <term value="Cys2[FeS2FeS2Fe]Cys2" lref="PUBMED:11592901">
+ </term>
+ <term value="tetrakis-L-cysteinyl triiron tetrasulfide" dbxref="RESID:AA0326">
+ </term>
+</substructure>

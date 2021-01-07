@@ -1,0 +1,10 @@
+create synonym BIM for ops$contrino.BIM;
+create synonym COORDINATION for ops$contrino.coordination;
+create synonym DATABASE for ops$contrino.database;
+create synonym BIM_lego for ops$contrino.bim_lego;
+create synonym MOTIF for ops$contrino.motif;
+create synonym TERM for ops$contrino.term;
+create synonym DB_XREF for ops$contrino.db_xref;
+create synonym protein_tree for ops$contrino.protein_tree;
+create synonym bim_tree for ops$contrino.bim_tree;
+create synonym kindofstar for ops$contrino.kindofstar;

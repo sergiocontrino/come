@@ -1,0 +1,7 @@
+<term value="peridinin-chlorophyll-protein" id="PRX000085">
+ &MOL000003;
+ &MOL000103;
+ <instance value="peridinin-chlorophyll-protein" species="Amphidinium carterae" dbxref="PDB:1PPR">
+  &BIM000004;
+ </instance>
+</term>

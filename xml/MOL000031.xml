@@ -1,0 +1,6 @@
+<substructure value="NADP*" id="MOL000031">
+ <term value="nicotinamide adenine dinucleotide phosphate">
+ </term>
+ &MOL000028;
+ &MOL000029;
+</substructure>

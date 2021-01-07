@@ -1,0 +1,12 @@
+<term value="SoxAX protein, SoxA subunit" id="PRX001072">
+ <instance value="diheme cytochrome c" species="Rhodovulum sulfidophilum" centre="haem 1" dbxref="SPTR:Q939U1">
+  &BIM000020;
+ </instance>
+ <instance value="diheme cytochrome c" species="Rhodovulum sulfidophilum" centre="haem 2" state="oxidised" dbxref="PDB:1H33">
+  &BIM000349;
+ </instance>
+ <instance value="diheme cytochrome c" species="Rhodovulum sulfidophilum" centre="haem 2" state="reduced" dbxref="PDB:1H32">
+  &BIM000020;
+ </instance>
+ &SOXAX;
+</term>

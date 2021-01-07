@@ -1,0 +1,14 @@
+<term value="methyl-coenzyme M reductase" id="PRX000394">
+ <instance value="methyl-coenzyme M reductase" centre="F430" species="Methanosarcina barkeri" state="(Ni)2+,coenzyme M-bound" dbxref="PDB:1E6Y">
+  &BIM000142;
+ </instance>
+ <instance value="methyl-coenzyme M reductase" species="Methanothermobacter marburgensis" centre="F430" state="(Ni)+" lref="PUBMED:12459909">
+  &BIM000356;
+ </instance>
+ <instance value="methyl-coenzyme M reductase" species="Methanobacterium thermoautotrophicum" centre="F430" state="(Ni)2+,(CoM-S-S-CoB)-bound" dbxref="PDB:1HBM">
+  &BIM000355;
+ </instance>
+ <instance value="methyl-coenzyme M reductase" species="Methanobacterium thermoautotrophicum" centre="F430" state="(Ni)2+,coenzyme M-bound" dbxref="PDB:1HBN">
+  &BIM000142;
+ </instance>
+</term>

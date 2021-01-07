@@ -1,0 +1,8 @@
+<term value="calgranulin" id="PRX000927">
+ <instance value="calgranulin A" species="human" centre="EF1" dbxref="PDB:1MR8">
+  &BIM000305;
+ </instance>
+ <instance value="calgranulin A" species="human" centre="EF2" dbxref="PDB:1MR8">
+  &BIM000304;
+ </instance>
+</term>

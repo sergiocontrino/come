@@ -1,0 +1,15 @@
+select max(substr(old_id,5)) from entry;
+select max(to_number(substr(old_id,5))) "id" from entry;
+select (max(substr(old_id,5))+1) from entry;
+
+select substr(old_id,4) from entry;
+
+
+column id format 009999
+select max(to_number(substr(old_id,5))) "id" from entry;
+
+select come.seq_ids.nextval, e.id, d.dbcode, upper('uniprot')
+from come.entry e, come.database d
+where old_id =''
+and upper(d.dbabbrev) = upper('&dbin')
+;

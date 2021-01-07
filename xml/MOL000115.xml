@@ -1,0 +1,6 @@
+<substructure value="Ni" id="MOL000115">
+ <term value="nickel" dbxref="COMPOUND:C00291">
+ </term>
+ <term value="nickel(II) ion" dbxref="PDBHET:NI">
+ </term>
+</substructure>

@@ -1,0 +1,5 @@
+<term value="mitochondrial cytochrome c oxidase subunit Vb" id="PRX000754" dbxref="InterPro:IPR002124">
+ <instance value="mitochondrial cytochrome c oxidase subunit Vb" species="Bos taurus" dbxref="SPTR:P00428">
+ </instance>
+ &MITCOXAA3;
+</term>

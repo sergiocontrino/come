@@ -1,0 +1,8 @@
+<term value="SoxAX protein" id="PRX001074">
+ <instance value="SoxAX protein" species="Rhodovulum sulfidophilum" state="oxidised" dbxref="PDB:1H31" lref="PUBMED:12411478">
+ </instance>
+ <instance value="SoxAX protein" species="Rhodovulum sulfidophilum" state="reduced" dbxref="PDB:1H32" lref="PUBMED:12411478">
+ </instance>
+ <instance value="SoxAX protein" species="Rhodovulum sulfidophilum" state="oxidised" dbxref="PDB:1H33" lref="PUBMED:12411478">
+ </instance>
+</term>

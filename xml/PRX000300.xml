@@ -1,0 +1,14 @@
+<term value="Fe4S4/H-cluster iron hydrogenase" id="PRX000300">
+ <instance value="iron hydrogenase" species="Desulfovibrio desulfuricans" centre="H-cluster" state="oxidised" dbxref="PDB:1HFE">
+  &BIM000216;
+ </instance>
+ <instance value="iron hydrogenase" species="Desulfovibrio desulfuricans" centre="H-cluster" state="reduced" lref="PUBMED:11456758">
+  &BIM000393;
+ </instance>
+ <instance value="iron hydrogenase" species="Desulfovibrio desulfuricans" centre="FS4B" dbxref="PDB:1HFE">
+  &BIM000008;
+ </instance>
+ <instance value="iron hydrogenase" species="Desulfovibrio desulfuricans" centre="FS4C" dbxref="PDB:1HFE">
+  &BIM000008;
+ </instance>
+</term>

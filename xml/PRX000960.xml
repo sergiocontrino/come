@@ -1,0 +1,5 @@
+<term value="cytosine deaminase" id="PRX000960" dbxref="EC:3.5.4.1">
+ &BIM000044;
+ <instance value="cytosine deaminase" species="Escherichia coli" dbxref="SPTR:P25524" lref="PUBMED:11812140">
+ </instance>
+</term>

@@ -1,0 +1,5 @@
+<term value="fumarate reductase/succinate dehydrogenase monohaem cytochrome b" id="PRX000350" dbxref="InterPro:IPR000701">
+ <instance value="succinate dehydrogenase cytochrome b556" species="Escherichia coli" dbxref="SPTR:P10446">
+ </instance>
+ &MFRDHEME;
+</term>

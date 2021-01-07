@@ -1,0 +1,15 @@
+<term value="laccase" id="PRX000207">
+ <instance value="laccase" species="Trametes versicolor" centre="Cu4" dbxref="PDB:1GYC">
+  &BIM000087;
+ </instance>
+ <instance value="laccase" species="Trametes versicolor" centre="trinuclear copper" dbxref="PDB:1GYC">
+  &BIM000366;
+ </instance>
+
+ <instance value="laccase" species="Melanocarpus albomyces" centre="type 1 copper" dbxref="PDB:1GW0">
+  &BIM000087;
+ </instance>
+ <instance value="laccase" species="Melanocarpus albomyces" centre="trinuclear copper" dbxref="PDB:1GW0">
+  &BIM000362;
+ </instance>
+</term>

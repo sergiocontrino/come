@@ -1,0 +1,6 @@
+<substructure id="BIM000462">
+ <bim>{Fe4(&#181;3-S)4}(SG.Cys)3{k2-(N,O.SAM)}</bim>
+ <term value="tris-L-cysteinyl S-adenosyl-L-methionyl tetrairon tetrasulfide" dbxref="RESID:AA0356">
+ </term>
+ &MOL000172;
+</substructure>

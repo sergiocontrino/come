@@ -1,0 +1,9 @@
+<substructure id="BIM000474">
+ <bim>Cys(O2H)</bim>
+ <term value="3-sulfinoalanine" dbxref="PDBHET:CSD">
+ </term>
+ <term value="3-sulfinoalanine" lref="PUBMED:6692818">
+ </term>
+ <term value="L-cysteine sulfinic acid" dbxref="RESID:AA0262">
+ </term>
+</substructure>

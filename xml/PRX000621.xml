@@ -1,0 +1,6 @@
+<term value="heterotetrameric sarcosine oxidase beta subunit" id="PRX000621">
+ &BIM000440;
+ <instance value="sarcosine oxidase beta subunit" species="Corynebacterium sp." dbxref="SPTR:P40875">
+ </instance>
+ &HTSARCOX;
+</term>

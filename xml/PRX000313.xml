@@ -1,0 +1,8 @@
+<term value="dicluster Fe7S8 bacterial-type ferredoxin" id="PRX000313" dbxref="InterPro:IPR000813">
+ <instance value="ferredoxin I" species="Azotobacter vinelandii" centre="cluster I" dbxref="PDB:7FD1">
+  &BIM000054;
+ </instance>
+ <instance value="ferredoxin I" species="Azotobacter vinelandii" centre="cluster II" dbxref="PDB:7FD1">
+  &BIM000008;
+ </instance>
+</term>

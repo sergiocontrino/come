@@ -1,0 +1,5 @@
+<term value="acyl-[acyl-carrier protein] desaturase" id="PRX000316" dbxref="EC:1.14.19.2">
+ <instance value="Delta9 stearoyl-acyl carrier protein desaturase" species="Ricinus communis" state="reduced" dbxref="PDB:1AFR">
+  &BIM000082;
+ </instance>
+</term>

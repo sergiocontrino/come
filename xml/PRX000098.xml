@@ -1,0 +1,16 @@
+<term value="formaldehyde ferredoxin oxidoreductase" id="PRX000098">
+ <instance value="formaldehyde ferredoxin oxidoreductase" species="Pyrococcus furiosus" centre="PTT" dbxref="PDB:1B25">
+  &BIM000345;
+  &MOL000126;
+ </instance>
+ <instance value="formaldehyde ferredoxin oxidoreductase" species="Pyrococcus furiosus" centre="FS4" dbxref="PDB:1B25">
+  &BIM000008;
+ </instance>
+ <instance value="formaldehyde ferredoxin oxidoreductase" species="Pyrococcus furiosus" centre="PTE" dbxref="PDB:1B4N">
+  &BIM000186;
+  &MOL000126;
+ </instance>
+ <instance value="formaldehyde ferredoxin oxidoreductase" species="Pyrococcus furiosus" centre="FS4" dbxref="PDB:1B4N">
+  &BIM000008;
+ </instance>
+</term>

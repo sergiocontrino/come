@@ -1,0 +1,5 @@
+<term value="TNF-alpha converting enzyme" id="PRX000505" dbxref="MEROPS:M12.217">
+ &BIM000167;
+ <instance value="TNF-alpha converting enzyme" species="human" dbxref="SPTR:P78536" lref="PUBMED:9520379">
+ </instance>
+</term>

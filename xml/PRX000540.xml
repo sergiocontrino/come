@@ -1,0 +1,7 @@
+<term value="class I cholesterol oxidase" id="PRX000540" dbxref="EC:1.1.3.6">
+ <!-- class I cholesterol oxidase contains non-covalently bound FAD -->
+ <instance value="cholesterol oxidase" species="Brevibacterium sterolicum" dbxref="SPTR:P22637">
+ </instance>
+ <instance value="cholesterol oxidase" species="Streptomyces sp." dbxref="SPTR:P12676">
+ </instance>
+</term>

@@ -1,0 +1,9 @@
+<term value="2,3-dihydroxybiphenyl dioxygenase" id="PRX000137" dbxref="EC:1.13.11.39">
+ &BIM000130;
+ <instance value="2,3-dihydroxybiphenyl dioxygenase" species="Pseudomonas sp. strain KKS102" dbxref="PDB:1DHY">
+  &BIM000029;
+ </instance>
+ <instance value="2,3-dihydroxybiphenyl dioxygenase" species="Pseudomonas cepacia" dbxref="PDB:1HAN">
+  &BIM000029;
+ </instance>
+</term>

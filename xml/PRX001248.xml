@@ -1,0 +1,8 @@
+<term value="zinc-responsive transcriptional regulator SmtB" id="PRX001248">
+ <instance value="transcriptional repressor SmtB" species="Synechococcus sp." state="(Zn)2+" lref="PUBMED:14568530" dbxref="SPTR:P30340">
+ &BIM000093;
+ </instance>
+ <instance value="transcriptional repressor CzrA" species="Staphylococcus aureus" state="(Zn)2+" lref="PUBMED:14568530" dbxref="SPTR:O85142">
+ &BIM000093;
+ </instance>
+</term>

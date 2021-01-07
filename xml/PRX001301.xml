@@ -1,0 +1,5 @@
+<term value="M7-cluster metallothionein" id="PRX001301">
+ <instance value="metallothionein" species="Saccharomyces cerevisiae" state="Cu-bound" dbxref="PDB:1AQR" lref="PUBMED:8566237">
+  &BIM000501;
+ </instance>
+</term>

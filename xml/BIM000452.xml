@@ -1,0 +1,8 @@
+<substructure id="BIM000452">
+ <!-- iron-sulphur cluster -->
+ <bim>(Fe2S2*)(SG.Cys)*</bim>
+ &BIM000063;
+ &BIM000065;
+ &BIM000453;
+ &BIM000454;
+</substructure>

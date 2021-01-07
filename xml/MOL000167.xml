@@ -1,0 +1,6 @@
+<substructure value="3,8-bis(2-carboxyethyl)-2,7-bis(carboxymethyl)-1-methyldipyrromethane" id="MOL000167">
+ <term value="3-{2-[4-(2-carboxy-ethyl)-3-carboxymethyl-5H-pyrrol-2-ylmethyl]-4-carboxymethyl-5-methyl-2H-pyrrol-3-yl}-propionic acid" dbxref="PDBHET:DPM">
+ </term>
+ <term value="dipyrromethane cofactor" dbxref="PDBHET:DPM">
+ </term>
+</substructure>

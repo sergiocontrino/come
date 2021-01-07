@@ -1,0 +1,8 @@
+<term value="plant-type ferredoxin" id="PRX000063" dbxref="InterPro:IPR010241">
+ &BIM000055;
+ <instance value="ferredoxin" species="Chlorella fusca" dbxref="SPTR:P56408">
+ </instance>
+ <instance value="ferredoxin I" species="Synechocystis sp." dbxref="SPTR:P27320">
+ </instance>
+</term>
+

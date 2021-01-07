@@ -1,0 +1,8 @@
+<term value="psoriasin" id="PRX000926">
+ <instance value="psoriasin" species="human" centre="EF2" dbxref="PDB:3PSR">
+  &BIM000302;
+ </instance>
+ <instance value="psoriasin" species="human" centre="Zn" dbxref="PDB:3PSR">
+  &BIM000303;
+ </instance>
+</term>

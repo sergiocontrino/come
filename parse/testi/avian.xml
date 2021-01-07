@@ -1,0 +1,23 @@
+<doc>
+<term value="avian pancreatic polypeptide" id="PRX000705">
+ BIM000228;
+ <instance inst="avian pancreatic polypeptide" species="Meleagris gallopavo" dbxref="PDB:1PPT">
+ </instance>
+</term>
+<term value="pheophytin protein" id="PRX000706">
+ MOL000092;
+ PRCPB;
+</term>
+<term value="retinal protein" id="PRX000707">
+ MOL000056;
+ OPSIN;
+</term>
+<term value="CO sensor protein cooA" id="PRX000708">
+ <instance inst="CO sensor protein cooA" species="Rhodospirillum rubrum" state="CO-free,Fe2+" dbxref="PDB:1FT9">
+  BIM000229;
+ </instance>
+ <instance inst="CO sensor protein cooA" species="Rhodospirillum rubrum" state="CO-bound,Fe2+" lref="PUBMED:11278259">
+  BIM000023;
+ </instance>
+</term>
+</doc>

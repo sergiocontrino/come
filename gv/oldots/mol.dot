@@ -1,0 +1,274 @@
+digraph COMe {
+
+graph [
+rankdir = "LR"
+];
+
+node [
+color=orange
+style=filled
+fontsize = 9
+shape = record
+URL = "http://www.ebi.ac.uk/come/entry?gn=\N"
+//width=.5
+heigth=.5
+];
+
+MOL000001 [ tooltip="bacteriochlorophyll a"]                                    
+MOL000002 [ tooltip="bacteriochlorophyll b"]                                    
+MOL000003 [ tooltip="chlorophyll a"]                                            
+MOL000004 [ tooltip="chlorophyll b"]                                            
+MOL000005 [ tooltip="bacteriochlorophyll c"]                                    
+MOL000006 [ tooltip="bacteriochlorophyll d"]                                    
+MOL000007 [ tooltip="bacteriochlorophyll e"]                                    
+MOL000008 [ tooltip="bacteriochlorophyll g"]                                    
+MOL000009 [ tooltip="chlorophyll c"]                                            
+MOL000010 [ tooltip="chlorophyll c2"]                                           
+MOL000011 [ tooltip="chlorophyll c1"]                                           
+MOL000012 [ tooltip="chlorophyll*"]                                             
+MOL000013 [ tooltip="haem b"]                                                   
+MOL000015 [ tooltip="sirohaem"]                                                 
+MOL000016 [ tooltip="haem a"]                                                   
+MOL000017 [ tooltip="haem o"]                                                   
+MOL000018 [ tooltip="haem d1"]                                                  
+MOL000020 [ tooltip="chlorocruorohaem"]                                         
+MOL000021 [ tooltip="haem d"]                                                   
+MOL000025 [ tooltip="haem*"]                                                    
+MOL000026 [ tooltip="NAD+"]                                                     
+MOL000027 [ tooltip="NADH"]                                                     
+MOL000028 [ tooltip="NADPH"]                                                    
+MOL000029 [ tooltip="NADP+"]                                                    
+MOL000030 [ tooltip="NAD*"]                                                     
+MOL000031 [ tooltip="NADP*"]                                                    
+MOL000032 [ tooltip="Fe-coproporphyrin III"]                                    
+MOL000033 [ tooltip="cob(II)alamin"]                                            
+MOL000034 [ tooltip="cob(I)alamin"]                                             
+MOL000035 [ tooltip="cob(III)alamin"]                                           
+MOL000036 [ tooltip="cobalamin*"]                                               
+MOL000037 [ tooltip="siroamide"]                                                
+MOL000038 [ tooltip="sirohaem*"]                                                
+MOL000039 [ tooltip="FAD"]                                                      
+MOL000040 [ tooltip="FADH2"]                                                    
+MOL000041 [ tooltip="FAD*"]                                                     
+MOL000042 [ tooltip="FADH&#183;"]                                               
+MOL000043 [ tooltip="FMN"]                                                      
+MOL000044 [ tooltip="FMNH2"]                                                    
+MOL000045 [ tooltip="FMNH&#183;"]                                               
+MOL000046 [ tooltip="FMN*"]                                                     
+MOL000047 [ tooltip="menaquinone"]                                              
+MOL000048 [ tooltip="lycopene"]                                                 
+MOL000049 [ tooltip="rhodopin glucoside"]                                       
+MOL000050 [ tooltip="spheroidene"]                                              
+MOL000051 [ tooltip="1,2-dihydroneurosporene"]                                  
+MOL000052 [ tooltip="ubiquinone-9"]                                             
+MOL000053 [ tooltip="menaquinone-9"]                                            
+MOL000054 [ tooltip="ubiquinone-10"]                                            
+MOL000055 [ tooltip="astaxanthin"]                                              
+MOL000056 [ tooltip="retinal*"]                                                 
+MOL000057 [ tooltip="all-trans-retinal"]                                        
+MOL000058 [ tooltip="11-cis-retinal"]                                           
+MOL000059 [ tooltip="coenzyme F430"]                                            
+MOL000060 [ tooltip="coenzyme M"]                                               
+MOL000061 [ tooltip="tetrahydrobiopterin"]                                      
+MOL000062 [ tooltip="5,10-methenyltetrahydrofolate"]                            
+MOL000063 [ tooltip="8-hydroxy-5-deazaflavin"]                                  
+MOL000064 [ tooltip="4'-hydroxycinnamate"]                                      
+MOL000065 [ tooltip="phycourobilin"]                                            
+MOL000066 [ tooltip="phycoerythrobilin"]                                        
+MOL000067 [ tooltip="phycocyanobilin"]                                          
+MOL000068 [ tooltip="15,16-dihydrobiliverdin"]                                  
+MOL000069 [ tooltip="phycobiliviolin"]                                          
+MOL000070 [ tooltip="phytochromobilin"]                                         
+MOL000071 [ tooltip="myristilated FMN"]                                         
+MOL000072 [ tooltip="6,7-dimethyl-8-(1-D-ribityl)lumazine"]                     
+MOL000073 [ tooltip="PQQ"]                                                      
+MOL000074 [ tooltip="PQQH2"]                                                    
+MOL000075 [ tooltip="PQQ*"]                                                     
+MOL000076 [ tooltip="dtpp-mGDP"]                                                
+MOL000077 [ tooltip="W(dtpp*)2"]                                                
+MOL000078 [ tooltip="dtpp"]                                                     
+MOL000079 [ tooltip="MoO2(OH2)(dtpp-mCDP)"]                                     
+MOL000080 [ tooltip="dtpp-mCDP"]                                                
+MOL000081 [ tooltip="Fe7MoS9 cluster"]                                          
+MOL000082 [ tooltip="homocitrate"]                                              
+MOL000083 [ tooltip="FeMoco"]                                                   
+MOL000084 [ tooltip="FeVco"]                                                    
+MOL000085 [ tooltip="methylcobalamin"]                                          
+MOL000086 [ tooltip="pseudo-coenzyme B12"]                                      
+MOL000087 [ tooltip="cobamide*"]                                                
+MOL000088 [ tooltip="spirilloxanthin"]                                          
+MOL000089 [ tooltip="menaquinone-8"]                                            
+MOL000090 [ tooltip="bacteriopheophytin a"]                                     
+MOL000091 [ tooltip="bacteriopheophytin b"]                                     
+MOL000092 [ tooltip="pheophytin*"]                                              
+MOL000093 [ tooltip="beta-carotene"]                                            
+MOL000094 [ tooltip="echinenone"]                                               
+MOL000095 [ tooltip="rhodopinal glucoside"]                                     
+MOL000096 [ tooltip="violaxanthin"]                                             
+MOL000097 [ tooltip="lutein"]                                                   
+MOL000098 [ tooltip="acyclic carotenoid*"]                                      
+MOL000099 [ tooltip="cyclic carotenoid*"]                                       
+MOL000100 [ tooltip="cyclic xanthophyll*"]                                      
+MOL000101 [ tooltip="carotenoid*"]                                              
+MOL000102 [ tooltip="acyclic xanthophyll*"]                                     
+MOL000103 [ tooltip="peridinin"]                                                
+MOL000104 [ tooltip="hydroxyspheroidene"]                                       
+MOL000105 [ tooltip="spheroidenone"]                                            
+MOL000106 [ tooltip="neoxanthin"]                                               
+MOL000107 [ tooltip="(Fe4O2S3)O cluster"]                                       
+MOL000108 [ tooltip="pyridoxal 5'-phosphate"]                                   
+MOL000109 [ tooltip="Fe"]                                                       
+MOL000110 [ tooltip="Cu"]                                                       
+MOL000111 [ tooltip="Co"]                                                       
+MOL000112 [ tooltip="Zn"]                                                       
+MOL000113 [ tooltip="Ca"]                                                       
+MOL000114 [ tooltip="Mg"]                                                       
+MOL000115 [ tooltip="Ni"]                                                       
+MOL000116 [ tooltip="Mn"]                                                       
+MOL000117 [ tooltip="Mo"]                                                       
+MOL000118 [ tooltip="W"]                                                        
+MOL000119 [ tooltip="Cd"]                                                       
+MOL000120 [ tooltip="V"]                                                        
+MOL000121 [ tooltip="thiamine diphosphate"]                                     
+MOL000122 [ tooltip="Fe4NiS5"]                                                  
+MOL000123 [ tooltip="pyridoxamine 5'-phosphate"]                                
+MOL000124 [ tooltip="Cu4(&#181;4-S)"]                                           
+MOL000125 [ tooltip="tetrahydrofolate"]                                         
+MOL000126 [ tooltip="MgW(dtpp)2"]                                               
+MOL000127 [ tooltip="dtpp*"]                                                    
+MOL000128 [ tooltip="W(dtpp-mGDP)2"]                                            
+MOL000129 [ tooltip="(Fe4O3S2)S cluster"]                                       
+MOL000130 [ tooltip="Fe2S2"]                                                    
+MOL000131 [ tooltip="Fe4S4"]                                                    
+MOL000132 [ tooltip="cuboidal Fe3S4 cluster"]                                   
+MOL000133 [ tooltip="CoM-S-S-CoB"]                                              
+MOL000134 [ tooltip="CO"]                                                       
+MOL000135 [ tooltip="CN"]                                                       
+MOL000136 [ tooltip="SO"]                                                       
+MOL000137 [ tooltip="SO3"]                                                      
+MOL000138 [ tooltip="NO"]                                                       
+MOL000139 [ tooltip="NO2"]                                                      
+MOL000140 [ tooltip="OH2"]                                                      
+MOL000141 [ tooltip="S"]                                                        
+MOL000142 [ tooltip="O"]                                                        
+MOL000143 [ tooltip="OH"]                                                       
+MOL000144 [ tooltip="biotin"]                                                   
+MOL000145 [ tooltip="O2"]                                                       
+MOL000146 [ tooltip="(O2)-"]                                                    
+MOL000147 [ tooltip="(O2)2-"]                                                   
+MOL000148 [ tooltip="OOH"]                                                      
+MOL000149 [ tooltip="biotinyl-5'-AMP"]                                          
+MOL000150 [ tooltip="biotin*"]                                                  
+MOL000151 [ tooltip="catechol*"]                                                
+MOL000152 [ tooltip="DTN"]                                                      
+MOL000153 [ tooltip="3,4-dihydroxybenzoic acid"]                                
+MOL000154 [ tooltip="3-phenyl-1,2-benzenediol"]                                 
+MOL000155 [ tooltip="4-methyl-1,2-benzenediol"]                                 
+MOL000156 [ tooltip="1,2-benzenediol"]                                          
+MOL000157 [ tooltip="3-methyl-1,2-benzenediol"]                                 
+MOL000158 [ tooltip="4-nitro-1,2-benzenediol"]                                  
+MOL000159 [ tooltip="3,4-dihydroxyphenylacetic acid"]                           
+MOL000160 [ tooltip="vanadate"]                                                 
+MOL000161 [ tooltip="lipoic acid"]                                              
+MOL000162 [ tooltip="phylloquinone"]                                            
+MOL000163 [ tooltip="pheophytin a"]                                             
+MOL000164 [ tooltip="(HPO4)2-"]                                                 
+MOL000165 [ tooltip="(H2PO4)-"]                                                 
+MOL000166 [ tooltip="(PO4)3-"]                                                  
+MOL000167 [ tooltip="3,8-bis(2-carboxyethyl)-2,7-bis(carboxymethyl)-1-methyldipyrromethane"]                                                                                                                                                    
+MOL000168 [ tooltip="Fe4S3 cluster"]                                            
+MOL000169 [ tooltip="L-dopa"]                                                   
+MOL000170 [ tooltip="haem aS"]                                                  
+MOL000171 [ tooltip="haem a*"]                                                  
+
+MOL000012 -> MOL000002                                                          
+MOL000012 -> MOL000007                                                          
+MOL000012 -> MOL000011                                                          
+MOL000025 -> MOL000021                                                          
+MOL000030 -> MOL000026                                                          
+MOL000036 -> MOL000033                                                          
+MOL000038 -> MOL000037                                                          
+MOL000046 -> MOL000044                                                          
+MOL000098 -> MOL000051                                                          
+MOL000046 -> MOL000071                                                          
+MOL000075 -> MOL000073                                                          
+MOL000127 -> MOL000080                                                          
+MOL000083 -> MOL000081                                                          
+MOL000092 -> MOL000091                                                          
+MOL000101 -> MOL000099                                                          
+MOL000098 -> MOL000104                                                          
+MOL000128 -> MOL000118                                                          
+MOL000077 -> MOL000128                                                          
+MOL000150 -> MOL000149                                                          
+MOL000151 -> MOL000159                                                          
+MOL000171 -> MOL000170                                                          
+MOL000012 -> MOL000001                                                          
+MOL000012 -> MOL000003                                                          
+MOL000012 -> MOL000005                                                          
+MOL000012 -> MOL000006                                                          
+MOL000012 -> MOL000008                                                          
+MOL000012 -> MOL000010                                                          
+MOL000025 -> MOL000013                                                          
+MOL000025 -> MOL000018                                                          
+MOL000025 -> MOL000020                                                          
+MOL000025 -> MOL000032                                                          
+MOL000025 -> MOL000171                                                          
+MOL000025 -> MOL000038                                                          
+MOL000030 -> MOL000027                                                          
+MOL000031 -> MOL000029                                                          
+MOL000036 -> MOL000034                                                          
+MOL000036 -> MOL000035                                                          
+MOL000038 -> MOL000015                                                          
+MOL000041 -> MOL000039                                                          
+MOL000041 -> MOL000042                                                          
+MOL000046 -> MOL000043                                                          
+MOL000046 -> MOL000045                                                          
+MOL000056 -> MOL000057                                                          
+MOL000056 -> MOL000058                                                          
+MOL000075 -> MOL000074                                                          
+MOL000087 -> MOL000086                                                          
+MOL000092 -> MOL000090                                                          
+MOL000098 -> MOL000048                                                          
+MOL000098 -> MOL000105                                                          
+MOL000098 -> MOL000102                                                          
+MOL000099 -> MOL000056                                                          
+MOL000099 -> MOL000093                                                          
+MOL000100 -> MOL000094                                                          
+MOL000100 -> MOL000097                                                          
+MOL000100 -> MOL000103                                                          
+MOL000101 -> MOL000098                                                          
+MOL000102 -> MOL000049                                                          
+MOL000102 -> MOL000095                                                          
+MOL000127 -> MOL000076                                                          
+MOL000127 -> MOL000077                                                          
+MOL000127 -> MOL000078                                                          
+MOL000150 -> MOL000144                                                          
+MOL000151 -> MOL000153                                                          
+MOL000151 -> MOL000157                                                          
+MOL000151 -> MOL000158                                                          
+MOL000151 -> MOL000154                                                          
+MOL000151 -> MOL000155                                                          
+MOL000171 -> MOL000016                                                          
+MOL000126 -> MOL000078                                                          
+MOL000083 -> MOL000082                                                          
+MOL000126 -> MOL000118                                                          
+MOL000077 -> MOL000126                                                          
+MOL000124 -> MOL000141                                                          
+MOL000012 -> MOL000004                                                          
+MOL000012 -> MOL000009                                                          
+MOL000025 -> MOL000017                                                          
+MOL000031 -> MOL000028                                                          
+MOL000087 -> MOL000036                                                          
+MOL000041 -> MOL000040                                                          
+MOL000102 -> MOL000050                                                          
+MOL000100 -> MOL000055                                                          
+MOL000127 -> MOL000079                                                          
+MOL000036 -> MOL000085                                                          
+MOL000100 -> MOL000096                                                          
+MOL000099 -> MOL000100                                                          
+MOL000100 -> MOL000106                                                          
+MOL000151 -> MOL000156                                                          
+MOL000092 -> MOL000163                                                          
+MOL000128 -> MOL000076                                                          
+MOL000126 -> MOL000114                                                          
+

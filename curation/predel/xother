@@ -1,0 +1,245 @@
+#! /bin/sh
+# *************************************************************
+#
+# USAGE:    xother db_name file_name
+#
+#           where db_name = { flybase, mgd, transfac }
+#                 (dbabbrev in database_list)
+#
+#           format file = {embl_acc# [embl_pid | -] primary_id secondary_id}  
+#
+# Purpose: to produce the xref to embl and load them into oracle   
+#
+# TODO:     - arkiving
+#           - password visible now
+#        
+# note:     at the moment you need to create a .ctl file for each database
+#
+#
+# $Source: /ebi/services/tools/xref/loading/RCS/xother,v $
+# $Date: 1999/09/01 16:04:38 $
+# $Author: contrino $
+#
+#
+# _____________________________________________________________
+#
+# $Log: xother,v $
+# Revision 1.8  1999/09/01 16:04:38  contrino
+# changed format for mendel.
+# could be updated (and semplified) just in case for all.
+#
+# Revision 1.7  1999/08/03 13:00:03  contrino
+# added stoesser to mail list
+#
+# Revision 1.6  1999/04/22 15:06:18  contrino
+# - change of directories
+# - new mail management
+#
+# Revision 1.5  1999/02/11 12:22:01  contrino
+# added notification for ansar if db=hla or imgt
+#
+# Revision 1.4  1999/02/09 15:11:49  contrino
+# added imgt/hla
+#
+# Revision 1.3  1998/12/21 12:20:40  contrino
+# *** empty log message ***
+#
+# Revision 1.2  1998/12/15 13:02:56  contrino
+# added mendel, mail only to peter (not dbgroup)
+#
+#
+# *************************************************************
+#
+# created:  sergio contrino 30/12/97
+#
+# modified: sc 12/1/98 
+#           -added test for parameters
+#           -added flybase           
+#           -added  mail notification   if datalib
+#           -added maize                sc 05/06/98
+#           -added imgt,                sc 14/09/98
+#           -added env vars, 
+#           -corrected maize.ctl
+#           -added mendel               sc 15/12/98      
+#
+#
+
+clear
+
+echo -n $ORACLE_SID $TWO_TASK
+
+XF=/ebi/services/data/xfiles
+XREF=/ebi/services/tools/xref/loading
+LD="$XREF/ld/"
+
+if test -z "$1"
+then echo
+  echo "usage:          xother db_name file_name"
+  echo 
+  echo where db_name = dbabbrev in database_list
+  echo and file_name is the input xref file
+  echo
+  exit
+else
+  if test -z "$2"
+  then echo 
+    echo "usage:          xother db_name file_name"
+    echo 
+    echo where db_name = dbabbrev in database_list
+    echo and file_name is the input xref file
+    echo
+    exit
+  fi
+  if test $1 = maizedb
+  then echo 
+    echo "sorry:          please use mixed case notation"
+    echo
+    exit
+  fi
+  if test $1 = imgt/ligm
+  then echo 
+    echo "sorry:          please use: imgt     as dbabbrev"
+    echo
+    exit
+  fi
+  if test $1 = imgt/hla
+  then echo 
+    echo "sorry:          please use: hla     as dbabbrev"
+    echo
+    exit
+  fi
+fi
+echo
+echo "		          XREF BUILDER AND LOADER";
+echo
+echo "-Building the file of * $1 * xref to embl for oracle7:"
+echo "Press [s] to skip to the next step, any other key to continue";
+read s;
+if test "$s" != "s"
+then	echo -n "       Working ..."
+if test $1 = mgd
+then 
+  awk '{print "E", $1, tolower($2), "Z", $3, $4}' $2 > $XF/$1.in
+elif test $1 = transfac
+then 
+  awk '{print "E", $1, tolower($2), "R", $3, $4}' $2 > $XF/$1.in
+  echo  "$1.in  done."
+elif test $1 = flybase
+then 
+  awk '{print "E", $1, tolower($2), "F", $3, $4}' $2 > $XF/$1.in
+  echo  "$1.in  done."
+elif test $1 = MaizeDB
+then 
+#  awk '{print "E", $1, tolower($2), "9", $3, $4}' $2 > $XF/$1.in
+#  awk -F "|" '{print "E", $1, "|"$2"|"}' $2 > $XF/$1.in 
+awk '{print "E", $1, tolower($2), "9", $3, $4, $5, $6}' $2 > $XF/$1.in 
+ echo  "$1.in  done."
+elif test $1 = imgt
+then 
+  awk '{print "E", $1, tolower($2), "L", $3, $4}' $2 > $XF/$1.in
+  echo  "$1.in  done."
+elif test $1 = hla
+then 
+  awk '{print "E", $1, "-", "IH", $2, $3}' $2 > $XF/$1.in
+  echo  "$1.in  done."
+elif test $1 = mendel
+then 
+  awk '{print "N", $1, $2, $3, $4, $5 }' $2 > $XF/$1.in
+  echo  "$1.in  done."
+elif test $1 = "IMGT/LIGM"
+then 
+  awk '{print "L", $1, $1, "1", $1, $1 }' $2 > $XF/imgt.in
+  echo  "$1.in  done."
+elif test $1 = RZPD
+then 
+  awk '{print "RZ", $1, $1, "1", $2, $2 }' $2 > $XF/$1.in
+  echo  "$1.in  done."
+else echo
+  echo Sorry, $1 database need to be added 
+  echo "(in this script and as control file in the loading)"
+  echo
+  exit
+fi
+echo
+fi
+echo
+echo "-Running loading scripts:" 
+echo "Press [s] to skip to the next step, any other key to continue";
+read s;
+if test "$s" != "s"
+then	cd $LD
+  echo -n "username: "
+  read u
+  echo -n "password: "
+  read p
+  echo
+  echo "Would you like a file containing the xref you are going to replace?"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then echo "Building a bake_up file.."
+    if test $1 = MaizeDB
+    then sqlplus $u/$p @do_bup_maiz.sql $1
+    elif test $1 = imgt
+    then sqlplus $u/$p @do_bup_imgt.sql $1
+    elif test $1 = hla
+    then sqlplus $u/$p @do_bup_hla.sql $1
+    else sqlplus $u/$p @do_bup.sql $1
+    fi
+  fi
+
+  echo       	
+  echo "Deleting the old xref for $1:"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+    then 
+    if test $1 = MaizeDB
+    then sqlplus -s $u/$p @del_old_maiz.sql  
+    elif test $1 = imgt
+    then sqlplus -s $u/$p @del_old_imgt.sql  
+    elif test $1 = hla
+    then sqlplus -s $u/$p @del_old_hla.sql  
+    else sqlplus -s $u/$p @del_old.sql $1
+    fi  
+  fi
+  echo
+  echo "Loading the new xref for $1:"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then	sqlload $u/$p $1.ctl ERRORS=500
+    mv $1.log $XREF/logs
+    if test $u = datalib
+    then 
+      if test "$ORACLE_SID" = "PRDB1"
+      then
+	echo 
+	echo "Press [return] to notify the update to Peter Stoehr &c"
+	read j;
+	if test -z "$j"
+	then mailx -s $1_xref_updated\!\! < $XREF/logs/$1.log  stoehr@ebi.ac.uk,redaschi@ebi.ac.uk, stoesser@ebi.ac.uk, contrino@ebi.ac.uk
+	fi 
+      fi
+    fi
+    if [ "$1" = "hla" -o "$1" = "imgt" ]
+    then 
+    if test "$ORACLE_SID" = "PRDB1"
+    then
+      echo 
+      echo "Notifying the update to Ansar."
+      mailx -s $1_xref_updated\!\! < $XREF/logs/$1.log  malik@ebi.ac.uk
+      if test -e $XREF/bad/$1.bad
+      then
+	mailx -s Bad_acc_numbers < $XREF/bad/$1.bad  malik@ebi.ac.uk
+	cp -p  $XREF/bad/$1.bad  $XREF/bad/$1.bad.sent
+      fi
+    fi
+    rm -f $XREF/bad/$1.bad
+    fi
+    echo
+  fi
+fi
+
+echo "Bye from xref procedure!!"
+echo

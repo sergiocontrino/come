@@ -1,0 +1,5 @@
+<substructure id="BIM000078">
+ <bim>{Fe(ND.His)(OD.Asp)}{Fe(ND.His)(OE.Glu)}{&#181;-(OE,OE.Glu)}2</bim>
+  &BIM000118;
+  &BIM000119;
+</substructure>

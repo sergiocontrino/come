@@ -1,0 +1,5 @@
+<term value="neprilysin" id="PRX000606" dbxref="EC:3.4.24.11">
+ <instance value="neprilysin" species="human" dbxref="PDB:1DMT" lref="PUBMED:10195285">
+  &BIM000200;
+ </instance>
+</term>

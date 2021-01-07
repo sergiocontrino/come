@@ -1,0 +1,6 @@
+<term value="magnesium-independent zinc porphobilinogen synthase" id="PRX001096">
+ <!-- contains active site Zn, no allosteric Mg -->
+ <instance value="delta-aminolevulinic acid dehydratase" species="Saccharomyces cerevisiae" dbxref="SPTR:P05373">
+  &BIM000385;
+ </instance>
+</term>

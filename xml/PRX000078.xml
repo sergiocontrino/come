@@ -1,0 +1,8 @@
+<term value="haemerythrin" id="PRX000078">
+ <instance value="hemerythrin" species="Themiste dyscrita" state="deoxy" dbxref="PDB:1HMD">
+  &BIM000070;
+ </instance>
+ <instance value="hemerythrin" species="Themiste dyscrita" state="oxy" dbxref="PDB:1HMO">
+  &BIM000071;
+ </instance>
+</term>

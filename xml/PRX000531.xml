@@ -1,0 +1,11 @@
+<term value="formate dehydrogenase H" id="PRX000531">
+ <instance value="formate dehydrogenase H" species="Escherichia coli" state="reduced" dbxref="PDB:1AA6">
+  &BIM000178;
+ </instance>
+ <instance value="formate dehydrogenase H" species="Escherichia coli" state="oxidised,NO2-bound" dbxref="PDB:1FDI">
+  &BIM000180;
+ </instance>
+ <instance value="formate dehydrogenase H" species="Escherichia coli" state="oxidised,OH-bound" dbxref="PDB:1FDO">
+  &BIM000181;
+ </instance>
+</term>

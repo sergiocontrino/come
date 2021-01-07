@@ -1,0 +1,8 @@
+<term value="xanthine dehydrogenase" id="PRX000558" dbxref="EC:1.1.1.204">
+ &MOL000078;
+ &BIM000187;
+ <instance value="xanthine dehydrogenase" species="Bos taurus" dbxref="PDB:1FO4">
+ </instance>
+ <instance value="xanthine oxidase" species="Bos taurus" dbxref="PDB:1FIQ">
+ </instance>
+</term>

@@ -1,0 +1,6 @@
+<term value="isopenicillin N epimerase" id="PRX000850">
+ <instance value="isopenicillin N epimerase" species="Streptomyces clavuligerus" dbxref="SPTR:P18549">
+ </instance>
+ <instance value="isopenicillin N epimerase" species="Nocardia lactamdurans" dbxref="SPTR:Q03046">
+ </instance>
+</term>

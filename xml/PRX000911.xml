@@ -1,0 +1,14 @@
+<term value="troponin C" id="PRX000911">
+ <instance value="troponin C" species="Oryctolagus cuniculus" centre="EF1" dbxref="PDB:1TN4">
+  &BIM000292;
+ </instance>
+ <instance value="troponin C" species="Oryctolagus cuniculus" centre="EF2" dbxref="PDB:1TN4">
+  &BIM000293;
+ </instance>
+ <instance value="troponin C" species="Oryctolagus cuniculus" centre="EF3" dbxref="PDB:1TN4">
+  &BIM000286;
+ </instance>
+ <instance value="troponin C" species="Oryctolagus cuniculus" centre="EF4" dbxref="PDB:1TN4">
+  &BIM000294;
+ </instance>
+</term>

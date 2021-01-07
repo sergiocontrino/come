@@ -1,0 +1,6 @@
+<term value="NADPH-glutamate synthase alpha subunit" id="PRX000303" dbxref="EC:1.4.1.13"> 
+ &BIM000054;
+ <instance value="NADPH-glutamate synthase alpha subunit" species="Azospirillum brasilense" dbxref="SPTR:Q05755">
+ </instance>
+ &NADPHGOGAT;
+</term>

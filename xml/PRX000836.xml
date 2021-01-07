@@ -1,0 +1,6 @@
+<term value="phosphoserine aminotransferase" id="PRX000836" dbxref="EC:2.6.1.52">
+ <instance value="phosphoserine aminotransferase" species="Escherichia coli" dbxref="SPTR:P23721">
+ </instance>
+ <instance value="phosphoserine aminotransferase" species="Arabidopsis thaliana" dbxref="SPTR:Q96255">
+ </instance>
+</term>

@@ -1,0 +1,6 @@
+<term value="leucocyanidin oxygenase" id="PRX000961" dbxref="EC:1.14.11.19">
+ &BIM000035;
+ <instance value="leucocyanidin oxygenase" species="Arabidopsis thaliana" dbxref="SPTR:Q96323" lref="PUBMED:11223521">
+ <!-- structure in Structure 10, 93-103 -->
+ </instance>
+</term>

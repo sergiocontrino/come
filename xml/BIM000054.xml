@@ -1,0 +1,7 @@
+<substructure id="BIM000054">
+ <!-- cuboidal Fe3S4 cluster -->
+ <bim>{Fe3(&#181;-S)3(&#181;3-S)}(SG.Cys)3</bim>
+ <term value="tris-L-cysteinyl triiron tetrasulfide" dbxref="RESID:AA0139">
+ </term>
+ &MOL000132;
+</substructure>

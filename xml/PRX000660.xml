@@ -1,0 +1,15 @@
+<term value="membrane-bound nitrate reductase, iron-sulphur subunit" id="PRX000660">
+ <instance value="respiratory nitrate reductase 1 beta chain" species="Escherichia coli" centre="FeS-1" dbxref="SPTR:P11349">
+ &BIM000008;
+ </instance>
+ <instance value="respiratory nitrate reductase 1 beta chain" species="Escherichia coli" centre="FeS-2" dbxref="SPTR:P11349">
+ &BIM000054;
+ </instance>
+ <instance value="respiratory nitrate reductase 1 beta chain" species="Escherichia coli" centre="FeS-3" dbxref="SPTR:P11349">
+ &BIM000008;
+ </instance>
+ <instance value="respiratory nitrate reductase 1 beta chain" species="Escherichia coli" centre="FeS-4" dbxref="SPTR:P11349">
+ &BIM000008;
+ </instance>
+ &MEMBNR;
+</term>

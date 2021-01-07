@@ -1,0 +1,6 @@
+<term value="bacterial haem catalase-peroxidase" id="PRX000335" dbxref="InterPro:IPR000763">
+ <instance value="catalase-peroxidase" species="Haloarcula marismortui" dbxref="PDB:1ITK">
+ </instance>
+ <instance value="peroxidase/catalase T" species="Mycobacterium tuberculosis" dbxref="SPTR:Q08129">
+ </instance>
+</term>

@@ -1,0 +1,10 @@
+<term value="Mo-nitrogenase MoFe protein" id="PRX000096">
+ &BIM000057;
+ <instance value="Mo-nitrogenase MoFe protein" species="Azotobacter vinelandii" centre="P-cluster" state="reduced" dbxref="PDB:3MIN">
+  &BIM000066;
+ </instance>
+ <instance value="Mo-nitrogenase MoFe protein" species="Azotobacter vinelandii" centre="P-cluster" state="oxidised" dbxref="PDB:2MIN">
+  &BIM000067;
+ </instance>
+ &MOFEN2ASE;
+</term>

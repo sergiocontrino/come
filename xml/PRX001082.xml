@@ -1,0 +1,6 @@
+<term value="mitochondrial alternative oxidase" id="PRX001082" dbxref="InterPro:IPR002680">
+ <instance value="alternative oxidase 1a" species="Arabidopsis thaliana" dbxref="SPTR:Q39219">
+ </instance>
+ <instance value="alternative oxidase" species="Trypanosoma brucei brucei" dbxref="SPTR:Q26710">
+ </instance>
+</term>

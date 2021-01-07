@@ -1,0 +1,5 @@
+<term value="photosystem I iron-sulphur protein PsaC" id="PRX000087">
+ <instance value="photosystem I iron-sulfur center" species="Synechococcus elongatus" dbxref="SPTR:P18083">
+ </instance>
+ &PSIRC;
+</term>

@@ -1,0 +1,10 @@
+<term value="NAD alcohol dehydrogenase" id="PRX000279">
+ <instance value="alcohol:NDMA oxidoreductase" species="Amycolatopsis methanolica" lref="PUBMED:8385013">
+ </instance>
+ <instance value="alcohol:NDMA oxidoreductase" species="Methanosarcina barkeri" lref="PUBMED:9342243">
+ </instance>
+ <instance value="nicotinoprotein alcohol dehydrogenase" species="Rhodococcus erythropolis" lref="PUBMED:10784035">
+ </instance>
+ <instance value="carveol dehydrogenase" species="Rhodococcus erythropolis" lref="PUBMED:10473585">
+ </instance>
+</term>

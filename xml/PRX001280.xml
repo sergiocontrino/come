@@ -1,0 +1,5 @@
+<term value="cadmium-induced protein YodA" id="PRX001280">
+ <instance value="YodA" species="Escherichia coli"  state="Ni-bound" dbxref="PDB:1OEJ" lref="PUBMED:12909634">
+  &BIM000470;
+ </instance>
+</term>

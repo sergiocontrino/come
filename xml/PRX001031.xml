@@ -1,0 +1,9 @@
+<term value="branched-chain 2-oxo-acid dehydrogenase catalytic subunit" id="PRX001031">
+ <instance value="2-oxoisovalerate dehydrogenase alpha subunit" species="Pseudomonas putida" dbxref="SPTR:P09060">
+  &BIM000330;
+ </instance>
+ <instance value="mitochondrial 2-oxoisovalerate dehydrogenase alpha subunit" species="human" dbxref="SPTR:P12694">
+  &BIM000331;
+ </instance>
+ &BKDA;
+</term>

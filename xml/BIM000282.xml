@@ -1,0 +1,8 @@
+<substructure id="BIM000282">
+ <bim>CRO</bim>
+ <!-- originates from cyclization and dehydration of internal Ser-Tyr-Gly -->
+ <term value="4-(p-hydroxybenzylidine)-imidazolidin-5-one" lref="PUBMED:9434902">
+ </term>
+ <term value="[2-(1-amino-2-hydroxy-propyl)-4-(4-hydroxy-benzylidine)-5-oxo-4,5-dihydro-imidazol-1-yl]-acetaldehyde" dbxref="PDBHET:CRO">
+ </term>
+</substructure>

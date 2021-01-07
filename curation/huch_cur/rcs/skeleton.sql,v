@@ -1,0 +1,43 @@
+head	1.1;
+access;
+symbols;
+locks
+	pkersey:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2003.12.12.09.19.59;	author pkersey;	state Exp;
+branches;
+next	;
+
+
+desc
+@fixing for PROT use.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@--  SET DOC OFF
+--  *************************************************************
+--
+--  Purpose:    
+--
+--  Usage:      sqlplus username/password @@skeleton.sql
+--
+--
+--  $Source$
+--  $Date$
+--  $Author$
+--
+--  _____________________________________________________________
+--
+--  $Log$
+--
+--  *************************************************************
+
+@

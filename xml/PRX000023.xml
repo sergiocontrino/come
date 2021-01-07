@@ -1,0 +1,9 @@
+<term value="non-cytochrome purple bacteria-type photosynthetic reaction centre" id="PRX000023">
+ <instance value="photosynthetic reaction centre" species="Rhodobacter sphaeroides" dbxref="PDB:1PCR">
+ &MOL000001;
+ &MOL000090;
+ &MOL000050;
+ &MOL000054;
+ </instance>
+</term>
+

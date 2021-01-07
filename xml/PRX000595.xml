@@ -1,0 +1,7 @@
+<term value="carbon monoxide oxidase, flavoprotein subunit" id="PRX000595">
+ <instance value="carbon monoxide dehydrogenase medium chain" species="Hydrogenophaga pseudoflava" dbxref="SPTR:P19914">
+ </instance>
+ <instance value="carbon monoxide dehydrogenase medium chain" species="Oligotropha carboxidovorans" dbxref="SPTR:Q51323">
+ </instance>
+ &COOX;
+</term>

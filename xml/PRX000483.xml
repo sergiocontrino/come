@@ -1,0 +1,7 @@
+<term value="serralysin" id="PRX000483" dbxref="EC:3.4.24.40">
+ &BIM000166;
+ <instance value="serralysin" species="Serratia marcescens" dbxref="SPTR:P23694">
+ </instance>
+ <instance value="alkaline metalloproteinase" species="Pseudomonas aeruginosa" dbxref="SPTR:Q03023">
+ </instance>
+</term>

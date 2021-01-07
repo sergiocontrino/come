@@ -1,0 +1,6 @@
+<substructure value="coenzyme M" id="MOL000060">
+ <term value="1-thioethanesulfonic acid" dbxref="PDBHET:COM">
+ </term>
+ <term value="2-mercaptoethanesulfonate" dbxref="COMPOUND:C03576">
+ </term>
+</substructure>

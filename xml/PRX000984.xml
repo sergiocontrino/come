@@ -1,0 +1,18 @@
+<term value="periplasmic dimethyl sulphoxide reductase" id="PRX000984">
+ <instance value="dimethyl sulfoxide reductase" species="Rhodobacter capsulatus" state="(Mo)6+,dioxo" dbxref="PDB:1DMR">
+  &BIM000182;
+ </instance>
+ <instance value="dimethyl sulfoxide reductase" species="Rhodobacter capsulatus" state="(Mo)6+,dioxo" dbxref="PDB:3DMR">
+  &BIM000182;
+ </instance>
+ <instance value="dimethyl sulfoxide reductase" species="Rhodobacter capsulatus" state="dithionite-reduced,(Mo)4+,oxo" dbxref="PDB:2DMR">
+  &BIM000183;
+ </instance>
+ <instance value="dimethyl sulfoxide reductase" species="Rhodobacter capsulatus" state="(Mo)4+,dioxo" dbxref="PDB:1DMS">
+  &BIM000184;
+ </instance>
+ <instance value="dimethyl sulfoxide reductase" species="Rhodobacter sphaeroides" state="(Mo)6+,oxo" dbxref="PDB:1EU1">
+  &BIM000183;
+  &BIM000184;
+ </instance>
+</term>

@@ -1,0 +1,5 @@
+<term value="mitochondrial aa3-type cytochrome c oxidase" id="PRX000753">
+<!-- contains up to 13 subunits --> 
+ <instance value="mitochondrial cytochrome c oxidase" species="Bos taurus" dbxref="PDB:1OCC">
+ </instance>
+</term>

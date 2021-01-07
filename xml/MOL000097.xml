@@ -1,0 +1,6 @@
+<substructure value="lutein" id="MOL000097">
+ <term value="(3R,3'R,6S)-4,5-didehydro-5,6-dihydro-beta,beta-carotene-3,3'-diol" dbxref="PDBHET:LUT">
+ </term>
+ <term value="lutein" dbxref="COMPOUND:C08601">
+ </term>
+</substructure>

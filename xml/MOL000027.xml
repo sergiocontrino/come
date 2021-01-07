@@ -1,0 +1,6 @@
+<substructure value="NADH" id="MOL000027">
+ <term value="nicotinamide-adenine-dinucleotide" dbxref="PDBHET:NAD">
+ </term>
+ <term value="NADH" dbxref="COMPOUND:C00004">
+ </term>
+</substructure>

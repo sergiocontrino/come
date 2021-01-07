@@ -1,0 +1,6 @@
+<substructure value="CO" id="MOL000134">
+ <term value="carbon monoxide" dbxref="COMPOUND:C00237">
+ </term>
+ <term value="carbon monoxide" dbxref="PDBHET:CMO">
+ </term>
+</substructure>

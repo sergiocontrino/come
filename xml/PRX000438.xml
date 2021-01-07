@@ -1,0 +1,8 @@
+<term value="allophycocyanin" id="PRX000438">
+ &MOL000067;
+ &BIM000148;
+ <instance value="allophycocyanin" species="Spirulina platensis" dbxref="PDB:1ALL">
+ </instance>
+ <instance value="allophycocyanin" species="Mastigocladus laminosus" dbxref="PDB:1B33">
+ </instance>
+</term>

@@ -1,0 +1,9 @@
+<term value="neelaredoxin" id="PRX000044">
+ <instance value="superoxide reductase" species="Pyrococcus furiosus" state="(Fe)2+" dbxref="PDB:1DQK">
+  &BIM000040;
+ </instance>
+ <instance value="superoxide reductase" species="Pyrococcus furiosus" state="(Fe)3+" dbxref="PDB:1DQI">
+  &BIM000040;
+  &BIM000041;
+ </instance>
+</term>

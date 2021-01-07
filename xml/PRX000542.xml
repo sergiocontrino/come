@@ -1,0 +1,6 @@
+<term value="alcohol oxidase" id="PRX000542" dbxref="EC:1.1.3.13">
+ <instance value="alcohol oxidase" species="Pichia angusta" dbxref="SPTR:P04841">
+ </instance>
+ <instance value="alcohol oxidase" species="Candida boidinii" dbxref="SPTR:Q00922">
+ </instance>
+</term>

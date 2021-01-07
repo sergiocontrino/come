@@ -1,0 +1,7 @@
+<term value="Cu-S-Mo carbon monoxide oxidase catalytic subunit" id="PRX001083">
+ &MOL000080;
+ <instance value="carbon monoxide dehydrogenase large chain" species="Oligotropha carboxidovorans" dbxref="SPTR:Q51325">
+  &BIM000360;
+ </instance>
+ &CUSMOCOOX;
+</term>

@@ -1,0 +1,5 @@
+<term value="glycine decarboxylase H-protein" id="PRX001137" dbxref="InterPro:IPR002930">
+ <instance value="glycine cleavage system H protein, mitochondrial" species="Pisum sativum" dbxref="SPTR:P16048">
+ </instance>
+ &GLYCLEAVAGE;
+</term>

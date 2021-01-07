@@ -1,0 +1,15 @@
+<substructure id="BIM000053">
+ <bim>Fe(ND.His|NE.His)2(OD.Asp|OE.Glu)*</bim>
+ &BIM000029;
+ &BIM000030;
+ &BIM000031;
+ &BIM000032;
+ &BIM000033;
+ &BIM000034;
+ &BIM000035;
+ &BIM000036;
+ &BIM000127;
+ &BIM000128;
+ &BIM000129;
+ &BIM000390;
+</substructure>

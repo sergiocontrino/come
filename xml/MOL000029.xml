@@ -1,0 +1,6 @@
+<substructure value="NADP+" id="MOL000029">
+ <term value="NADP" dbxref="PDBHET:NAP">
+ </term>
+ <term value="NADP+" dbxref="COMPOUND:C00006">
+ </term>
+</substructure>

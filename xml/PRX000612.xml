@@ -1,0 +1,6 @@
+<term value="oxygen-dependent protoporphyrinogen oxidase" id="PRX000612" dbxref="EC:1.3.3.4">
+ <instance value="protoporphyrinogen oxidase" species="Bacillus subtilis" dbxref="SPTR:P32397">
+ </instance>
+ <instance value="protoporphyrinogen oxidase II" species="Nicotiana tabacum" dbxref="SPTR:O24164">
+ </instance>
+</term>

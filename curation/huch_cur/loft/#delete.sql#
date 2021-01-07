@@ -1,0 +1,57 @@
+--  SET DOC OFF
+--  *************************************************************
+--
+--  Package: human chromosome
+--
+--  Purpose:  deleting from table cromoloc    
+--
+--  Usage:      sqlplus username/password gene-to-be-deleted 
+--     
+--  note:   it will delete also from cromosptr (delete cascade)
+--
+--
+--  $Source: /homes/contrino/huch/curation/RCS/delete.sql,v $
+--  $Date: 2001/07/13 15:13:16 $
+--  $Author: contrino $
+--
+--  _____________________________________________________________
+--
+--  $Log: delete.sql,v $
+--  Revision 1.2  2001/07/13 15:13:16  contrino
+--  *** empty log message ***
+--
+--  Revision 1.1  2000/09/26 10:13:56  contrino
+--  Initial revision
+--
+--
+--  *************************************************************
+
+set verify off
+
+declare
+counte number(6);
+
+begin
+select gid into p_gid from proteomes.cromoloc where upper(gene) = upper('&1');
+
+update proteomes.cromosptr
+set acc=upper('&new_acc')
+where gid=p_gid
+and acc = upper('&2')
+;
+end;
+/
+
+
+
+delete from proteomes.cromoloc
+where gene='&1'
+;
+
+set feedback off
+prompt
+prompt use    commit    to save the changes
+prompt or   rollback    to discard them
+prompt NB       exit    will commit before exiting
+prompt
+set feedback on

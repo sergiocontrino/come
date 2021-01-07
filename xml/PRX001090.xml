@@ -1,0 +1,6 @@
+<term value="dimethylargininase" id="PRX001090" dbxref="EC:3.5.3.18">
+ <!-- contains tightly bound Zn atom; activated upon Zn release -->
+ &BIM000384;
+ <instance value="NG,NG-dimethylarginine dimethylaminohydrolase 1" species="Bos taurus" dbxref="SPTR:P56965">
+ </instance>
+</term>

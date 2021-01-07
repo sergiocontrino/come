@@ -1,0 +1,14 @@
+<term value="oxygen binding cytochrome c" id="PRX000592">
+ <instance value="oxygen binding cytochrome c" species="Rhodobacter sphaeroides" state="(Fe)3+" dbxref="PDB:1DW0">
+  &BIM000197;
+ </instance>
+ <instance value="oxygen binding cytochrome c" species="Rhodobacter sphaeroides" state="(Fe)3+,CN-bound" dbxref="PDB:1DW1">
+  &BIM000198;
+ </instance>
+ <instance value="oxygen binding cytochrome c" species="Rhodobacter sphaeroides" state="(Fe)2+,NO-bound" dbxref="PDB:1DW2">
+  &BIM000018;
+ </instance>
+ <instance value="oxygen binding cytochrome c" species="Rhodobacter sphaeroides" state="(Fe)2+" dbxref="PDB:1DW3">
+  &BIM000007;
+ </instance>
+</term>

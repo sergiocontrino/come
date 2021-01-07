@@ -1,0 +1,6 @@
+<substructure value="FAD" id="MOL000039">
+ <term value="flavin-adenine dinucleotide" dbxref="PDBHET:FAD">
+ </term>
+ <term value="FAD" dbxref="COMPOUND:C00016">
+ </term>
+</substructure>

@@ -1,0 +1,5 @@
+<term value="photosystem II subunit D2" id="PRX001326" dbxref="InterPro:IPR005868">
+ <instance value="photosystem II reaction center D2 protein" species="Synechococcus elongatus" dbxref="SPTR:Q8CM25">
+ </instance>
+ &PSIID1D2;
+</term>

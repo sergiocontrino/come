@@ -1,0 +1,12 @@
+<term value="tungsten formate dehydrogenase iron-sulphur subunit" id="PRX001059">
+ <instance value="tungsten formate dehydrogenase small subunit" species="Desulfovibrio gigas" centre="FeS-1" lref="PUBMED:12220497">
+  &BIM000008;
+ </instance>
+ <instance value="tungsten formate dehydrogenase small subunit" species="Desulfovibrio gigas" centre="FeS-2" lref="PUBMED:12220497">
+  &BIM000008;
+ </instance>
+ <instance value="tungsten formate dehydrogenase small subunit" species="Desulfovibrio gigas" centre="FeS-3" lref="PUBMED:12220497">
+  &BIM000008;
+ </instance>
+ &WFDH;
+</term>

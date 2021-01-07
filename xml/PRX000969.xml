@@ -1,0 +1,5 @@
+<term value="membrane-bound Ni-Fe hydrogenase cytochrome b subunit" id="PRX000969" dbxref="InterPro:IPR000516">
+ <instance value="quinone-reactive Ni-Fe hydrogenase cytochrome b subunit" species="Wolinella succinogenes" dbxref="SPTR:P31875">
+ </instance>
+ &HYD;
+</term>

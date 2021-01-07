@@ -1,0 +1,8 @@
+<substructure value="L-dopa" id="MOL000169">
+ <term value="levodopa" dbxref="CAS:59-92-7">
+ </term>
+ <term value="3,4-dihydroxy-L-phenylalanine" dbxref="COMPOUND:C00355">
+ </term>
+ <term value="3,4-dihydroxyphenylalanine" dbxref="PDBHET:DAH">
+ </term>
+</substructure>

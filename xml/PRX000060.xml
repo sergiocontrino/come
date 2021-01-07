@@ -1,0 +1,9 @@
+<term value="adrenodoxin-type ferredoxin" id="PRX000060" dbxref="InterPro:IPR001055">
+ &BIM000055;
+ <instance value="adrenodoxin 1" species="Bos taurus" dbxref="SPTR:P00257">
+ </instance>
+ <instance value="putidaredoxin" species="Pseudomonas putida" dbxref="SPTR:P00259">
+ </instance>
+ <instance value="terpredoxin" species="Pseudomonas sp." dbxref="SPTR:P33007">
+ </instance>
+</term>

@@ -1,0 +1,12 @@
+<term value="ring-hydroxylating dioxygenase NADH:ferredoxin reductase component" id="PRX000374">
+ <instance value="benzene 1,2-dioxygenase NADH:ferredoxin reductase component" species="Pseudomonas putida" dbxref="SPTR:Q07946">
+ </instance>
+ <instance value="toluene 1,2-dioxygenase NADH:ferredoxin reductase component" species="Pseudomonas putida" dbxref="SPTR:P13452">
+ </instance>
+ <instance value="biphenyl dioxygenase NADH:ferredoxin reductase component" species="Burkholderia cepacia" dbxref="SPTR:P37337">
+ </instance>
+ <instance value="cumene dioxygenase NADH:ferredoxin reductase component" species="Pseudomonas fluorescens" dbxref="SPTR:Q51747">
+ </instance>
+ <instance value="3-phenylpropionate dioxygenase NADH:ferredoxin reductase component" species="Escherichia coli" dbxref="SPTR:P77650">
+ </instance>
+</term>

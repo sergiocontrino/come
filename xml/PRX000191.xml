@@ -1,0 +1,9 @@
+<term value="copper nitrite reductase" id="PRX000191" dbxref="InterPro:IPR001287">
+ &BIM000085;
+ <instance value="copper nitrite reductase" species="Alcaligenes faecalis" state="oxidised" dbxref="PDB:2AFN">
+  &BIM000322;
+ </instance>
+ <instance value="copper nitrite reductase" species="Alcaligenes xylosoxidans"  state="reduced" lref="PUBMED:10222206">
+  &BIM000090;
+ </instance>
+</term>

@@ -1,0 +1,6 @@
+<term value="membrane-bound quinohaemoprotein alcohol dehydrogenase, trihaem cytochrome c subunit" id="PRX000920">
+ <!-- contains three haem c groups -->
+ <instance value="alcohol dehydrogenase cytochrome c subunit" species="Gluconobacter suboxydans" dbxref="SPTR:Q47945">
+ </instance>
+ &QHADHII;
+</term>

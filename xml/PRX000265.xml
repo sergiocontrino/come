@@ -1,0 +1,9 @@
+<term value="dihaem cytochrome c peroxidase" id="PRX000265">
+ &BIM000012;
+ <instance value="cytochrome c551 peroxidase" species="Pseudomonas aeruginosa" centre="high-potential haem" dbxref="SPTR:P14532">
+  &BIM000014;
+ </instance>
+ <instance value="cytochrome c551 peroxidase" species="Pseudomonas aeruginosa" centre="low-potential haem" dbxref="SPTR:P14532">
+  &BIM000012;
+ </instance>
+</term>

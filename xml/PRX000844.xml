@@ -1,0 +1,6 @@
+<term value="polyphosphorylase" id="PRX000844" dbxref="EC:2.4.1.1">
+ <instance value="glycogen phosphorylase" species="Oryctolagus cuniculus" dbxref="SPTR:P00489">
+ </instance>
+ <instance value="maltodextrin phosphorylase" species="Escherichia coli" dbxref="SPTR:P00490">
+ </instance>
+</term>

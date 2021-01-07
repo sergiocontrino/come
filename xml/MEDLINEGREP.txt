@@ -1,0 +1,161 @@
+BIM000094.xml:<substructure id="BIM000094" lref="MEDLINE:20160509">
+BIM000109.xml:<substructure id="BIM000109" lref="MEDLINE:21350620">
+BIM000112.xml:<substructure id="BIM000112" lref="MEDLINE:93385183">
+BIM000139.xml: <term value="N6-retinylidene-L-lysine" lref="MEDLINE:83131561">
+BIM000243.xml: <term value="heme l" lref="MEDLINE:98447642">
+BIM000245.xml: <term value="heme m" lref="MEDLINE:96216431">
+BIM000248.xml: <term value="heme EPO" lref="MEDLINE:99287891">
+BIM000281.xml: <term value="3,5-dihydro-5-methylidene-4H-imidazol-4-one" lref="MEDLINE:21462607">
+BIM000282.xml: <term value="4-(p-hydroxybenzylidine)-imidazolidin-5-one" dbxref="MEDLINE:98096531">
+BIM000313.xml: <term value="4'-(L-cysteine)-L-tryptophyl quinone" lref="MEDLINE:21592952">
+BIM000314.xml: <term value="heme CYP4A" lref="MEDLINE:21935389">
+BIM000318.xml: <term value="Cys2[FeS2FeS2Fe]Cys2" lref="MEDLINE:21477032">
+BIM000351.xml:<substructure id="BIM000351" lref="MEDLINE:22117614">
+MOL000018.xml: <term value="haem d1" lref="MEDLINE:95145137">
+MOL000021.xml: <term value="heme d" lref="MEDLINE:96224102">
+MOL000032.xml: <term value="iron-coproporphyrin III" lref="MEDLINE:20487144">
+MOL000037.xml: <term value="siroamide" lref="MEDLINE:95226415">
+MOL000055.xml: <term value="astaxanthin" lref="MEDLINE:97344150">
+MOL000078.xml: <term value="ene-dithiol pyranopterin" dbxref="MEDLINE:99078718">
+MOL000086.xml: <term value="5'-deoxy-5'-adenosyl-adeninylcobamide" lref="MEDLINE:98416697">
+MOL000094.xml: <term value="echinenone" lref="MEDLINE:20087518">
+MOL000152.xml: <term value="di-(thiomethyl)-amine" lref="MEDLINE:21350808">
+PRX000012.xml:<term value="nicotinoprotein" id="PRX000012" lref="MEDLINE:97212829">
+PRX000067.xml: <instance value="SudA protein" species="Pyrococcus furiosus" lref="MEDLINE:20421834"> 
+PRX000101.xml: <instance value="acetylene hydratase" species="Pelobacter acetylenicus" lref="MEDLINE:99376856">
+PRX000112.xml: <instance value="NADPH-sulfite reductase flavoprotein" species="Escherichia coli" lref="MEDLINE:20328609" dbxref="SPTR:P38038">
+PRX000117.xml: <instance value="dissimilatory sulphite reductase" species="Archaeoglobus fulgidus" dbxref="MEDLINE:94014979">
+PRX000134.xml: <instance value="homogentisate dioxygenase" species="human" dbxref="PDB:1EY2" lref="MEDLINE:20336891">
+PRX000180.xml: <instance value="nitrous oxide reductase" species="Pseudomonas nautica" dbxref="PDB:1QNI" lref="MEDLINE:20165175">
+PRX000185.xml: <instance value="nitric oxide reductase" species="Paracoccus denitrificans" lref="MEDLINE:97182219">
+PRX000185.xml: <instance value="nitric oxide reductase" species="Pseudomonas stutzeri" lref="MEDLINE:98191362">
+PRX000191.xml: <instance value="copper nitrite reductase" species="Alcaligenes xylosoxidans"  state="reduced" lref="MEDLINE:99241051">
+PRX000213.xml: <instance value="particulate methane monooxygenase" species="Methylomicrobium album" lref="MEDLINE:99196775">
+PRX000227.xml: <instance value="hemocyanin" species="Haliotis tuberculata" lref="MEDLINE:20221434">
+PRX000227.xml: <instance value="hemocyanin" species="Sepia officinalis" lref="MEDLINE:20135981">
+PRX000237.xml: <instance value="cystathionine beta-synthase" species="human" dbxref="SPTR:P35520" lref="MEDLINE:21376038">
+PRX000245.xml: <instance value="cytochrome c''" species="Methylophilus methylotrophus" state="Fe3+" dbxref="PDB:1E8E" lref="MEDLINE:21226872">
+PRX000245.xml: <instance value="cytochrome c''" species="Methylophilus methylotrophus" state="Fe2+" dbxref="SPTR:Q9RQB9" lref="MEDLINE:97460056">
+PRX000246.xml: <instance value="split-Soret cytochrome c" centre="iron-sulphur" species="Desulfovibrio desulfuricans" lref="MEDLINE:22477046">
+PRX000255.xml: <instance value="cytochrome c554" species="Achromobacter cycloclastes" lref="MEDLINE:90249377">
+PRX000279.xml: <instance value="alcohol:NDMA oxidoreductase" species="Amycolatopsis methanolica" lref="MEDLINE:93215662">
+PRX000279.xml: <instance value="alcohol:NDMA oxidoreductase" species="Methanosarcina barkeri" lref="MEDLINE:98000290">
+PRX000279.xml: <instance value="nicotinoprotein alcohol dehydrogenase" species="Rhodococcus erythropolis" lref="MEDLINE:20244621">
+PRX000279.xml: <instance value="carveol dehydrogenase" species="Rhodococcus erythropolis" lref="MEDLINE:99403074">
+PRX000280.xml:<term value="urocanate hydratase" id="PRX000280" dbxref="EC:4.2.1.49" lref="MEDLINE:95031059">
+PRX000284.xml: <instance value="methanol:NDMA oxidoreductase" species="Amycolatopsis methanolica" lref="MEDLINE:93194807">
+PRX000291.xml: <instance value="lysine 2,3-aminomutase" species="Clostridium subterminale" dbxref="SPTR:Q9XBQ8" lref="MEDLINE:20573559">
+PRX000292.xml: <instance value="pyrogallol hydroxyltransferase" species="Pelobacter acidigallici" lref="MEDLINE:21665487">
+PRX000295.xml: <instance value="SudB protein" species="Pyrococcus furiosus" lref="MEDLINE:20421834">
+PRX000300.xml: <instance value="iron hydrogenase" species="Desulfovibrio desulfuricans" centre="H-cluster" state="reduced" lref="MEDLINE:21350808">
+PRX000302.xml: <instance value="ferredoxin-dependent glutamate synthase" species="Synechocystis sp. PCC 6803" lref="MEDLINE:20358975" dbxref="SPTR:P55038">
+PRX000310.xml: <instance value="ferredoxin" species="Pyrococcus furiosus" dbxref="SPTR:P29603" lref="MEDLINE:96009622">
+PRX000393.xml: <instance value="methyl-coenzyme M reductase alpha subunit" species="Methanosarcina barkeri" centre="F430" state="Ni+" dbxref="SPTR:P07962" lref="MEDLINE:22347456">
+PRX000405.xml: <instance value="carbon monoxide dehydrogenase alpha subunit" species="Moorella thermoacetica" centre="A-cluster" state="Cu+,Ni2+" lref="MEDLINE:22274754" dbxref="SPTR:P27988">
+PRX000405.xml: <instance value="carbon monoxide dehydrogenase alpha subunit" species="Moorella thermoacetica" centre="A-cluster" state="Ni0,Ni2+" lref="MEDLINE:22547251" dbxref="SPTR:P27988">
+PRX000405.xml: <instance value="carbon monoxide dehydrogenase alpha subunit" species="Moorella thermoacetica" centre="A-cluster" state="Zn2+,Ni2+" lref="MEDLINE:22547251" dbxref="SPTR:P27988">
+PRX000439.xml: <instance value="phycoerythrocyanin" species="Mastigocladus laminosus" lref="MEDLINE:90172426">
+PRX000446.xml: <instance value="B875 light-harvesting complex" species="Rubrivivax gelatinosus" centre="carotenoid" lref="MEDLINE:95010783">
+PRX000446.xml: <instance value="B875 light-harvesting complex" species="Rhodobacter sphaeroides" centre="carotenoid" lref="MEDLINE:96427317">
+PRX000476.xml: <instance value="methanol dehydrogenase" species="Methylobacterium extorquens" lref="MEDLINE:95253818">
+PRX000500.xml: <instance value="snapalysin" species="Streptomyces caespitosus" dbxref="SPTR:P56406" lref="MEDLINE:21018692">
+PRX000505.xml: <instance value="TNF-alpha converting enzyme" species="human" dbxref="SPTR:P78536" lref="MEDLINE:98188216">
+PRX000508.xml: <instance value="sonic hedgehog" species="Mus musculus" dbxref="SPTR:Q62226" lref="MEDLINE:96069744">
+PRX000509.xml: <instance value="D-Ala-D-Ala dipeptidase" species="Enterococcus faecalis" dbxref="SPTR:Q47749" lref="MEDLINE:98367549">
+PRX000548.xml: <instance value="polysulphide reductase" species="Wolinella succinogenes" lref="MEDLINE:95331298">
+PRX000554.xml: <instance value="thiosulfate reductase" species="Salmonella typhimurium" lref="MEDLINE:95270599">
+PRX000569.xml: <instance value="Mn catalase" species="Thermus thermophilus" lref="MEDLINE:99343939">
+PRX000569.xml: <instance value="Mn catalase" species="Lactobacillus plantarum" lref="MEDLINE:99343939">
+PRX000601.xml:<term value="aspzincin" id="PRX000601" lref="MEDLINE:99377057">
+PRX000606.xml: <instance value="neprilysin" species="human" dbxref="PDB:1DMT" lref="MEDLINE:99209660">
+PRX000619.xml: <instance value="heterotetrameric sarcosine oxidase" species="Corynebacterium sp." lref="MEDLINE:95355441">
+PRX000627.xml: <instance value="class II ribonucleotide reductase" species="Lactobacillus leichmannii" dbxref="SPTR:Q59490" lref="MEDLINE:21912423">
+PRX000665.xml: <instance value="cadmium carbonic anhydrase" species="Thalassiosira weissflogii" lref="MEDLINE:20243746">
+PRX000666.xml: <instance value="leukotriene A4 hydrolase" species="human" dbxref="SPTR:P09960" lref="MEDLINE:21109792">
+PRX000708.xml: <instance value="CO sensor protein cooA" species="Rhodospirillum rubrum" state="Fe2+, CO bound" lref="MEDLINE:21192181">
+PRX000732.xml: <instance value="tungsten formate dehydrogenase" species="Desulfovibrio gigas" lref="MEDLINE:22210218">
+PRX000759.xml: <instance value="cyanoglobin" species="Synechocystis sp." dbxref="SPTR:P73925" lref="MEDLINE:20363708">
+PRX000777.xml: <instance value="aromatic amine dehydrogenase beta subunit" species="Alcaligenes faecalis" lref="MEDLINE:94245619">
+PRX000778.xml: <instance value="aromatic amine dehydrogenase" species="Alcaligenes faecalis" lref="MEDLINE:94245619">
+PRX000784.xml: <instance value="photosynthetic reaction centre" species="Rhodovulum sulfidophilum" lref="MEDLINE:99214147">
+PRX000794.xml: <instance value="sulfite:cytochrome c oxidoreductase" species="Thiobacillus novellus" lref="MEDLINE:20250865">
+PRX000798.xml: <instance value="manganese lipoxygenase" species="Gaeumannomyces graminis" lref="MEDLINE:20317076">
+PRX000821.xml:<term value="iron-sulphur L-serine dehydratase" id="PRX000821" lref="MEDLINE:94054640">
+PRX000892.xml: <instance value="polyheme membrane-associated cytochrome c" species="Geobacter sulfurreducens" dbxref="SPTR:Q93M26" lref="MEDLINE:21448127">
+PRX000912.xml: <instance value="succinate dehydrogenase" species="Escherichia coli" dbxref="MEDLINE:97248512">
+PRX000918.xml: <instance value="membrane-bound quinocytochrome alcohol dehydrogenase" species="Gluconobacter suboxydans" lref="MEDLINE:20003154">
+PRX000921.xml: <instance value="inositol-3-phosphate synthase" species="Archaeoglobus fulgidus" dbxref="SPTR:O28480" lref="MEDLINE:20471938">
+PRX000928.xml: <instance value="quinoprotein formaldehyde dehydrogenase" species="Methylococcus capsulatus" lref="MEDLINE:21555099">
+PRX000930.xml:<term value="indoleamine 2,3-dioxygenase-like myoglobin" id="PRX000930" lref="MEDLINE:99138235">
+PRX000943.xml: <instance value="quinohemoprotein amine dehydrogenase alpha subunit" species="Paracoccus denitrificans" lref="MEDLINE:21592952">
+PRX000944.xml: <instance value="quinohemoprotein amine dehydrogenase gamma subunit" species="Paracoccus denitrificans" lref="MEDLINE:21592952">
+PRX000946.xml:<term value="S-adenosylmethionine-dependent iron-sulphur enzyme" id="PRX000946" lref="MEDLINE:21213378">
+PRX000954.xml: <instance value="2-hydroxyglutaryl-CoA dehydratase component D" species="Acidaminococcus fermentans" lref="MEDLINE:20558245">
+PRX000957.xml:<term value="P450 4A protein" id="PRX000957" lref="MEDLINE:21179192">
+PRX000960.xml: <instance value="cytosine deaminase" species="Escherichia coli" dbxref="SPTR:P25524" lref="MEDLINE:21671492">
+PRX000961.xml: <instance value="leucocyanidin oxygenase" species="Arabidopsis thaliana" dbxref="SPTR:Q96323" lref="MEDLINE:21127682">
+PRX000962.xml: <instance value="L-aspartate oxidase" species="Escherichia coli" dbxref="SPTR:P10902" lref="MEDLINE:21852622">
+PRX000964.xml: <!-- The second Fe3S4 cluster is thought to be a result of oxidative degradation of original Fe4S4 cluster; see MEDLINE:20400469 -->
+PRX000970.xml: <instance value="quinone-reactive Ni-Fe hydrogenase" species="Wolinella succinogenes" lref="MEDLINE:92267032">
+PRX000983.xml: <instance value="anaerobic dimethyl sulfoxide reductase" species="Escherichia coli" lref="MEDLINE:21283016">
+PRX000987.xml: <instance value="hydrogenase-linked carbon monoxide dehydrogenase" species="Rhodospirillum rubrum" lref="MEDLINE:92355502">
+PRX000989.xml: <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="B-cluster" dbxref="PDB:1JJY" lref="MEDLINE:21401117">
+PRX000989.xml: <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="C-cluster" dbxref="PDB:1JJY" lref="MEDLINE:21401117">
+PRX000989.xml: <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="B'-cluster" dbxref="PDB:1JJY" lref="MEDLINE:21401117">
+PRX000989.xml: <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="C'-cluster" dbxref="PDB:1JJY" lref="MEDLINE:21401117">
+PRX000989.xml: <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="D-cluster" dbxref="PDB:1JJY" lref="MEDLINE:21401117">
+PRX000994.xml: <instance value="&#181;-calpain" species="Rattus norvegicus" lref="MEDLINE:97107433">
+PRX001001.xml: <instance value="iron-responsive element binding protein" species="human" dbxref="SPTR:P21399" lref="MEDLINE:21477032">
+PRX001003.xml: <instance value="heme-based aerotactic transducer hemAT" species="Bacillus subtilis" dbxref="SPTR:O07621" lref="MEDLINE:21950695">
+PRX001003.xml: <instance value="heme-based aerotactic transducer hemAT" species="Halobacterium salinarum" dbxref="SPTR:P71413" lref="MEDLINE:20140131">
+PRX001010.xml: <instance value="periplasmic nitrate reductase" species="Pseudomonas isachenkovii" lref="MEDLINE:99098364">
+PRX001013.xml: <instance value="heterodisulfide reductase" species="Methanothermobacter marburgensis" lref="MEDLINE:21841137">
+PRX001015.xml: <instance value="heterodisulfide reductase" species="Methanosarcina barkeri" lref="MEDLINE:97217447">
+PRX001016.xml: <instance value="peptide deformylase" species="Leptospira interrogans" dbxref="SPTR:Q93LE9" lref="MEDLINE:21972083">
+PRX001019.xml: <instance value="corrinoid/iron-sulfur protein" species="Moorella thermoacetica" lref="MEDLINE:93194857">
+PRX001020.xml: <instance value="CREB-binding protein" species="human" dbxref="SPTR:Q92793" lref="MEDLINE:22010492">
+PRX001040.xml: <instance value="phenol hydroxylase oxygenase" species="Pseudomonas sp." lref="MEDLINE:22174334">
+PRX001041.xml: <instance value="phenol hydroxylase" species="Pseudomonas sp." lref="MEDLINE:22174334">
+PRX001043.xml: <instance value="nitrophorin" species="Cimex lectularius" dbxref="SPTR:O76745" lref="MEDLINE:99007203">
+PRX001047.xml:<term value="haemoprotein PAS-domain oxygen sensor" id="PRX001047" lref="MEDLINE:21180240">
+PRX001058.xml: <instance value="tryptophan 5-monooxygenase" species="human" state="dihydrobiopterin bound" dbxref="PDB:1MLW" lref="MEDLINE:22266835">
+PRX001059.xml: <instance value="tungsten formate dehydrogenase small subunit" species="Desulfovibrio gigas" centre="FeS-1" lref="MEDLINE:22210218">
+PRX001059.xml: <instance value="tungsten formate dehydrogenase small subunit" species="Desulfovibrio gigas" centre="FeS-2" lref="MEDLINE:22210218">
+PRX001059.xml: <instance value="tungsten formate dehydrogenase small subunit" species="Desulfovibrio gigas" centre="FeS-3" lref="MEDLINE:22210218">
+PRX001064.xml: <instance value="tungsten-containing formylmethanofuran dehydrogenase" species="Methanobacterium thermoautotrophicum" lref="MEDLINE:96163477">
+PRX001065.xml: <instance value="molybdenum-containing formylmethanofuran dehydrogenase" species="Methanosarcina barkeri" lref="MEDLINE:96184912">
+PRX001074.xml: <instance value="SoxAX protein" species="Rhodovulum sulfidophilum" state="oxidised" dbxref="PDB:1H31" lref="MEDLINE:22299913">
+PRX001074.xml: <instance value="SoxAX protein" species="Rhodovulum sulfidophilum" state="reduced" dbxref="PDB:1H32" lref="MEDLINE:22299913">
+PRX001074.xml: <instance value="SoxAX protein" species="Rhodovulum sulfidophilum" state="oxidised" dbxref="PDB:1H33" lref="MEDLINE:22299913">
+PRX001077.xml: <instance value="NADH dehydrogenase" species="Acidianus ambivalens" lref="MEDLINE:22304899">
+PRX001088.xml: <instance value="NikD protein" species="Streptomyces tendae" dbxref="SPTR:Q9X9P9" lref="MEDLINE:22389434">
+PRX001100.xml:<term value="sodium-translocating decarboxylase" id="PRX001100" lref="MEDLINE:21145115">
+PRX001101.xml: <instance value="methylmalonyl-CoA decarboxylase" species="Veillonella parvula" lref="MEDLINE:94043308">
+PRX001106.xml: <instance value="glutaconyl-CoA decarboxylase" species="Acidaminococcus fermentans" lref="MEDLINE:99157555">
+PRX001108.xml: <instance value="oxaloacetate decarboxylase" species="Salmonella typhimurium" lref="MEDLINE:93054591">
+PRX001117.xml:  <instance value="pyruvate carboxylase" species="Methanococcus jannaschii" lref="MEDLINE:21034791">
+PRX001141.xml:<term value="octahedral symmetry pyruvate dehydrogenase multienzyme complex" id="PRX001141" lref="MEDLINE:98322103">
+PRX001141.xml: <instance value="pyruvate dehydrogenase complex" species="Escherichia coli" lref="MEDLINE:90233638">
+PRX001142.xml:<term value="2-oxoglutarate dehydrogenase multienzyme complex" id="PRX001142" dbxref="GO:0045240" lref="MEDLINE:20136161">
+PRX001142.xml: <instance value="2-oxoglutarate dehydrogenase complex" species="Escherichia coli" lref="MEDLINE:87109194">
+PRX001145.xml: <instance value="pyruvate dehydrogenase" species="human" lref="MEDLINE:95276474">
+PRX001152.xml:<term value="pyruvate dehydrogenase multienzyme complex" id="PRX001152" dbxref="GO:0045254" lref="MEDLINE:98322104">
+PRX001153.xml: <instance value="pyruvate dehydrogenase complex" species="Bacillus stearothermophilus" lref="MEDLINE:20050629">
+PRX001154.xml: <instance value="acetoin dehydrogenase enzyme system" species="Clostridium magnum" lref="MEDLINE:94266715">
+PRX001156.xml: <instance value="E1 component of acetoin dehydrogenase enzyme system" species="Clostridium magnum" dbxref="MEDLINE:94099600">
+PRX001159.xml:<term value="A-type flavoprotein" id="PRX001159" lref="MEDLINE:98321624">
+PRX001163.xml: <instance value="nitrilotriacetate monooxygenase" species="Chelatobacter heintzii" lref="MEDLINE:92138609">
+PRX001168.xml: <instance value="cytochrome b6" species="Chlamydomonas reinhardtii" lref="MEDLINE:99098902">
+PRX001169.xml: <instance value="cytochrome b6" species="Synechocystis sp." lref="MEDLINE:21311367">
+PRX001170.xml: <instance value="bacterioferritin" species="Escherichia coli" state="Fe2+,Fe2+" lref="MEDLINE:20233736">
+PRX001170.xml: <instance value="bacterioferritin" species="Escherichia coli" state="Fe3+,Fe3+" lref="MEDLINE:96103172">
+PRX001172.xml: <instance value="citrate lyase" species="Klebsiella pneumoniae" lref="MEDLINE:95131756">
+PRX001175.xml: <instance value="citramalate lyase" species="Clostridium tetanomorphum" lref="MEDLINE:69032702">
+PRX001177.xml: <instance value="malonate decarboxylase" species="Acinetobacter calcoaceticus" lref="MEDLINE:21060078">
+PRX001177.xml: <instance value="malonate decarboxylase" species="Malonomonas rubra" lref="MEDLINE:97274645">
+PRX001178.xml: <instance value="acyl carrier protein" species="Malonomonas rubra" dbxref="SPTR:O06925" lref="MEDLINE:96267059">
+PRX001184.xml: <instance value="chlorate reductase" species="Pseudomonas chloritidismutans" lref="MEDLINE:22615873">
+PRX001185.xml: <instance value="(per)chlorate reductase" species="GR-1" lref="MEDLINE:20011337">
+PRX001188.xml:<term value="S-ribosylhomocysteinase" id="PRX001188" lref="MEDLINE:22648578">
+PRX001189.xml: <instance value="iron-sulfur flavoprotein sulfide dehydrogenase" species="Pyrococcus furiosus" lref="MEDLINE:20421834">
+PRX001193.xml: <instance value="alkane 1-monooxygenase" species="Pseudomonas oleovorans" dbxref="SPTR:P12691" lref="MEDLINE:22689052">

@@ -1,0 +1,8 @@
+<substructure value="CN" id="MOL000135">
+ <term value="cyanide" dbxref="COMPOUND:C00177">
+ </term>
+ <term value="cyanide group" dbxref="PDBHET:CN">
+ </term>
+ <term value="cyanide ion" dbxref="PDBHET:CYN">
+ </term>
+</substructure>

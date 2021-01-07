@@ -1,0 +1,6 @@
+<substructure value="Co" id="MOL000111">
+ <term value="cobalt" dbxref="COMPOUND:C00175">
+ </term>
+ <term value="cobalt(II) ion" dbxref="PDBHET:CO">
+ </term>
+</substructure>

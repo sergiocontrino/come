@@ -1,0 +1,5 @@
+<term value="citrate (pro-3S)-lyase acyl carrier protein" id="PRX001173" dbxref="InterPro:IPR006495">
+ <instance value="citrate lyase acyl carrier protein" species="Klebsiella pneumoniae" dbxref="SPTR:P02903">
+ </instance>
+ &CIT;
+</term>

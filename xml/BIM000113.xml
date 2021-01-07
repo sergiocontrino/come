@@ -1,0 +1,10 @@
+<substructure id="BIM000113">
+ <bim>{Cu(NE.His)3}2*</bim>
+  &BIM000101;
+  &BIM000102;
+  &BIM000107;
+  &BIM000490;
+<!-- in several type 3 copper proteins, a covalent thioether bond 
+SG.Cys-CE.His, where His is one of the copper ligands, is formed;
+see RESID:AA0109 -->
+</substructure>

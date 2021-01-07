@@ -1,0 +1,6 @@
+<term value="ZntA protein metal-binding domain" id="PRX001293">
+ <instance value="ZntA, N-terminal domain" species="Escherichia coli" state="Zn-bound" dbxref="PDB:1MWZ" lref="PUBMED:12417201">
+  &BIM000497;
+ </instance>
+ &ZNTA;
+</term>

@@ -1,0 +1,6 @@
+<substructure value="NAD+" id="MOL000026">
+ <term value="nicotinamide-adenine-dinucleotide" dbxref="PDBHET:NAD">
+ </term>
+ <term value="NAD+" dbxref="COMPOUND:C00003">
+ </term>
+</substructure>

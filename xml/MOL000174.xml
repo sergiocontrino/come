@@ -1,0 +1,6 @@
+<substructure value="AMP" id="MOL000174">
+ <term value="adenosine 5'-monophosphate" dbxref="COMPOUND:C00020">
+ </term>
+ <term value="adenosine monophosphate" dbxref="PDBHET:AMP">
+ </term>
+</substructure>

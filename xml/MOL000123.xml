@@ -1,0 +1,6 @@
+<substructure value="pyridoxamine 5'-phosphate" id="MOL000123">
+ <term value="pyridoxamine phosphate" dbxref="COMPOUND:C00647">
+ </term>
+ <term value="pyridoxamine-5'-phosphate" dbxref="PDBHET:PMP">
+ </term>
+</substructure>

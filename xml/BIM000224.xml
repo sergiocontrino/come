@@ -1,0 +1,6 @@
+<substructure id="BIM000224">
+ <!-- includes ZnCys2His2 and ZnCys4 centres bridged by Cys -->
+ <bim>{Zn(ND.His)2(SG.Cys)}{Zn(SG.Cys)3}{&#181;-(SG.Cys)}</bim>
+ &BIM000223;
+ &BIM000133;
+</substructure>

@@ -1,0 +1,8 @@
+<substructure id="BIM000057">
+ <bim>{(Fe4S3)(SG.Cys)}[(MoFe3S3)(ND.His){k2-(O5,O7.homocitrate)}](&#181;6-N)(&#181;-S)3</bim>
+ &BIM000258;
+ &BIM000259;
+ &MOL000083;
+ <term value="L-cysteinyl-L-histidino-homocitryl molybdenum heptairon nitride nonasulfide" dbxref="RESID:AA0141">
+ </term>
+</substructure>

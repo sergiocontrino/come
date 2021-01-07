@@ -1,0 +1,8 @@
+<substructure id="BIM000392">
+ <!-- H-cluster, 2Fe subcluster in Desulfovibrio desulfuricans iron hydrogenase -->
+ <!-- a thiolate-bridging ligand was modelled as di-(thiomethyl)-amine -->
+ <bim>{Fe(SG.Cys)(CN)(CO)2}{Fe(CN)(CO)}{&#181;-(S,S.DTN)}</bim>
+ &MOL000134;
+ &MOL000135;
+ &MOL000152;
+</substructure>

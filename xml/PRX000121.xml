@@ -1,0 +1,8 @@
+<term value="cytochrome b5" id="PRX000121">
+ <instance value="cytochrome b5" state="A" species="Rattus norvegicus" dbxref="PDB:1B5A">
+ </instance>
+ <instance value="cytochrome b5" state="B" species="Rattus norvegicus" dbxref="PDB:1B5B">
+ </instance>
+ <instance value="cytochrome b558" species="Ectothiorhodospira vacuolata" dbxref="PDB:1CXY">
+ </instance>
+</term>

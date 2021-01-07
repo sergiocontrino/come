@@ -1,0 +1,5 @@
+<term value="pyruvate decarboxylase" id="PRX001023" dbxref="EC:4.1.1.1">
+ &BIM000324;
+ <instance value="pyruvate decarboxylase isozyme 1" species="Saccharomyces cerevisiae" dbxref="SPTR:P06169">
+ </instance>
+</term>

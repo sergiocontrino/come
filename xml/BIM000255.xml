@@ -1,0 +1,6 @@
+<substructure id="BIM000255">
+ <bim>phytochromobilin(SG.Cys)</bim>
+ &BIM000252;
+ <term value="S-phytochromobilin-L-cysteine" dbxref="RESID:AA0133">
+ </term>
+</substructure>

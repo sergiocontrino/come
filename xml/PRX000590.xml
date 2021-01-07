@@ -1,0 +1,6 @@
+<term value="p-cresol methylhydroxylase flavoprotein subunit" id="PRX000590">
+ &BIM000196;
+ <instance value="4-cresol dehydrogenase [hydroxylating] flavoprotein subunit" species="Pseudomonas putida" dbxref="SPTR:P09788">
+ </instance>
+ &PCMH;
+</term>

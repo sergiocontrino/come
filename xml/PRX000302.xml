@@ -1,0 +1,5 @@
+<term value="ferredoxin-dependent glutamate synthase" id="PRX000302" dbxref="EC:1.4.7.1"> 
+ &BIM000054;
+ <instance value="ferredoxin-dependent glutamate synthase" species="Synechocystis sp. PCC 6803" lref="PUBMED:10898944" dbxref="SPTR:P55038">
+ </instance>
+</term>

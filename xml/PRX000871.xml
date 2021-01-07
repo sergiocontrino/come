@@ -1,0 +1,5 @@
+<term value="phospholipase A2" id="PRX000871" dbxref="InterPro:IPR001211">
+ <instance value="phospholipase A2" species="Bos taurus" dbxref="SPTR:P00593">
+  &BIM000280;
+ </instance>
+</term>

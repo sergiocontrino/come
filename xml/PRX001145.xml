@@ -1,0 +1,5 @@
+<term value="pyruvate dehydrogenase (lipoamide), alpha2:beta2 heterotetramer" id="PRX001145">
+ <instance value="pyruvate dehydrogenase" species="human" lref="PUBMED:7756842">
+ </instance>
+ &PDH60;
+</term>

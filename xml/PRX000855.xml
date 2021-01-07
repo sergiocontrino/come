@@ -1,0 +1,6 @@
+<term value="threonine aldolase" id="PRX000855" dbxref="EC:4.1.2.5">
+ <instance value="threonine aldolase" species="Candida albicans" dbxref="SPTR:O13427">
+ </instance>
+ <instance value="threonine aldolase" species="Thermotoga maritima" dbxref="PDB:1JG8">
+ </instance>
+</term>

@@ -1,0 +1,5 @@
+<term value="myeloperoxidase" id="PRX000338" dbxref="GO:0016687">
+ &BIM000245;
+ <instance value="myeloperoxidase" species="human" dbxref="SPTR:P05164">
+ </instance>
+</term>

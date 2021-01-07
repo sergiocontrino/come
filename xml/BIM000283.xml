@@ -1,0 +1,6 @@
+<substructure id="BIM000283">
+ <bim>CRQ</bim>
+ <!-- originates from cyclization and dehydration of internal Gln-Tyr-Gly -->
+ <term value="[2-(3-carbamoyl-1-imino-propyl)-4-(4-hydroxy-benzylidene)-5-oxo-4,5-dihydro-imidazol-1-yl]-acetic acid" dbxref="PDBHET:CRQ">
+ </term>
+</substructure>

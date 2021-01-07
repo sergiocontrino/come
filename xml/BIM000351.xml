@@ -1,0 +1,5 @@
+<substructure id="BIM000351" lref="PUBMED:12121092">
+ <bim>Fe{(por)(NE.His)}</bim>
+ <term value="1'-heme-L-histidine" dbxref="RESID:AA0329">
+ </term>
+</substructure>

@@ -1,0 +1,6 @@
+<substructure value="Fe-coproporphyrin III" id="MOL000032">
+ <term value="1,3,5,8-tetramethyl-porphine-2,4,6,7-tetrapropionic acid ferrous complex" dbxref="PDBHET:FEC">
+ </term>
+ <term value="iron-coproporphyrin III" lref="PUBMED:11034331">
+ </term>
+</substructure>

@@ -1,0 +1,6 @@
+<term value="P450/NADPH:P450 reductase fusion protein" id="PRX000238">
+ <instance value="CYP102A1" species="Bacillus megaterium" dbxref="SPTR:P14779">
+ </instance>
+ <instance value="CYP505" species="Fusarium oxysporum" dbxref="SPTR:Q9Y8G7">
+ </instance>
+</term>

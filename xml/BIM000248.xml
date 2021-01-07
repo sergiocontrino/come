@@ -1,0 +1,7 @@
+<substructure id="BIM000248">
+ <bim>Fe{(C2-1.por)(OE.Glu)}</bim>
+  &BIM000467;
+ <term value="heme EPO" lref="PUBMED:10358043">
+ </term>
+ <!-- this is major form of haem in eosinophil peroxidase -->
+</substructure>

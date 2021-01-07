@@ -1,0 +1,8 @@
+<term value="haem b bacterioferritin" id="PRX001170">
+ <instance value="bacterioferritin" species="Escherichia coli" state="(Fe)2+:(Fe)2+" lref="PUBMED:10769150">
+  &BIM000074;
+ </instance> 
+ <instance value="bacterioferritin" species="Escherichia coli" state="(Fe)3+:(Fe)3+" lref="PUBMED:8526846">
+  &BIM000075;
+ </instance>
+</term>

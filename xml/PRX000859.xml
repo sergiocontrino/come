@@ -1,0 +1,5 @@
+<term value="glycine decarboxylase" id="PRX000859" dbxref="InterPro:IPR003437">
+ <instance value="glycine dehydrogenase [decarboxylating], mitochondrial" species="Pisum sativum" dbxref="SPTR:P26969">
+ </instance>
+ &GLYCLEAVAGE;
+</term>

@@ -1,0 +1,9 @@
+<term value="formate dehydrogenase N, cytochrome b subunit" id="PRX000967">
+ <instance value="formate dehydrogenase, nitrate-inducible, cytochrome b556 (FDN) subunit" species="Escherichia coli" centre="haem bC" dbxref="SPTR:P24185">
+  &BIM000012;
+ </instance>
+ <instance value="formate dehydrogenase, nitrate-inducible, cytochrome b556 (FDN) subunit" species="Escherichia coli" centre="haem bP" dbxref="SPTR:P24185">
+  &BIM000012;
+ </instance>
+ &FDN;
+</term>

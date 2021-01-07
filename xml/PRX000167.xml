@@ -1,0 +1,13 @@
+<term value="ba3-type cytochrome c oxidase" id="PRX000167" dbxref="GO:0009482">
+ <instance value="ba3-type cytochrome c oxidase" species="Thermus thermophilus" centre="haem b" dbxref="PDB:1EHK">
+  &MOL000013;
+  &BIM000012;
+ </instance>
+ <instance value="ba3-type cytochrome c oxidase" species="Thermus thermophilus" centre="haem aS3-CuB" dbxref="PDB:1EHK">
+  &MOL000170;
+  &BIM000415;
+ </instance>
+ <instance value="ba3-type cytochrome c oxidase" species="Thermus thermophilus" centre="CuA" dbxref="PDB:1EHK">
+  &BIM000103;
+ </instance>
+</term>

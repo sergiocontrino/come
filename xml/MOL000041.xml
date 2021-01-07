@@ -1,0 +1,7 @@
+<substructure value="FAD*" id="MOL000041">
+ <term value="flavin adenine dinucleotide">
+ </term>
+ &MOL000039;
+ &MOL000040;
+ &MOL000042;
+</substructure>

@@ -1,0 +1,6 @@
+<substructure id="BIM000393">
+ <!-- H-cluster in Desulfovibrio desulfuricans iron hydrogenase -->
+ <bim>{(Fe4S4)(SG.Cys)3}[{Fe2(CN)2(CO)3}{&#181;-(S,S.DTN)}]{&#181;-(SG.Cys)}</bim>
+ &BIM000008;
+ &BIM000392;
+</substructure>

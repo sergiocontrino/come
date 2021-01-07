@@ -1,0 +1,5 @@
+<substructure id="BIM000404">
+ <bim>[2'-(5''-phosphoribosyl)-3'-dephospho-CoA](OG.Ser)</bim>
+ <term value="O-(phosphoribosyl dephospho-coenzyme A)-L-serine" dbxref="RESID:AA0167">
+ </term>
+</substructure>

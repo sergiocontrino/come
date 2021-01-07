@@ -1,0 +1,6 @@
+<term value="tetrahaem class IV cytochrome c" id="PRX000783">
+<!-- contains three Fe(por)(NE.His)(SD.Met) and one Fe(por)(NE.His)2 haems -->
+ <instance value="photosynthetic reaction center cytochrome c subunit" species="Rhodopseudomonas viridis" dbxref="SPTR:P07173">
+ </instance>
+ &PRCPBLHMC;
+</term>

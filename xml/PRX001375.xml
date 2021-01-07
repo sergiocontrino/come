@@ -1,0 +1,5 @@
+<term value="class alpha carbonic anhydrase" id="PRX001375" dbxref="InterPro:IPR001148">
+ &BIM000162;
+ <instance value="carbonic anhydrase II" species="human" dbxref="SPTR:P00918">
+ </instance>
+</term>

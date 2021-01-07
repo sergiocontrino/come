@@ -1,0 +1,85 @@
+#! /bin/sh
+#
+#  *************************************************************
+#
+#  Purpose:    
+#
+#  Usage:      
+#
+#
+#  $Source$
+#  $Date$
+#  $Author$
+#
+#  _____________________________________________________________
+#
+#  $Log$
+#
+#  *************************************************************
+
+clear
+
+if test -z "$1"
+then echo
+  echo "usage: add entry_type"
+  echo 
+echo "where entry_type = { p, b, m, i }"
+  echo 
+  echo "e.g. > add p"
+  echo
+  exit
+fi
+
+echo $ORACLE_SID $TWO_TASK
+echo
+
+if test "$1" = "p"
+    then	
+if test -z "$u"
+then	
+  echo -n "username: "
+  read u
+  echo -n "password: "
+  read p
+  echo
+fi
+      sqlplus -s $u/$p @addP
+    elif test "$1" = "m"
+    then 
+if test -z "$u"
+then	
+  echo -n "username: "
+  read u
+  echo -n "password: "
+  read p
+  echo
+fi
+      sqlplus -s $u/$p @addM
+    elif test "$1" = "b"
+    then 
+if test -z "$u"
+then	
+  echo -n "username: "
+  read u
+  echo -n "password: "
+  read p
+  echo
+fi
+      sqlplus -s $u/$p @addB
+    elif test "$1" = "i"
+    then 
+echo "sorry, instance not working yet..."
+     # sqlplus -s $u/$p @addI
+    else
+      echo "You have entered an illegal code. Only {p,b,m,i} are allowed." 
+exit;
+    fi
+
+#  echo       	
+#  echo "Do you want to add relationships?:"
+#  echo "Press [s] to skip to the next step, any other key to continue";
+#  read s;
+#  if test "$s" != "s"
+#    then 
+#sqlplus  $u/$p  
+#    fi  

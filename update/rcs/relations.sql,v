@@ -1,0 +1,225 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2003.11.28.11.52.48;	author contrino;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.11.26.16.45.03;	author contrino;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.08.24.09.39.18;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.08.09.14.52.17;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@added BB: isKindOf when | in name
+removed isKindOf*
+@
+text
+@-- relationships -- 1578 (but 1596 rel..?) 1633/1654 (some duplications (BP))
+
+insert into relations (id, parent, type)
+(-- for prx-molbim
+select a.id, b.id, 
+--a.old_id, b.old_id,
+substr(a.old_id,1,1)||substr(b.old_id,1,1)
+from entry a, entry b, rel c
+where b.old_id = c.parent
+and a.old_id = c.child
+--)
+union
+--(
+-- prx-prx
+select a.id, b.id, 
+--a.old_id, b.old_id, 
+'isKindOf'
+from entry a, entry b, rel c, equivalence d
+where b.old_id = c.parent
+and c.child = d.code
+and a.old_id = d.kid
+)
+;
+
+--328
+update relations
+set type = 'isPartOf' 
+where type = 'BP'
+;
+
+--1
+update relations
+set type = 'isPartOf' 
+where type = 'MB'
+;
+
+--90
+update relations
+set type = 'isBoundTo' 
+where type = 'MP'
+;
+
+
+-- new!!
+update relations
+set type = 'isKindOf' 
+where type = 'BB'
+and parent in (select id from entry where name like '%|%')
+;
+
+--4 93
+update relations
+set type = 'isKindOf' 
+where type = 'BB'
+and parent in (select id from entry where name like '%*')
+;
+
+
+--165 76
+update relations
+set type = 'isPartOf' 
+where type = 'BB'
+;
+
+--6  62
+update relations
+set type = 'isKindOf' 
+where type = 'MM'
+and parent in (select id from entry where name like '%*')
+;
+
+--58  2
+update relations
+set type = 'isPartOf' 
+where type = 'MM'
+;
+
+--981
+update relations
+set ptoc = 'includes' 
+where type = 'isKindOf'
+;
+
+-- 155
+-- update relations
+-- set ptoc = 'includes*' 
+-- where type = 'isKindOf*'
+-- ;
+
+--407
+update relations
+set ptoc = 'contains' 
+where type = 'isPartOf'
+;
+
+--90
+update relations
+set ptoc = 'binds' 
+where type = 'isBoundTo'
+;
+
+
+/* see path.sql now
+-- first filling for path (ln=0 and ln=1)
+
+--len=0  --1178
+insert into path (id, child, len)
+select distinct id , id , 0 from relations;
+
+
+--len=1  --1633
+insert into path (id, child, len)
+select distinct parent, id , 1 from relations;
+*/@
+
+
+1.3
+log
+@commented out path related
+@
+text
+@d43 8
+d53 1
+a53 1
+set type = 'isKindOf*' 
+d67 1
+a67 1
+set type = 'isKindOf*' 
+d84 5
+a88 5
+--155
+update relations
+set ptoc = 'includes*' 
+where type = 'isKindOf*'
+;
+@
+
+
+1.2
+log
+@corrected kindof* (must use parent)
+@
+text
+@d95 1
+d99 1
+a99 1
+insert into path (id, child, pathlength)
+d104 1
+a104 1
+insert into path (id, child, pathlength)
+d106 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+-- relationships -- 1578 (but 1596 rel..?) 1633/1654
+d43 1
+a43 1
+--4
+d47 1
+a47 1
+and id in (select id from entry where name like '%*')
+d51 1
+a51 1
+--165
+d57 1
+a57 1
+--6
+d61 1
+a61 1
+and id in (select id from entry where name like '%*')
+d64 1
+a64 1
+--58
+d70 1
+a70 1
+
+d76 1
+d82 1
+d86 6
+@

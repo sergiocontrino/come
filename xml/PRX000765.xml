@@ -1,0 +1,10 @@
+<term value="NADH:ubiquinone oxidoreductase 75 kDa Fe2S2/Fe4S4 subunit" id="PRX000765">
+ &BIM000055;
+ <instance value="NADH dehydrogenase I chain G" species="Escherichia coli" dbxref="SPTR:P33602">
+ </instance>
+ <instance value="NADH:ubiquinone oxidoreductase 75 kDa subunit" species="Bos taurus" dbxref="SPTR:P15690">
+ </instance>
+ <instance value="NADH:ubiquinone oxidoreductase 78 kDa subunit" species="Neurospora crassa" dbxref="SPTR:P24918">
+ </instance>
+ &NUO;
+</term>

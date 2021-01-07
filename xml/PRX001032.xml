@@ -1,0 +1,7 @@
+<term value="branched-chain 2-oxo-acid dehydrogenase, alpha2:beta2 heterotetramer" id="PRX001032" dbxref="EC:1.2.4.4"> 
+ <instance value="2-oxoisovalerate dehydrogenase" species="Pseudomonas putida" dbxref="PDB:1QS0">
+ </instance>
+ <instance value="mitochondrial 2-oxoisovalerate dehydrogenase" species="human" dbxref="PDB:1DTW">
+ </instance>
+ &BCDH;
+</term>

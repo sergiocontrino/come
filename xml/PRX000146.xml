@@ -1,0 +1,8 @@
+<term value="catechol 1,2-dioxygenase" id="PRX000146" dbxref="EC:1.13.11.1">
+ <instance value="catechol 1,2-dioxygenase" species="Acinetobacter calcoaceticus" state="substrate-free" dbxref="PDB:1DLM">
+  &BIM000042;
+ </instance>
+ <instance value="catechol 1,2-dioxygenase" species="Acinetobacter calcoaceticus" state="catechol-bound" dbxref="PDB:1DLT">
+  &BIM000043;
+ </instance>
+</term>

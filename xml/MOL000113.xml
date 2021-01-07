@@ -1,0 +1,6 @@
+<substructure value="Ca" id="MOL000113">
+ <term value="calcium" dbxref="COMPOUND:C00076">
+ </term>
+ <term value="calcium ion" dbxref="PDBHET:CA">
+ </term>
+</substructure>

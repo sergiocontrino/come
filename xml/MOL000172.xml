@@ -1,0 +1,6 @@
+<substructure value="SAM" id="MOL000172">
+ <term value="S-adenosyl-L-methionine" dbxref="COMPOUND:C00019">
+ </term>
+ <term value="S-adenosylmethionine" dbxref="PDBHET:SAM">
+ </term>
+</substructure>

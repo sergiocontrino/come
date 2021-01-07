@@ -1,0 +1,18 @@
+<term value="assimilatory carbon monoxide dehydrogenase" id="PRX000989">
+ <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="B-cluster" dbxref="PDB:1JJY" lref="PUBMED:11509720">
+  &BIM000008;
+ </instance>
+ <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="C-cluster" dbxref="PDB:1JJY" lref="PUBMED:11509720">
+  &BIM000272;
+ </instance>
+ <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="B'-cluster" dbxref="PDB:1JJY" lref="PUBMED:11509720">
+  &BIM000008;
+ </instance>
+ <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="C'-cluster" dbxref="PDB:1JJY" lref="PUBMED:11509720">
+  &BIM000272;
+ </instance>
+ <instance value="carbon monoxide dehydrogenase II" species="Carboxydothermus hydrogenoformans" centre="D-cluster" dbxref="PDB:1JJY" lref="PUBMED:11509720">
+ <!-- D-cluster is bound at the dimer interface -->
+  &BIM000008;
+ </instance>
+</term>

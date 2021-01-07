@@ -1,0 +1,9 @@
+<term value="fumarate reductase/succinate dehydrogenase quinoprotein" id="PRX000353">
+ <instance value="fumarate reductase 15 kDa hydrophobic protein" species="Escherichia coli" dbxref="SPTR:P03805">
+ &MOL000047;
+ </instance>
+ <instance value="fumarate reductase 13 kDa hydrophobic protein" species="Escherichia coli" dbxref="SPTR:P03806">
+ &MOL000047;
+ </instance>
+  &MFRD;
+</term>

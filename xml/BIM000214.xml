@@ -1,0 +1,7 @@
+<substructure id="BIM000214">
+ <!-- H-cluster in Clostridium pasteurianum iron hydrogenase -->
+ <!-- (X) is a thiolate-bridging ligand of unknown nature -->
+ <bim>{(Fe4S4)(SG.Cys)3}[Fe2{S2(X)}(CN)2(CO)3]{&#181;-(SG.Cys)}</bim>
+ &BIM000008;
+ &BIM000215;
+</substructure>

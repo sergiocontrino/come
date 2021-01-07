@@ -1,0 +1,6 @@
+@add_fake 'Chin. J. Neurosci.'
+@add_fake 'J. Cell. Mol. Immunol.'
+@add_fake 'Mol. Biol. Cell 9 Suppl.'
+@add_fake 'Nature 387 Suppl.'
+@add_fake 'Vaccine 3 Suppl.'
+@add_fake 'Zool. Sci. Suppl.'

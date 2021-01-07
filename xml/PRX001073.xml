@@ -1,0 +1,6 @@
+<term value="SoxAX protein, SoxX subunit" id="PRX001073">
+ <instance value="cytochrome c" species="Rhodovulum sulfidophilum" centre="haem c" dbxref="SPTR:Q939U4">
+ &BIM000014;
+</instance>
+ &SOXAX;
+</term>

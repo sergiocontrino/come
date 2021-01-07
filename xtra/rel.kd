@@ -1,0 +1,5 @@
+Child -> Parent || Parent -> Child || Inherits              || applies to (C->P)
+
+KindOf ; ISA    || includes        || every feature	    || p-p		
+KindOf*         || includes*       || at least one feature  || b-b m-m	
+PartOf          || consists of     || nothing 	            || b-b m-m (m-b)

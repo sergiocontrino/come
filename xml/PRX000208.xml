@@ -1,0 +1,9 @@
+<term value="ascorbate oxidase" id="PRX000208" dbxref="EC:1.10.3.3">
+
+ <instance value="ascorbate oxidase" species="zucchini" centre="type 1 copper" dbxref="PDB:1AOZ">
+  &BIM000085;
+ </instance>
+ <instance value="ascorbate oxidase" species="zucchini" centre="trinuclear copper" dbxref="PDB:1AOZ">
+  &BIM000366;
+ </instance>
+</term>

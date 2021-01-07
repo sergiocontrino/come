@@ -1,0 +1,10 @@
+<substructure value="NO" id="MOL000138">
+ <term value="nitric oxide" dbxref="CAS:10102-43-9">
+ </term>
+ <term value="nitric oxide" dbxref="COMPOUND:C00533">
+ </term>
+ <term value="nitrogen monoxide" dbxref="PDBHET:NMO">
+ </term>
+ <term value="nitrogen oxide" dbxref="PDBHET:NO">
+ </term>
+</substructure>

@@ -1,0 +1,33 @@
+<term value="NADPH:sulphite reductase haemoprotein" id="PRX000113">
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)2+,sirohaem-(Fe)3+,(PO4)3-" dbxref="PDB:1AOP">
+  &BIM000235;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)+,sirohaem-(Fe)2+,(PO4)3-" dbxref="PDB:2AOP">
+  &BIM000235;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)2+,sirohaem-(Fe)3+,(SO3)2-" dbxref="PDB:2GEP">
+  &BIM000236;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)2+,sirohaem-(Fe)2+,(NO2)-" dbxref="PDB:3GEO">
+  &BIM000237;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)+,sirohaem-(Fe)2+,(CN)-" dbxref="PDB:4GEP">
+  &BIM000238;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)+,sirohaem-(Fe)2+" dbxref="PDB:5AOP">
+  &BIM000011;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)+,sirohaem-(Fe)2+,CO" dbxref="PDB:5GEP">
+  &BIM000212;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)2+,sirohaem-(Fe)2+,NO" dbxref="PDB:6GEP">
+  &BIM000211;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)2+,sirohaem-(Fe)3+,SO" dbxref="PDB:7GEP">
+  &BIM000239;
+ </instance>
+ <instance value="sulfite reductase hemoprotein" species="Escherichia coli" state="(Fe4S4)2+,sirohaem-(Fe)2+/3+,(NO3)-" dbxref="PDB:8GEP">
+  &BIM000240;
+ </instance>
+ &SIR;
+</term>

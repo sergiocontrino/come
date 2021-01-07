@@ -1,0 +1,6 @@
+<term value="haem chloroperoxidase" id="PRX000234" dbxref="InterPro:IPR000028">
+ <instance value="chloroperoxidase" species="Caldariomyces fumago" dbxref="PDB:1CPO">
+ </instance>
+ <instance value="chloroperoxidase" species="Caldariomyces fumago" dbxref="PDB:2CPO">
+ </instance>
+</term>

@@ -1,0 +1,422 @@
+head	1.5;
+access;
+symbols;
+locks
+	contrino:1.5; strict;
+comment	@# @;
+
+
+1.5
+date	2003.03.18.10.10.04;	author contrino;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.07.13.32.31;	author contrino;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.06.16.00.55;	author contrino;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.08.09.14.50.39;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.07.25.13.00.19;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@corrected typo
+@
+text
+@-- 
+-- insert xref to database (db_xref table)
+--
+
+-- prx instance --543
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.dbx, ' -0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'COMPOUND:', 'C',
+'EC:', 'EC',
+'CAS:', 'CA',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (dbx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+i.id_instance,
+seq_ids.nextval 
+from alfa a, entry e, instance i
+where e.old_id = a.id
+and e.id = i.id
+and ( a.specie = i.species or i.species is null)
+and ( a.state = i.state or i.state is null)
+and ( a.centre = i.centre or i.centre is null)
+and a.instance = i.instance
+and i.instance is not null
+and a.dbx is not null
+)
+;
+
+-- molbim  term --123
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.dbx, ' -0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'COMPOUND:', 'C',
+'CAS:', 'CA',
+'EC:', 'EC',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (dbx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+i.id_instance,
+seq_ids.nextval 
+from alfa a, entry e, instance i
+where e.old_id = a.id
+and e.id = i.id
+and e.old_id not like 'PRX%'
+and a.term = i.instance
+and a.dbx is not null
+)
+;
+
+-- prx only term --338
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.dbx, ' -0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'COMPOUND:', 'C',
+'CAS:', 'CA',
+'EC:', 'EC',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (dbx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+e.id,
+seq_ids.nextval 
+from alfa a, entry e
+--, instance i
+where e.old_id = a.id
+--and e.id = i.id
+and e.old_id like 'PRX%'
+and a.instance is null
+and a.dbx is not null
+)
+;
+
+-- molbim only name --1
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.dbx, ' -0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'COMPOUND:', 'C',
+'CAS:', 'CA',
+'EC:', 'EC',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (dbx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+e.id,
+seq_ids.nextval 
+from alfa a, entry e
+--, instance i
+where e.old_id = a.id
+--and e.id = i.id
+and e.old_id not like 'PRX%'
+and a.term is null
+and a.dbx is not null
+)
+;
+
+
+
+-- ========== lref ================
+-- ================================
+
+-- prx instance --45
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.rx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (rx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+i.id_instance,
+seq_ids.nextval 
+from alfa a, entry e, instance i
+where e.old_id = a.id
+and e.id = i.id
+and ( a.specie = i.species or i.species is null)
+and ( a.state = i.state or i.state is null)
+and ( a.centre = i.centre or i.centre is null)
+and a.instance = i.instance
+and a.rx is not null
+)
+;
+
+-- molbim  term --8
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.rx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (rx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+i.id_instance,
+seq_ids.nextval 
+from alfa a, entry e, instance i
+where e.old_id = a.id
+and e.id = i.id
+and e.old_id not like 'PRX%'
+and a.term = i.instance
+and a.rx is not null
+)
+;
+
+-- prx only term --0 3
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.rx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (rx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+e.id,
+seq_ids.nextval 
+from alfa a, entry e
+--, instance i
+where e.old_id = a.id
+--and e.id = i.id
+and e.old_id like 'PRX%'
+and a.instance is null
+and a.rx is not null
+)
+;
+
+-- molbim only name --0  2
+insert into db_xref (dbcode, dbid, id_come, id_dbx)
+(
+select decode ( 
+rtrim (a.rx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+'MEDLINE:', 'ML',
+'PUBMED:', 'PM',
+'ot'
+),
+substr(ltrim (rx, 'abcdefghijklmnopqrstuwxyvzABCDEFGHIJKLMNOPQRSTUWXYVZ'),2),
+e.id,
+seq_ids.nextval 
+from alfa a, entry e
+--, instance i
+where e.old_id = a.id
+--and e.id = i.id
+and e.old_id not like 'PRX%'
+and a.term is null
+and a.rx is not null
+)
+;
+
+@
+
+
+1.4
+log
+@corrected rtrim (to consider also blanks and '-')
+removed full list from literature refs.
+@
+text
+@d9 1
+a9 1
+rtrim (a.dbx, ' -123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+@
+
+
+1.3
+log
+@added cas
+@
+text
+@d9 1
+a9 1
+rtrim (a.dbx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+d44 1
+a44 1
+rtrim (a.dbx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+d76 1
+a76 1
+rtrim (a.dbx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+d109 1
+a109 1
+rtrim (a.dbx, '0123456789.ABCDEFGHIJKLMNOPQRSTUWXYVZ'),
+a147 11
+'COMPOUND:', 'C',
+'CAS:', 'CA',
+'EC:', 'EC',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+a170 11
+'COMPOUND:', 'C',
+'CAS:', 'CA',
+'EC:', 'EC',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+a191 11
+'COMPOUND:', 'C',
+'CAS:', 'CA',
+'EC:', 'EC',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+a213 11
+'COMPOUND:', 'C',
+'CAS:', 'CA',
+'EC:', 'EC',
+'GO:', 'GO',
+'InterPro:', 'IP',
+'PDB:', 'P',
+'PDBHET:', 'PH',
+'RESID:', 'R',
+'SPTR:', 'S',
+'TREMBLNEW:', 'TN',
+'MEROPS:', 'ME',
+@
+
+
+1.2
+log
+@corrected bug (for term only..)
+@
+text
+@d12 1
+d46 1
+d78 1
+d111 1
+d149 1
+d183 1
+d215 1
+d248 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d21 1
+d55 1
+d70 1
+a70 1
+-- prx only term --235
+d86 1
+d92 2
+a93 1
+from alfa a, entry e, instance i
+d95 1
+a95 1
+and e.id = i.id
+d102 1
+a102 1
+-- molbim only name --0
+d118 1
+d124 2
+a125 1
+from alfa a, entry e, instance i
+d127 1
+a127 1
+and e.id = i.id
+d155 1
+d188 1
+d203 1
+a203 1
+-- prx only term --0
+d219 1
+d225 2
+a226 1
+from alfa a, entry e, instance i
+d228 1
+a228 1
+and e.id = i.id
+d235 1
+a235 1
+-- molbim only name --0
+d251 1
+d257 2
+a258 1
+from alfa a, entry e, instance i
+d260 1
+a260 1
+and e.id = i.id
+@

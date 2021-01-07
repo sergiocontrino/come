@@ -1,0 +1,5 @@
+<term value="DNA-directed RNA polymerase subunit M" id="PRX000746" dbxref="InterPro:IPR001529">
+ <instance value="DNA-directed RNA polymerase subunit M" species="Thermococcus celer" dbxref="SPTR:Q56254">
+ </instance>
+ &RPO;
+</term>

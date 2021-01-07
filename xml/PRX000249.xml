@@ -1,0 +1,7 @@
+<term value="hydroxylamine oxidoreductase" id="PRX000249" dbxref="EC:1.7.3.4">
+<!-- hydroxylamine oxidoreductase has seven haem c groups (bis-His-coordinated) and one haem P460 group (His-coordinated) -->
+ <instance value="hydroxylamine oxidoreductase" species="Nitrosomonas europaea" centre="haem P460" dbxref="PDB:1FGJ">
+  &BIM000007;
+  &BIM000242;
+ </instance>
+</term>

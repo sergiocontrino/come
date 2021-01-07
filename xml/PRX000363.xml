@@ -1,0 +1,9 @@
+<term value="dihydrolipoamide dehydrogenase" id="PRX000363" dbxref="EC:1.8.1.4">
+ <instance value="dihydrolipoamide dehydrogenase" species="Clostridium magnum" dbxref="SPTR:Q59299">
+ </instance>
+ <instance value="dihydrolipoamide dehydrogenase" species="Escherichia coli" dbxref="SPTR:P00391">
+ </instance>
+ &ACETDH;
+ &AKGDH;
+ &PDH;
+</term>

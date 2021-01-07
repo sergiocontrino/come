@@ -1,0 +1,8 @@
+<term value="NADH:adrenodoxin-type ferredoxin reductase" id="PRX000373">
+ <instance value="putidaredoxin reductase" species="Pseudomonas putida" dbxref="SPTR:P16640">
+ </instance>
+ <instance value="terpredoxin reductase" species="Pseudomonas sp." dbxref="SPTR:P33009">
+ </instance>
+ <instance value="rhodocoxin reductase" species="Rhodococcus erythropolis" dbxref="SPTR:P43494">
+ </instance>
+</term>

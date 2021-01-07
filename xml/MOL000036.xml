@@ -1,0 +1,8 @@
+<substructure value="cobalamin*" id="MOL000036">
+ <term value="cobalamin">
+ </term>
+ &MOL000033;
+ &MOL000034;
+ &MOL000035;
+ &MOL000085;
+</substructure>

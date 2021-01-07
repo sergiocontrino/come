@@ -1,0 +1,5 @@
+<term value="bacterial luciferase" id="PRX000448" dbxref="InterPro:IPR002103">
+ <instance value="bacterial luciferase" species="Vibrio harveyi" dbxref="PDB:1LUC">
+ <!-- the crystal structure of an apoprotein (no FMN) -->
+ </instance>
+</term>

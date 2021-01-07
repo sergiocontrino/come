@@ -1,0 +1,7 @@
+<term value="heterotetrameric pyruvate dehydrogenase alpha subunit" id="PRX001146">
+ <instance value="pyruvate dehydrogenase E1 component alpha subunit, somatic form, mitochondrial" species="human" dbxref="SPTR:P08559">
+ </instance>
+ <instance value="pyruvate dehydrogenase E1 component, alpha subunit" species="Bacillus stearothermophilus" dbxref="SPTR:P21873">
+ </instance>
+ &PDHA2B2;
+</term>

@@ -1,0 +1,7 @@
+<term value="beta-carotene cytochrome b6" id="PRX001168">
+ &MOL000093;
+ &BIM000456;
+ <instance value="cytochrome b6" species="Chlamydomonas reinhardtii" lref="PUBMED:9880536">
+ </instance>
+ &BCCYTB6F;
+</term>

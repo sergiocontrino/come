@@ -1,0 +1,6 @@
+<term value="Ni-Fe-Se hydrogenase large subunit" id="PRX000389">
+ <instance value="Ni-Fe-Se hydrogenase large subunit" species="Desulfovibrio baculatus" centre="Ni-Fe cluster" dbxref="SPTR:P13065">
+ &BIM000141;
+ </instance>
+ &NIFESEHASE;
+</term>

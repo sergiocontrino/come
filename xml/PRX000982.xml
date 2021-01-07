@@ -1,0 +1,5 @@
+<term value="membrane-bound dimethyl sulphoxide reductase, iron-sulphur subunit" id="PRX000982">
+ <instance value="anaerobic dimethyl sulfoxide reductase chain B" species="Escherichia coli" dbxref="SPTR:P18776">
+ </instance>
+ &MEMBDMSOR;
+</term>

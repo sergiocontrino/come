@@ -1,0 +1,8 @@
+<term value="calbindin D9K" id="PRX000932">
+ <instance value="calbindin D9K" species="Bos taurus" centre="EF1" dbxref="PDB:4ICB">
+  &BIM000306;
+ </instance>
+ <instance value="calbindin D9K" species="Bos taurus" centre="EF2" dbxref="PDB:4ICB">
+  &BIM000296;
+ </instance>
+</term>

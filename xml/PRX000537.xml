@@ -1,0 +1,6 @@
+<term value="glucose oxidase" id="PRX000537" dbxref="EC:1.1.3.4">
+ <instance value="glucose oxidase" species="Aspergillus niger" dbxref="SPTR:P13006">
+ </instance>
+ <instance value="glucose oxidase" species="Penicillium amagasakiense" dbxref="SPTR:P81156">
+ </instance>
+</term>

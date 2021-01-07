@@ -1,0 +1,6 @@
+<term value="benzoylformate decarboxylase" id="PRX001024" dbxref="EC:4.1.1.7">
+ <instance value="benzoylformate decarboxylase" species="Pseudomonas putida" dbxref="PDB:1BFD">
+ &BIM000325;
+ &BIM000326;
+ </instance>
+</term>

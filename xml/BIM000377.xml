@@ -1,0 +1,11 @@
+<substructure id="BIM000377">
+ <bim>Cu(NE.His)2*</bim>
+
+ &BIM000099;
+ &BIM000267;
+ &BIM000365;
+ &BIM000375;
+
+ &BIM000376;
+ &BIM000378;
+</substructure>

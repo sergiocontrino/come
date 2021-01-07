@@ -1,0 +1,8 @@
+<term value="copper efflux oxidase" id="PRX001009">
+ <instance value="blue copper oxidase CueO" species="Escherichia coli" centre="type 1 copper" dbxref="PDB:1KV7">
+  &BIM000372;
+ </instance>
+ <instance value="blue copper oxidase CueO" species="Escherichia coli" centre="trinuclear copper" dbxref="PDB:1KV7">
+  &BIM000366;
+ </instance>
+</term>

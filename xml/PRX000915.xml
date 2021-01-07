@@ -1,0 +1,15 @@
+<term value="calcineurin regulatory subunit" id="PRX000915">
+ <instance value="calcineurin subunit B" species="human" centre="EF1" dbxref="SPTR:P06705">
+  &BIM000295;
+ </instance>
+ <instance value="calcineurin subunit B" species="human" centre="EF2" dbxref="SPTR:P06705">
+  &BIM000296;
+ </instance>
+ <instance value="calcineurin subunit B" species="human" centre="EF3" dbxref="SPTR:P06705">
+  &BIM000297;
+ </instance>
+ <instance value="calcineurin subunit B" species="human" centre="EF4" dbxref="SPTR:P06705">
+  &BIM000294;
+ </instance>
+ &CALCIN;
+</term>

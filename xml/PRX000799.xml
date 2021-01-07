@@ -1,0 +1,11 @@
+<term value="B800-820 light-harvesting complex" id="PRX000799">
+ <instance value="B800-820 light-harvesting complex" species="Rhodopseudomonas acidophila" centre="carotenoid" dbxref="PDB:1IJD">
+  &MOL000095;
+ </instance>
+ <instance value="B800-820 light-harvesting complex" species="Rhodopseudomonas acidophila" centre="B820" dbxref="PDB:1IJD">
+  &BIM000001;
+ </instance>
+ <instance value="B800-820 light-harvesting complex" species="Rhodopseudomonas acidophila" centre="B800" dbxref="PDB:1IJD">
+  &BIM000003;
+ </instance>
+</term>

@@ -1,0 +1,8 @@
+<term value="cryptochrome" id="PRX000419">
+ <instance value="cryptochrome 1" species="Arabidopsis thaliana" dbxref="SPTR:Q43125">
+ </instance>
+ <instance value="cryptochrome 2" species="Arabidopsis thaliana" dbxref="SPTR:Q96524">
+ </instance>
+ <instance value="cryptochrome 2" species="Mus musculus" dbxref="SPTR:Q9R194">
+ </instance>
+</term>

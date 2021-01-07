@@ -1,0 +1,8 @@
+<substructure value="dtpp" id="MOL000078">
+ <term value="ene-dithiol pyranopterin" lref="PUBMED:9861725">
+ </term>
+ <term value="molybdopterin" dbxref="PDBHET:MTE">
+ </term>
+ <term value="molybdopterin" dbxref="COMPOUND:C05924">
+ </term>
+</substructure>

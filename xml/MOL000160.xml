@@ -1,0 +1,6 @@
+<substructure value="vanadate" id="MOL000160">
+ <term value="VO4" dbxref="CAS:14333-18-7">
+ </term>
+ <term value="vanadate ion" dbxref="PDBHET:VO4">
+ </term>
+</substructure>

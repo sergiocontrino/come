@@ -1,0 +1,9 @@
+<term value="tungsten formate dehydrogenase catalytic subunit" id="PRX000731">
+ <instance value="tungsten formate dehydrogenase catalytic subunit" species="Desulfovibrio gigas" dbxref="SPTR:Q934F5">
+  &BIM000008;
+  &BIM000342;
+  &MOL000128;
+  &BIM000343;
+ </instance>
+ &WFDH;
+</term>

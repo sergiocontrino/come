@@ -1,0 +1,6 @@
+<term value="HemAT aerotaxis transducer" id="PRX001003">
+ <instance value="heme-based aerotactic transducer hemAT" species="Bacillus subtilis" dbxref="SPTR:O07621" lref="PUBMED:11821422">
+ </instance>
+ <instance value="heme-based aerotactic transducer hemAT" species="Halobacterium salinarum" dbxref="SPTR:P71413" lref="PUBMED:10676961">
+ </instance>
+</term>

@@ -1,0 +1,8 @@
+<substructure value="3,4-dihydroxyphenylacetic acid" id="MOL000159">
+ <term value="acetic acid, (3,4-dihydroxyphenyl)-" dbxref="CAS:102-32-9">
+ </term>
+ <term value="3,4-dihydroxyphenylacetate" dbxref="COMPOUND:C01161">
+ </term>
+ <term value="2-(3,4-dihydroxyphenyl)acetic acid" dbxref="PDBHET:DHY">
+ </term>
+</substructure>

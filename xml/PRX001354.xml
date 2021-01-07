@@ -1,0 +1,6 @@
+<term value="periplasmic decahaem cytochrome c" id="PRX001354">
+ <instance value="deca-heme c-type cytochrome MtrA" species="Shewanella putrefaciens" dbxref="SPTR:O87541" lref="PUBMED:9829939">
+ </instance>
+ <instance value="deca-heme c-type cytochrome MtrD" species="Shewanella putrefaciens" dbxref="SPTR:O87536">
+ </instance>
+</term>

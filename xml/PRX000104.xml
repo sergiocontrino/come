@@ -1,0 +1,5 @@
+<term value="mitochondrial sulphite oxidase" id="PRX000104">
+ <instance value="mitochondrial sulfite oxidase" species="Gallus gallus" state="(Mo)4+,aqua-oxo" dbxref="PDB:1SOX">
+  &BIM000189;
+ </instance>
+</term>

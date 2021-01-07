@@ -1,0 +1,5 @@
+<term value="redox-sensitive regulator NifL" id="PRX001263" lref="PUBMED:11931553">
+ <instance value="nitrogen fixation regulatory protein" species="Azotobacter vinelandii" dbxref="SPTR:P30663" lref="PUBMED:9593306">
+ </instance>
+ &NIFLA;
+</term>

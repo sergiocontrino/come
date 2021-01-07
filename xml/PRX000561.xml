@@ -1,0 +1,8 @@
+<term value="aldehyde oxidoreductase" id="PRX000561">
+ &MOL000080;
+ &BIM000187;
+ <instance value="aldehyde oxidoreductase" species="Desulfovibrio gigas" dbxref="PDB:1HLR">
+ </instance>
+ <instance value="aldehyde oxidoreductase" species="Desulfovibrio desulfuricans" dbxref="PDB:1DGJ">
+ </instance>
+</term>

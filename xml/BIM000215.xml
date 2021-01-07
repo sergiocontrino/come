@@ -1,0 +1,11 @@
+<substructure id="BIM000215">
+ <!-- H-cluster, 2Fe subcluster in Clostridium pasteurianum iron hydrogenase -->
+ <!-- (X) is a thiolate-bridging ligand of unknown nature -->
+ <bim>{Fe(SG.Cys)(CN)(CO)}{Fe(CN)(CO)(OH2)}{&#181;-(CO)}(&#181;-S)2(X)</bim>
+ &MOL000134;
+ &MOL000135;
+ &MOL000140;
+ &MOL000141;
+ <term value="L-cysteinyl hydrogenase diiron subcluster" dbxref="RESID:AA0334">
+ </term>
+</substructure>

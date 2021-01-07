@@ -1,0 +1,5 @@
+<term value="cytochrome bc1 complex, Rieske subunit" id="PRX001287" dbxref="InterPro:IPR006317">
+ <instance value="ubiquinol-cytochrome c reductase iron-sulfur subunit, mitochondrial" species="Bos taurus" dbxref="SPTR:P13272">
+ </instance>
+ &CYTBC1;
+</term>

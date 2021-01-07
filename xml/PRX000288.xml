@@ -1,0 +1,7 @@
+<term value="class III ribonucleotide reductase, iron-sulphur protein" id="PRX000288" dbxref="GO:0009391">
+ <instance value="anaerobic ribonucleoside-triphosphate reductase activating protein" species="bacteriophage T4" dbxref="SPTR:P07075">
+ </instance>
+ <instance value="anaerobic ribonucleoside-triphosphate reductase activating protein" species="Escherichia coli" dbxref="SPTR:P39329">
+ </instance>
+ &RNRIII;
+</term>

@@ -1,0 +1,8 @@
+<term value="hybrid cluster protein" id="PRX000057">
+ <instance value="prismane protein" species="Desulfovibrio desulfuricans" centre="hybrid cluster" state="oxidised, as isolated under anaerobic conditions" dbxref="PDB:1GNL">
+ &BIM000058;
+ </instance>
+ <instance value="prismane protein" species="Desulfovibrio desulfuricans" centre="hybrid cluster" state="reduced" dbxref="PDB:1OA0">
+ &BIM000413;
+ </instance>
+</term>

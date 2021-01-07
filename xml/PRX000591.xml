@@ -1,0 +1,5 @@
+<term value="p-cresol methylhydroxylase, cytochrome c subunit" id="PRX000591">
+ <instance value="4-cresol dehydrogenase [hydroxylating] cytochrome c subunit" species="Pseudomonas putida" dbxref="SPTR:P09787">
+ </instance>
+ &PCMH;
+</term>

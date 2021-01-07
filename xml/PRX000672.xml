@@ -1,0 +1,13 @@
+<term value="cytochrome cd1 cytochrome c domain" id="PRX000672">
+ &BIM000335;
+ <instance value="cytochrome cd1 nitrite reductase" species="Thiosphaera pantotropha" centre="haem c" state="oxidised" dbxref="PDB:1AOQ">
+  &BIM000012;
+ </instance>
+ <instance value="cytochrome cd1 nitrite reductase" species="Thiosphaera pantotropha" centre="haem c" state="reduced" dbxref="PDB:1AOF">
+  &BIM000014;
+ </instance>
+ <instance value="cytochrome cd1 nitrite reductase" species="Pseudomonas aeruginosa" centre="haem c" state="oxidised" dbxref="PDB:1NIR">
+  &BIM000014;
+ </instance>
+ &CYTCD1;
+</term>

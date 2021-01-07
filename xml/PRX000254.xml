@@ -1,0 +1,14 @@
+<term value="class IIa cytochrome c" id="PRX000254" dbxref="GO:0009470">
+ <instance value="cytochrome c'" species="Alcaligenes xylosoxidans" state="(Fe)3+" dbxref="PDB:1E83">
+   &BIM000007;
+ </instance>
+ <instance value="cytochrome c'" species="Alcaligenes xylosoxidans" state="(Fe)2+" dbxref="PDB:1E84">
+   &BIM000007;
+ </instance>
+ <instance value="cytochrome c'" species="Alcaligenes xylosoxidans" state="(Fe)2+,NO-bound" dbxref="PDB:1E85">
+   &BIM000230;
+ </instance>
+ <instance value="cytochrome c'" species="Alcaligenes xylosoxidans" state="(Fe)2+,CO-bound" dbxref="PDB:1E86">
+   &BIM000023;
+ </instance>
+</term>

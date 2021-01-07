@@ -1,0 +1,11 @@
+<term value="bacterial hydroxylase reductase" id="PRX000380" dbxref="InterPro:IPR001221">
+ &MMOC;
+ &PMOR;
+ &XYLA;
+ <instance value="toluate 1,2-dioxygenase electron transfer component" species="Pseudomonas putida" dbxref="SPTR:P23101">
+ </instance>
+ <instance value="naphthalene 1,2-dioxygenase electron transfer component" species="Pseudomonas putida" dbxref="SPTR:Q52126">
+ </instance>
+ <instance value="toluene-4-monooxygenase electron transfer component" species="Pseudomonas mendocina" dbxref="SPTR:Q03304">
+ </instance>
+</term>

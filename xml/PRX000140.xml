@@ -1,0 +1,9 @@
+<term value="protocatechuate 4,5-dioxygenase" id="PRX000140" dbxref="EC:1.13.11.8">
+ <instance value="protocatechuate 4,5-dioxygenase" species="Pseudomonas paucimobilis" state="substrate-free" dbxref="PDB:1BOU">
+  &BIM000030;
+ </instance>
+ <instance value="protocatechuate 4,5-dioxygenase" species="Pseudomonas paucimobilis" state="3,4-dihydroxybenzoic acid-bound" dbxref="PDB:1B4U">
+  &BIM000513;
+  &MOL000153;
+ </instance>
+</term>

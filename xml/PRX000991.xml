@@ -1,0 +1,29 @@
+<term value="calpain regulatory subunit" id="PRX000991">
+ <instance value="calpain small subunit" species="Rattus norvegicus" centre="EF1" dbxref="PDB:1DVI">
+  &BIM000315;
+ </instance>
+ <instance value="calpain small subunit" species="Rattus norvegicus" centre="EF2" dbxref="PDB:1DVI">
+  &BIM000316;
+ </instance>
+ <instance value="calpain small subunit" species="Rattus norvegicus" centre="EF3" dbxref="PDB:1DVI">
+  &BIM000293;
+ </instance>
+ <instance value="calpain small subunit" species="Rattus norvegicus" centre="EF4" dbxref="PDB:1DVI">
+  &BIM000317;
+ </instance>
+
+ <instance value="calpain small subunit" species="Sus scrofa" centre="EF1" dbxref="PDB:1ALV">
+  &BIM000315;
+ </instance>
+ <instance value="calpain small subunit" species="Sus scrofa" centre="EF2" dbxref="PDB:1ALV">
+  &BIM000316;
+ </instance>
+ <instance value="calpain small subunit" species="Sus scrofa" centre="EF3" dbxref="PDB:1ALV">
+  &BIM000293;
+ </instance>
+ <instance value="calpain small subunit" species="Sus scrofa" centre="EF4" dbxref="PDB:1ALV">
+  &BIM000317;
+ </instance>
+
+ &CALPAIN;
+</term>

@@ -1,0 +1,5 @@
+<substructure id="BIM000450">
+ <bim>M(Crn|por)(*aa)*</bim>
+ &BIM000434;
+ &BIM000449;
+</substructure>

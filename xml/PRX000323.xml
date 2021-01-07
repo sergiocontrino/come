@@ -1,0 +1,6 @@
+<term value="nitric oxide dioxygenase" id="PRX000323" dbxref="EC:1.14.12.17">
+ <instance value="flavohemoprotein" species="Alcaligenes eutrophus" dbxref="SPTR:P39662">
+ </instance>
+ <instance value="flavohemoprotein" species="Escherichia coli" dbxref="SPTR:P24232">
+ </instance>
+</term>

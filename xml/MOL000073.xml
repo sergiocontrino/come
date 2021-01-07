@@ -1,0 +1,8 @@
+<substructure value="PQQ" id="MOL000073">
+ <term value="pyrroloquinoline quinone" dbxref="PDBHET:PQQ">
+ </term>
+ <term value="PQQ" dbxref="COMPOUND:C00113">
+ </term>
+ <term value="pyrroloquinoline quinone" dbxref="RESID:AA0283">
+ </term>
+</substructure>

@@ -1,0 +1,6 @@
+<substructure id="BIM000254">
+ <bim>phycobiliviolin(SG.Cys)</bim>
+ &BIM000252;
+ <term value="S-phycobiliviolin-L-cysteine" dbxref="RESID:AA0258">
+ </term>
+</substructure>

@@ -1,0 +1,274 @@
+#! /bin/sh
+#
+#  sc      http://www.ebi.ac.uk/%7econtrino
+#
+#  *************************************************************
+#
+#  Purpose:to produce and post-process the report files
+#
+#  Usage:  reporter
+#
+#  Note: probably we could avoid a few questions (see loading and 
+#        lookup)
+#
+#
+#  $Source: /ebi/services/tools/xref/queries/reports/RCS/reporter,v $
+#  $Date: 2001/11/02 13:44:40 $
+#  $Author: contrino $
+#
+#  _____________________________________________________________
+#
+#  $Log: reporter,v $
+#  Revision 1.8  2001/11/02 13:44:40  contrino
+#  added 1 comment
+#
+#  Revision 1.7  2001/10/05 16:10:05  contrino
+#  - added ./ for cp_reports
+#  - changed some text of interface
+#
+#  Revision 1.6  2001/02/06 14:51:05  contrino
+#  *** empty log message ***
+#
+#  Revision 1.5  2001/02/01 10:57:23  contrino
+#  some more path changes
+#
+#  Revision 1.4  2000/12/06 12:20:28  contrino
+#  some path changes
+#
+#  Revision 1.3  2000/10/18 13:09:13  contrino
+#  added genome-only routine
+#
+#  Revision 1.2  2000/08/18 13:37:12  contrino
+#  a few improvs. NB still need to have a routine for genome reports
+#
+#  Revision 1.1  2000/04/07 16:33:36  contrino
+#  Initial revision
+#
+#
+#  *************************************************************
+#
+#
+clear
+
+echo -n $ORACLE_SID $TWO_TASK
+
+
+XF=/ebi/services/data/xfiles
+XR=/ebi/services/tools/xref
+LD="$XR/queries/reports/ld"
+SP=/ebi/sp/pro3
+PRO1=/ebi/sp/pro1
+#wr="$PRO1/sptr/data/trembl.txl"
+wr="$SP/projects/sptr/data/trembl.txl"
+WR="$SP/data/wrelease/current"
+
+echo
+echo "		          CREATING XREF REPORTS";
+echo
+echo
+echo "Preparing the database for the queries:"
+echo "(to be run if your data has changed)."
+echo "Press [s] to skip to the next step"
+read s;
+if test "$s" != "s" #prepare
+then 
+  echo
+  echo "Building xref files for Twr and SP"
+  echo "=================================="
+  echo
+  echo "TREMBL:"
+  echo "Building TrEMBL xref file:"
+  echo "Press [s] to skip to SWISS-PROT, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then echo -n "       Working ..."
+
+    perl $XR/updates/tools/mkref.pl < $wr | sort -u > $XF/trembl.in.id
+    
+    echo "Xref in $XF/trembl.in.id"
+    echo
+  fi
+  echo
+  echo "SWISS-PROT"
+  echo "Building SWISS-PROT xref file:"
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then echo -n "       Working ..."
+    
+    perl $XR/updates/tools/mkref.pl < $WR | sort -u > $XF/sp.in
+    
+    echo "Xref in $XF/sp.in"
+  fi
+  echo
+  echo "Loading data into the database" 
+  echo "(SWISS-PROT and/or TrEMBL and/or GENOME)";
+  echo "========================================"
+  echo
+  echo "Press [s] to skip to the next step, any other key to continue";
+  read s;
+  if test "$s" != "s"
+  then
+    echo -n "username: "
+    read u
+    echo -n "password: "
+    read p
+    echo
+    echo
+    echo "TREMBL:"
+    echo "Press [s] to skip to the next step, any other key to continue";
+    read s;
+    if test "$s" != "s"   #trembl
+    then echo "Deleting old TrEMBL xref."
+      echo "Press [s] to skip to the next step, any other key to continue";
+      read s;
+      if test "$s" != "s" 
+      then	
+	sqlplus -s $u/$p @ld/clean_t
+      fi
+      echo
+      echo "Loading new TREMBL xref.."
+      echo "Press [s] to skip to exit, any other key to continue";
+      read s;
+      if test "$s" != "s"
+      then
+	sqlload $u/$p ld/t.ctl      
+	mv t.log ld/logs
+     fi
+    echo       	
+    echo "Updating TrEMBL look-up tables."
+    echo "Press [s] to skip to the next step, any other key to continue";
+    read s;
+	if test "$s" != "s"
+	then 
+	    sqlplus -s $u/$p @ld/lookup_t.sql
+	fi
+    echo       	
+    fi
+    echo
+    echo
+    echo "SWISSPROT:"
+    echo "Press [s] to skip to the next step, any other key to continue";
+    read s;
+    if test "$s" != "s"
+    then echo "Deleting old SP xref."
+      echo "Press [s] to skip to the next step, any other key to continue";
+      read s;
+      if test "$s" != "s"
+      then	
+	sqlplus -s $u/$p @ld/clean_sp
+      fi
+      echo "Loading new SP xref.."
+      echo "Press [s] to skip to exit, any other key to continue";
+      read s;
+      if test "$s" != "s"
+      then
+	sqlload $u/$p ld/sp.ctl
+	mv sp.log ld/logs    
+      fi
+      echo
+      echo "Updating SP look-up table.."
+      echo "Press [s] to skip to exit, any other key to continue";
+      read s;
+      if test "$s" != "s"
+      then
+	sqlplus -s $u/$p @ld/lookup_sp
+	fi
+    fi      	
+
+    echo
+    echo "GENOMES:"
+    echo "Press [s] to skip to the next step, any other key to continue";
+    read s;
+    if test "$s" != "s"
+    then echo -n "Please enter organism taxid ([cntl-c] to exit): "
+	read taxid;
+	sqlplus -s $u/$p @sql/genometx $taxid
+    fi
+
+    #  echo
+    #  echo "Loading completed:"
+    #  echo "Press [c] to remove working files, any other key to finish here";
+    #  read s;
+    #  if test "$s" = "c" 
+    #  then	
+    #    rm  $XF/sp.in $XF/trembl.in.id
+    #    echo Files removed.
+    #  fi
+    #  echo
+  fi
+fi
+echo
+echo "Runnig the ORACLE queries:"
+echo  ==========================
+echo "Press [s] to skip to the next step, any other key to continue";
+read s;
+if test "$s" != "s" #uuu
+then
+  if test "$u" = ""
+  then
+    echo -n "username: "
+    read u
+    echo -n "password: "
+    read p
+  fi
+
+#clean old data
+rm -f data/*.*
+
+  echo "Press "
+  echo "[a]  to do them all (sp + tr)"
+  echo "[g]  to do it for a genome"
+  echo "[sp] to do the SWISS-PROT ones"
+  echo "[t]  to do the TrEMBL ones"
+  echo "[1]  to do the TrEMBL singles (t1)"
+  echo "[s]  to skip to the next step"
+  echo -n "->"
+  read c
+  if test "$c" != "s"
+  then
+    if test "$c" = "a"
+    then	
+      sqlplus -s $u/$p @go sp sp
+      sqlplus -s $u/$p @go ta t
+      sqlplus -s $u/$p @go tm t
+      sqlplus -s $u/$p @go t1 t
+      
+    elif test "$c" = "g"
+    then 
+      sqlplus -s $u/$p @go sp genome
+      sqlplus -s $u/$p @go ta genome
+      sqlplus -s $u/$p @go tm genome
+      sqlplus -s $u/$p @go t1 genome
+
+    elif test "$c" = "sp"
+    then 
+      sqlplus -s $u/$p @go $c $c 
+      
+    elif test "$c" = "t"
+    then 
+      sqlplus -s $u/$p @go ta $c
+      sqlplus -s $u/$p @go tm $c
+      sqlplus -s $u/$p @go t1 $c
+      
+    elif test "$c" = "1"
+    then 
+      sqlplus -s $u/$p @go t1 t
+      
+    else
+      echo "You have entered an illegal code." 
+    fi
+  fi
+fi
+echo
+echo "If you have finished the queries"
+echo "please make the reports available to the curators:"
+echo "Press [s] to skip to the next step"
+read c
+if test "$c" != "s"
+then
+  ./cp_reports
+else echo ciao!!
+fi
+
+

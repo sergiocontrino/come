@@ -1,0 +1,6 @@
+<term value="adenylylsulphate reductase" id="PRX000454" dbxref="EC:1.8.99.2">
+ <instance value="adenylylsulfate reductase" species="Archaeoglobus fulgidus" state="reduced" dbxref="PDB:1JNR" lref="PUBMED:11842205">
+ </instance>
+ <instance value="adenylylsulfate reductase" species="Archaeoglobus fulgidus" state="{(SO3)2-}-bound" dbxref="PDB:1JNZ" lref="PUBMED:11842205">
+ </instance>
+</term>

@@ -1,0 +1,15 @@
+<term value="tetrahaem cytochrome-containing purple bacteria-type photosynthetic reaction centre" id="PRX000024">
+ <instance value="photosynthetic reaction centre" species="Rhodopseudomonas viridis" dbxref="PDB:1PRC">
+  &MOL000002;
+  &MOL000091;
+  &MOL000051;
+  &MOL000052;
+  &MOL000053;
+ </instance>
+ <instance value="photosynthetic reaction centre" species="Thermochromatium tepidum" dbxref="PDB:1EYS">
+  &MOL000001;
+  &MOL000090;
+  &MOL000088;
+  &MOL000089;
+ </instance>
+</term>

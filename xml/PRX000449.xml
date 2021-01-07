@@ -1,0 +1,7 @@
+<term value="non-fluorescent flavoprotein" id="PRX000449">
+ &MOL000071;
+ <instance value="non-fluorescent flavoprotein" species="Photobacterium leiognathi" dbxref="SPTR:P09142">
+ </instance>
+ <instance value="non-fluorescent flavoprotein" species="Photobacterium phosphoreum" dbxref="SPTR:P12745">
+ </instance>
+</term>

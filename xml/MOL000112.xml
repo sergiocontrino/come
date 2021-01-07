@@ -1,0 +1,6 @@
+<substructure value="Zn" id="MOL000112">
+ <term value="zinc" dbxref="COMPOUND:C00038">
+ </term>
+ <term value="zinc ion" dbxref="PDBHET:ZN">
+ </term>
+</substructure>

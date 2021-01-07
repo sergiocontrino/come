@@ -1,0 +1,11 @@
+<term value="P450 nitric oxide reductase" id="PRX000646">
+ <instance value="P450 nitric oxide reductase" species="Fusarium oxysporum" state="ligand-free" dbxref="PDB:1ROM">
+  xBIM000011;
+ </instance>
+ <instance value="P450 nitric oxide reductase" species="Fusarium oxysporum" state="CO-bound" dbxref="PDB:2ROM">
+  xBIM000212;
+ </instance>
+ <instance value="P450 nitric oxide reductase" species="Fusarium oxysporum" state="NO-bound" dbxref="PDB:1CL6">
+  xBIM000211;
+ </instance>
+</term>

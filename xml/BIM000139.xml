@@ -1,0 +1,7 @@
+<substructure id="BIM000139">
+ <bim>(C15.retinyl)(NZ.Lys)</bim>
+ <term value="N6-retinylidene-L-lysine" lref="PUBMED:7160373">
+ </term>
+ <term value="N6-retinal-L-lysine" dbxref="RESID:AA0120">
+ </term>
+</substructure>

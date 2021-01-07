@@ -1,0 +1,6 @@
+<term value="FAD monoamine oxidase" id="PRX000613" dbxref="EC:1.4.3.4">
+ <instance value="monoamine oxidase A" species="human" dbxref="SPTR:P21397">
+ </instance>
+ <instance value="monoamine oxidase B" species="human" dbxref="SPTR:P27338">
+ </instance>
+</term>

@@ -1,0 +1,8 @@
+<substructure value="4-methyl-1,2-benzenediol" id="MOL000155">
+ <term value="1,2-benzenediol, 4-methyl-" dbxref="CAS:452-86-8">
+ </term>
+ <term value="4-methylcatechol" dbxref="COMPOUND:C06730">
+ </term>
+ <term value="4-methylcatechol" dbxref="PDBHET:MCT">
+ </term>
+</substructure>

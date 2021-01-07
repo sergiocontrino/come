@@ -1,0 +1,5 @@
+<term value="CycG-like dihaem cytochrome c" id="PRX001191">
+ <!-- contains two haem c groups -->
+ <instance value="diheme cytochrome c-type" species="Rhodobacter sphaeroides" dbxref="SPTR:Q53143">
+ </instance>
+</term>

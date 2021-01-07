@@ -1,0 +1,7 @@
+<term value="stellacyanin" id="PRX000202">
+ &BIM000482;
+ <instance value="cucumber peeling cupredoxin" species="Cucumis sativus" dbxref="SPTR:P29602">
+ </instance>
+ <instance value="stellacyanin" species="Rhus vernicifera" dbxref="SPTR:P00302">
+ </instance>
+</term>

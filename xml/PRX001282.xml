@@ -1,0 +1,8 @@
+<term value="iron nitrile hydratase, alpha2:beta2 heterotetramer" id="PRX001282">
+ <instance value="nitrile hydratase" species="Rhodococcus erythropolis R312" state="OH-bound" dbxref="PDB:1AHJ">
+  &BIM000233;
+ </instance>
+ <instance value="nitrile hydratase" species="Rhodococcus erythropolis N-771" state="NO-bound" dbxref="PDB:2AHJ">
+  &BIM000234;
+ </instance>
+</term>

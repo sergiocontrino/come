@@ -1,0 +1,8 @@
+<substructure id="BIM000281">
+ <bim>MIO</bim>
+ <!-- originates from cyclization and dehydration of internal Ala-Ser-Gly -->
+ <term value="3,5-dihydro-5-methylidene-4H-imidazol-4-one" lref="PUBMED:11578924">
+ </term>
+ <term value="4-methylidene-imidazole-5-one" dbxref="PDB:1B8F">
+ </term>
+</substructure>

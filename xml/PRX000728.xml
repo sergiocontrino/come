@@ -1,0 +1,6 @@
+<term value="medium chain acyl-CoA dehydrogenase" id="PRX000728" dbxref="EC:1.3.99.3">
+ <instance value="medium chain acyl-CoA dehydrogenase" species="human" dbxref="SPTR:P11310">
+ </instance>
+ <instance value="medium chain acyl-CoA dehydrogenase" species="Sus scrofa" dbxref="SPTR:P41367">
+ </instance>
+</term>

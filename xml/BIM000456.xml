@@ -1,0 +1,8 @@
+<substructure id="BIM000456">
+ <bim>Fe{(por)(SG.Cys)}</bim>
+ <term value="heme x" lref="PUBMED:14526088">
+ </term>
+ <term value="haem ci" lref="PUBMED:14647374">
+ </term>
+ &BIM000249;
+</substructure>

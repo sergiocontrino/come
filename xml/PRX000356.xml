@@ -1,0 +1,6 @@
+<term value="archaeal opsin" id="PRX000356" dbxref="InterPro:IPR001425">
+ <instance value="bacteriorhodopsin" species="Halobacterium halobium" dbxref="SPTR:P02945">
+ </instance>
+ <instance value="halorhodopsin" species="Halobacterium salinarum" dbxref="PDB:1E12">
+ </instance>
+</term>

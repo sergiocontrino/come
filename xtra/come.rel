@@ -1,0 +1,46 @@
+From kirill@ebi.ac.uk Thu Aug  9 11:15:12 2001
+Date: Wed, 08 Aug 2001 13:17:16 +0100
+From: Kirill Degtyarenko <kirill@ebi.ac.uk>
+To: Sergio Contrino <contrino@ebi.ac.uk>
+Subject: Revisited: Child-Parent relationships in COME
+
+    [ The following text is in the "koi8-r" character set. ]
+    [ Your display is set for the "ISO-8859-1" character set.  ]
+    [ Some characters may be displayed incorrectly. ]
+
+Ciao Sergio:
+
+Child -> Parent || Parent -> Child || Inherits:
+                   (inverse)
+
+is Kind Of      || Includes        || every feature
+is Kind Of*     || Includes*       || at least one feature
+is Part Of      || Contains        || no inheritance
+is Bound To     || Binds           || no inheritance
+
+
+Allowed relationships:
+
+(1) PRX "is Kind Of"  PRX
+(2) BIM "is Part Of"  BIM
+(3) BIM "is Kind Of*" BIM
+(4) MOL "is Part Of"  MOL
+(5) MOL "is Kind Of*" MOL
+(6) MOL "is Part Of"  BIM
+(7) MOL "is Bound To" PRX
+(8) BIM "is Part Of"  PRX
+
+
+As you see I included the novel relationship called "is Bound To". The
+reason I did it that the molecule which is bound to changes chemically
+and is, strictly speaking, the different entity. Example: we can say
+that the protein binds pyridoxal-5'-phosphate but the resulting
+substructure has no aldehyde group and is therefore different from
+"free" pyridoxal-5'-phosphate, so pyridoxal-5'-phosphate IS NOT A PART
+of that protein.
+
+Does it make sense?
+K.
+
+
+

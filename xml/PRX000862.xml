@@ -1,0 +1,5 @@
+<term value="bacterial histidine decarboxylase" id="PRX000862" dbxref="InterPro:IPR003427">
+ &BIM000276;
+ <instance value="histidine decarboxylase" species="Lactobacillus sp." dbxref="SPTR:P00862">
+ </instance>
+</term>

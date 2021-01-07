@@ -1,0 +1,4 @@
+<term value="class I ribonucleotide reductase, alpha2:beta2 heterotetramer" id="PRX000317" dbxref="GO:0016959">
+ <instance value="ribonucleotide reductase" species="Escherichia coli" lref="PUBMED:3301337">
+ </instance>
+</term>

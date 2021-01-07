@@ -1,0 +1,5 @@
+<term value="NADH:nitrite reductase, Rieske subunit" id="PRX001202">
+ <instance value="assimilatory nitrite reductase [NAD(P)H] small subunit" species="Bacillus subtilis" dbxref="SPTR:P42436">
+ </instance>
+ &NADHNIR;
+</term>

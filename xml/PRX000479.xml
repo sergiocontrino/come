@@ -1,0 +1,8 @@
+<term value="quinoprotein glucose dehydrogenase" id="PRX000479" dbxref="EC:1.1.99.17">
+ <instance value="glucose dehydrogenase-B" species="Acinetobacter calcoaceticus" dbxref="PDB:1C9U">
+ </instance>
+ <instance value="glucose dehydrogenase-B" species="Acinetobacter calcoaceticus" dbxref="PDB:1CQ1">
+ </instance>
+ <instance value="glucose dehydrogenase-B" species="Acinetobacter calcoaceticus" dbxref="PDB:1CRU">
+ </instance>
+</term>

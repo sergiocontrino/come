@@ -1,0 +1,7 @@
+<term value="protein kinase C" id="PRX000700">
+<!-- contains two phorbol ester binding domains -->
+ <instance value="protein kinase C-delta" species="Mus musculus" dbxref="SPTR:P28867">
+ </instance>
+ <instance value="protein kinase C-gamma" species="Rattus norvegicus" dbxref="SPTR:P05697">
+ </instance>
+</term>

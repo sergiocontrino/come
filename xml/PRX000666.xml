@@ -1,0 +1,5 @@
+<term value="leukotriene A4 hydrolase" id="PRX000666" dbxref="EC:3.3.2.6">
+ <instance value="leukotriene A4 hydrolase" species="human" dbxref="SPTR:P09960" lref="PUBMED:11175901">
+  &BIM000213;
+ </instance>
+</term>

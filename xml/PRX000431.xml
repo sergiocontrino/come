@@ -1,0 +1,8 @@
+<term value="phycocyanobilin/phycourobilin-containing phycoerythrin" id="PRX000431">
+ &MOL000067;
+ &BIM000148;
+ <instance value="R-phycoerythrin" species="Gracilaria chilensis" dbxref="PDB:1EYX">
+ </instance>
+ <instance value="R-phycoerythrin" species="Polysiphonia urceolata" dbxref="PDB:1LIA">
+ </instance>
+</term>

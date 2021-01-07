@@ -1,0 +1,8 @@
+<term value="trimethylamine dehydrogenase" id="PRX000014" dbxref="EC:1.5.99.7">
+ &BIM000137;
+ <instance value="trimethylamine dehydrogenase" species="Methylotrophus methylophilus" dbxref="PDB:1DJN">
+ </instance>
+ <instance value="trimethylamine dehydrogenase" species="Methylotrophus methylophilus" dbxref="PDB:2TMD">
+ </instance>
+ &TMADHETF2;
+</term>

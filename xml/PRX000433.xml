@@ -1,0 +1,7 @@
+<term value="phycoerythrobilin/dihydrobiliverdin-containing phycoerythrin" id="PRX000433">
+ &MOL000068;
+ &BIM000149;
+ &BIM000150;
+ <instance value="phycoerythrin" species="Rhodomonas sp." dbxref="PDB:1QGW">
+ </instance>
+</term>

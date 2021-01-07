@@ -1,0 +1,7 @@
+<term value="plant lipoxygenase" id="PRX000129" dbxref="InterPro:IPR001246">
+ &BIM000046;
+ <instance value="lipoxygenase-1" species="Glycine max" dbxref="SPTR:P08170">
+ </instance>
+ <instance value="lipoxygenase-3" species="Glycine max" dbxref="SPTR:P09186">
+ </instance>
+</term>

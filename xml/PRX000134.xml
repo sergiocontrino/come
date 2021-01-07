@@ -1,0 +1,5 @@
+<term value="homogentisate dioxygenase" id="PRX000134" dbxref="EC:1.13.11.5">
+ <instance value="homogentisate dioxygenase" species="human" dbxref="PDB:1EY2" lref="PUBMED:10876237">
+  &BIM000032;
+ </instance>
+</term>

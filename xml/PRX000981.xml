@@ -1,0 +1,5 @@
+<term value="membrane-bound dimethyl sulphoxide reductase, catalytic subunit" id="PRX000981">
+ <instance value="anaerobic dimethyl sulfoxide reductase chain A" species="Escherichia coli" dbxref="SPTR:P18775">
+ </instance>
+ &MEMBDMSOR;
+</term>

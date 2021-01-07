@@ -1,0 +1,5 @@
+<substructure id="BIM000295">
+ <bim coordination="PBPY-7">Ca(O.Ser)(OD.Asp)2{k2-(OE,OE.Glu)}(OG.Ser)(OH2)</bim>
+ <!-- OH2 is absent in PDB -->
+ &MOL000140;
+</substructure>

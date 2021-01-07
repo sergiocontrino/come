@@ -1,0 +1,6 @@
+<substructure value="CoM-S-S-CoB" id="MOL000133">
+ <term value="coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide" dbxref="COMPOUND:C04832">
+ </term>
+ <term value="O-phosphono-N-{(2E)-7-[(2-sulfoethyl)dithio]hept-2-enoyl}-L-threonine" dbxref="PDBHET:SHT">
+ </term>
+</substructure>

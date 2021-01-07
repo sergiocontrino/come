@@ -1,0 +1,11 @@
+<term value="aldehyde ferredoxin oxidoreductase" id="PRX000097">
+ <instance value="aldehyde ferredoxin oxidoreductase" species="Pyrococcus furiosus" centre="Fe" dbxref="PDB:1AOR">
+  &BIM000037;
+ </instance>
+ <instance value="aldehyde ferredoxin oxidoreductase" species="Pyrococcus furiosus" centre="PTE" dbxref="PDB:1AOR">
+  &BIM000411;
+ </instance>
+ <instance value="aldehyde ferredoxin oxidoreductase" species="Pyrococcus furiosus" centre="FS4" dbxref="PDB:1AOR">
+  &BIM000008;
+ </instance>
+</term>

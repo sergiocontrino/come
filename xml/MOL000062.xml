@@ -1,0 +1,6 @@
+<substructure value="5,10-methenyltetrahydrofolate" id="MOL000062">
+ <term value="5,10-methenyl-6,7,8-trihydrofolic acid" dbxref="PDBHET:MHF">
+ </term>
+ <term value="5,10-methenyltetrahydrofolate" dbxref="COMPOUND:C00445">
+ </term>
+</substructure>

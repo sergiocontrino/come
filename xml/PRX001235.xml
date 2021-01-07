@@ -1,0 +1,5 @@
+<term value="oxygen-independent coproporphyrinogen III oxidase" id="PRX001235" dbxref="InterPro:IPR004558">
+ <instance value="oxygen-independent coproporphyrinogen III oxidase" species="Escherichia coli" dbxref="SPTR:P32131" lref="PUBMED:14633981">
+  &BIM000462;
+ </instance>
+</term>

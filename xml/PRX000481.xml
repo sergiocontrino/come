@@ -1,0 +1,8 @@
+<term value="copper,zinc superoxide dismutase" id="PRX000481" dbxref="InterPro:IPR001424">
+ <instance value="Cu,Zn superoxide dismutase" species="Bos taurus" dbxref="PDB:2SOD">
+ &BIM000091;
+ </instance>
+ <instance value="Cu,Zn superoxide dismutase" species="Xenopus laevis" dbxref="PDB:1XSO">
+ &BIM000493;
+ </instance>
+</term>

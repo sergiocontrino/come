@@ -1,0 +1,5 @@
+<term value="serotransferrin" id="PRX001344">
+ <instance value="serum transferrin, N-terminal lobe" species="human" state="(Fe)3+,(CO3)2-" dbxref="PDB:1D3K" lref="PUBMED:10739246">
+  &BIM000517;
+ </instance>
+</term>

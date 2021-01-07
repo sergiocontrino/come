@@ -1,0 +1,6 @@
+<term value="cysteine desulphurase" id="PRX000846">
+ <instance value="cysteine desulfurase" species="Azotobacter vinelandii" dbxref="SPTR:P05341">
+ </instance>
+ <instance value="cysteine desulfurase" species="Escherichia coli" dbxref="SPTR:P39171">
+ </instance>
+</term>

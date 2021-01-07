@@ -1,0 +1,6 @@
+<term value="cambialistic superoxide dismutase" id="PRX001134">
+ <instance value="superoxide dismutase" species="Propionibacterium freudenreichii shermanii" state="(Mn)2+" dbxref="PDB:1AR4">
+ </instance>
+ <instance value="superoxide dismutase" species="Propionibacterium freudenreichii shermanii" state="(Fe)3+" dbxref="PDB:1AR5">
+ </instance>
+</term>

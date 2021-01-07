@@ -1,0 +1,8 @@
+<substructure value="Cl" id="MOL000175">
+ <term value="chlorine anion" dbxref="CAS:16887-00-6">
+ </term>
+ <term value="chloride" dbxref="COMPOUND:C00115">
+ </term>
+ <term value="chloride ion" dbxref="PDBHET:CL">
+ </term>
+</substructure>

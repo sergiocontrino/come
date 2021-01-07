@@ -1,0 +1,14 @@
+<term value="iron 3,4-dihydroxyphenylacetate 2,3-dioxygenase" id="PRX001127">
+ <instance value="3,4-dihydroxyphenylacetate 2,3-dioxygenase" species="Escherichia coli" dbxref="SPTR:Q05353">
+ </instance>
+ <instance value="homoprotocatechuate 2,3-dioxygenase" species="Brevibacterium fuscum" state="native" dbxref="PDB:1F1X">
+  &BIM000036;
+ </instance>
+ <instance value="homoprotocatechuate 2,3-dioxygenase" species="Brevibacterium fuscum" state="3,4-dihydroxyphenylacetate-bound" dbxref="PDB:1Q0C">
+  &MOL000159;
+  &BIM000512;
+ </instance>
+ <instance value="homoprotocatechuate 2,3-dioxygenase" species="Brevibacterium fuscum" state="native" dbxref="PDB:1Q0O">
+  &BIM000036;
+ </instance>
+</term>

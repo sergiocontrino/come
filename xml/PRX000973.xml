@@ -1,0 +1,9 @@
+<term value="soluble Ni-Fe hydrogenase large subunit" id="PRX000973">
+ <instance value="Ni-Fe hydrogenase large subunit" species="Desulfovibrio vulgaris" centre="Ni-Fe cluster" dbxref="SPTR:P21852">
+ &BIM000140;
+ </instance>
+ <instance value="Ni-Fe hydrogenase large subunit" species="Desulfovibrio desulfuricans" centre="Ni-Fe cluster" dbxref="SPTR:Q9L868">
+ &BIM000269;
+ </instance>
+ &NIFESOLUBLE;
+</term>

@@ -1,0 +1,5 @@
+<substructure id="BIM000415">
+ <bim>{Fe(por)(NE.His)}[{Cu(NE.His)2}(CE.Tyr){&#181;-(ND,NE.His)}]{&#181;-(OH)}</bim>
+ &BIM000019;
+ &BIM000382;
+</substructure>

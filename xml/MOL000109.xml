@@ -1,0 +1,8 @@
+<substructure value="Fe" id="MOL000109">
+ <term value="iron" dbxref="COMPOUND:C00023">
+ </term>
+ <term value="Fe(II) ion" dbxref="PDBHET:FE2">
+ </term>
+ <term value="Fe(III) ion" dbxref="PDBHET:FE">
+ </term>
+</substructure>

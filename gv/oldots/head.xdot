@@ -1,0 +1,14 @@
+digraph COMe {
+
+graph [
+rankdir = "LR"
+];
+
+node [
+color=orange
+style=filled
+fontsize = 9
+shape = record
+URL = "http://www.ebi.ac.uk/come/entry?gn=\N"
+];
+

@@ -1,0 +1,8 @@
+<term value="ferritin" id="PRX000161" dbxref="InterPro:IPR001519">
+ <instance value="ferritin H-chain" species="human" dbxref="SPTR:P02794">
+  &BIM000076;
+ </instance>
+ <instance value="ferritin" species="Escherichia coli" dbxref="SPTR:P23887">
+  &BIM000077;
+ </instance>
+</term>

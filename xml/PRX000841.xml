@@ -1,0 +1,6 @@
+<term value="methionine gamma-lyase" id="PRX000841" dbxref="EC:4.4.1.11">
+ <instance value="methionine gamma-lyase" species="Trichomonas vaginalis" dbxref="PDB:1E5F">
+ </instance>
+ <instance value="methionine gamma-lyase" species="Pseudomonas putida" dbxref="SPTR:P13254">
+ </instance>
+</term>

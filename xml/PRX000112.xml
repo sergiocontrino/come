@@ -1,0 +1,5 @@
+<term value="NADPH:sulphite reductase flavoprotein" id="PRX000112">
+ <instance value="NADPH-sulfite reductase flavoprotein" species="Escherichia coli" lref="PUBMED:10860732" dbxref="SPTR:P38038">
+ </instance>
+ &SIR;
+</term>

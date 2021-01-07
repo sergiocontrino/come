@@ -1,0 +1,5 @@
+<substructure id="BIM000317">
+ <!-- unusual 8-coordinated Ca atom -->
+ <bim coordination="PBPY-8">Ca(OD.Asn)(OD.Asp){k2-(OD,OD.Asp)}2(OH2)2</bim>
+ &MOL000140;
+</substructure>

@@ -1,0 +1,6 @@
+<substructure value="neoxanthin" id="MOL000106">
+ <term value="(1R,3R)-6-{(3E,5E,7E,9E,11E,13E,15E,17E)-18-[(1S,4R,6R)-4-hydroxy-2,2,6-trimethyl-7-oxabicyclo[4.1.0]hept-1-yl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenylidene}-1,5,5-trimethylcyclohexane-1,3-diol" dbxref="PDBHET:NEX">
+ </term>
+ <term value="neoxanthin" dbxref="COMPOUND:C08601">
+ </term>
+</substructure>

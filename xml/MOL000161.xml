@@ -1,0 +1,8 @@
+<substructure value="lipoic acid" id="MOL000161">
+ <term value="lipoic acid" dbxref="CAS:62-46-4">
+ </term>
+ <term value="lipoate" dbxref="COMPOUND:C00725">
+ </term>
+ <term value="lipoic acid" dbxref="PDBHET:LPA">
+ </term>
+</substructure>

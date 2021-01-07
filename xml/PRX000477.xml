@@ -1,0 +1,8 @@
+<term value="methanol dehydrogenase alpha subunit" id="PRX000477">
+ <instance value="methanol dehydrogenase alpha subunit" species="Methylophilus methylotrophus" dbxref="SPTR:P38539">
+  &BIM000045;
+ </instance>
+ <instance value="methanol dehydrogenase alpha subunit" species="Methylobacterium extorquens" dbxref="SPTR:P16027">
+ </instance>
+ &MEDH;
+</term>

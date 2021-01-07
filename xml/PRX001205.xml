@@ -1,0 +1,5 @@
+<term value="copper efflux regulator" id="PRX001205">
+ <instance value="transcriptional regulator CueR" species="Escherichia coli" state="(Cu)+" dbxref="SPTR:P77565" lref="PUBMED:12958362">
+ &BIM000417;
+ </instance>
+</term>

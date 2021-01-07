@@ -1,0 +1,8 @@
+<substructure value="Cu" id="MOL000110">
+ <term value="copper" dbxref="COMPOUND:C00070">
+ </term>
+ <term value="copper(I) ion" dbxref="PDBHET:CU1">
+ </term>
+ <term value="copper(II) ion" dbxref="PDBHET:CU">
+ </term>
+</substructure>

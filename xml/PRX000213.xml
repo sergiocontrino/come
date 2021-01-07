@@ -1,0 +1,5 @@
+<term value="particulate methane monooxygenase" id="PRX000213" dbxref="EC:1.14.13.25" lref="PUBMED:15078087">
+ <instance value="particulate methane monooxygenase" species="Methylomicrobium album" lref="PUBMED:10096917">
+  &BIM000098;
+ </instance>
+</term>

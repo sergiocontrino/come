@@ -1,0 +1,7 @@
+<term value="magnesium,zinc porphobilinogen synthase" id="PRX001092">
+ <!-- contains active site Zn, allosteric Mg -->
+ <instance value="delta-aminolevulinic acid dehydratase" species="Escherichia coli" dbxref="SPTR:P15002">
+  &BIM000385;
+  &BIM000386;
+ </instance>
+</term>

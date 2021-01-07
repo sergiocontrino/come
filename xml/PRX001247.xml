@@ -1,0 +1,6 @@
+<term value="BslI restriction endonuclease, beta subunit" id="PRX001247">
+ <instance value="BslI restriction endonuclease, beta subunit" species="Bacillus sp." dbxref="SPTR:Q9LAI0" lref="PUBMED:14623197">
+  &BIM000222;
+</instance>
+ &BSLI;
+</term>

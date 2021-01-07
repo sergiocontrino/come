@@ -1,0 +1,5 @@
+<term value="iron alcohol dehydrogenase" id="PRX001203" dbxref="InterPro:IPR001670">
+ <instance value="alcohol dehydrogenase, iron-containing" species="Thermotoga maritima" dbxref="PDB:1O2D">
+  &BIM000416;
+ </instance>
+</term>

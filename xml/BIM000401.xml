@@ -1,0 +1,7 @@
+<substructure id="BIM000401">
+ <!-- (X) is a ligand of unknown nature, may be CO -->
+ <bim>(NiFe4S4)(NE.His)(SG.Cys)5(X)</bim>
+ &BIM000054;
+ &BIM000402;
+ &BIM000403;
+</substructure>

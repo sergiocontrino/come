@@ -1,0 +1,6 @@
+<substructure id="BIM000460">
+ <bim>[Fe(ND.His){k2-(OE,OE.Glu)}*]{Zn(OE.Glu)*}{&#181;-(OE,OE.Glu)}2</bim>
+ &BIM000084;
+ &BIM000352;
+ &BIM000457;
+</substructure>

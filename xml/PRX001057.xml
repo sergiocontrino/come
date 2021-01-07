@@ -1,0 +1,8 @@
+<term value="tyrosine 3-monooxygenase" id="PRX001057" dbxref="EC:1.14.16.2">
+ <instance value="tyrosine 3-monooxygenase" species="Rattus norvegicus" state="substrate-free" dbxref="PDB:1TOH">
+  &BIM000036;
+ </instance>
+ <instance value="tyrosine 3-monooxygenase" species="Rattus norvegicus" state="dihydrobiopterin-bound" dbxref="PDB:2TOH">
+  &BIM000029;
+ </instance>
+</term>

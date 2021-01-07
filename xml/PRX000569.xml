@@ -1,0 +1,8 @@
+<term value="manganese catalase" id="PRX000569" dbxref="GO:0016953">
+ <instance value="manganese catalase" species="Thermus thermophilus" lref="PUBMED:10413487">
+  &BIM000194;
+ </instance>
+ <instance value="manganese catalase" species="Lactobacillus plantarum" state="(Mn)3+:(Mn)3+,as isolated" dbxref="PDB:1JKU" lref="PUBMED:11587647">
+  &BIM000478;
+ </instance>
+</term>

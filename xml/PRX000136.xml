@@ -1,0 +1,8 @@
+<term value="isopenicillin N synthase" id="PRX000136" dbxref="InterPro:IPR002057">
+ <instance value="IPNS" species="Aspergillus nidulans" state="substrate-free" dbxref="PDB:1IPS">
+  &BIM000033;
+ </instance>
+ <instance value="IPNS" species="Aspergillus nidulans" state="complex with ACV and NO" dbxref="PDB:1BLZ">
+  &BIM000034;
+ </instance>
+</term>

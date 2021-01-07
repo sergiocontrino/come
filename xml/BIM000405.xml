@@ -1,0 +1,5 @@
+<substructure id="BIM000405">
+ <bim>{Mn(NE.His)(OE.Glu)}[Mn{k2-(OD,OD.Asp)}(OH2)]{&#181;-(OD,OD.Asp)}{&#181;-(OE,OE.Glu){&#181;-(OH2)}</bim>
+  &BIM000406;
+  &BIM000407;
+</substructure>

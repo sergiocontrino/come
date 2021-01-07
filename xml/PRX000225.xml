@@ -1,0 +1,9 @@
+<term value="catechol oxidase" id="PRX000225" dbxref="EC:1.10.3.1">
+ &BIM000488;
+ <instance value="catechol oxidase" species="Ipomoea batatas" state="(Cu)2+:(Cu)2+" dbxref="PDB:1BT1">
+ </instance>
+ <instance value="catechol oxidase" species="Ipomoea batatas" state="(Cu)2+:(Cu)2+" dbxref="PDB:1BT3">
+ </instance>
+ <instance value="catechol oxidase" species="Ipomoea batatas" state="(Cu)+:(Cu)+" dbxref="PDB:1BT2">
+ </instance>
+</term>

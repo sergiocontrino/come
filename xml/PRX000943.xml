@@ -1,0 +1,6 @@
+<term value="quinohaemoprotein amine dehydrogenase, dihaem cytochrome c subunit" id="PRX000943">
+ <!-- contains two haem c groups -->
+ <instance value="quinohemoprotein amine dehydrogenase alpha subunit" species="Paracoccus denitrificans" lref="PUBMED:11717396">
+ </instance>
+ &QHNDH;
+</term>

@@ -1,0 +1,8 @@
+<term value="parvalbumin beta" id="PRX000935">
+ <instance value="parvalbumin beta" species="Cyprinus carpio" centre="EF1" dbxref="PDB:5CPV">
+  &BIM000308;
+ </instance>
+ <instance value="parvalbumin beta" species="Cyprinus carpio" centre="EF2" dbxref="PDB:5CPV">
+  &BIM000307;
+ </instance>
+</term>

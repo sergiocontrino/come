@@ -1,0 +1,5 @@
+<term value="transketolase" id="PRX001029" dbxref="EC:2.2.1.1">
+ <instance value="transketolase 1" species="Saccharomyces cerevisiae" dbxref="SPTR:P23254">
+  &BIM000329;
+ </instance>
+</term>

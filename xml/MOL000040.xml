@@ -1,0 +1,6 @@
+<substructure value="FADH2" id="MOL000040">
+ <term value="dihydroflavine-adenine dinucleotide" dbxref="PDBHET:FDA">
+ </term>
+ <term value="FADH2" dbxref="COMPOUND:C01352">
+ </term>
+</substructure>

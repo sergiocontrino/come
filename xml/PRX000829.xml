@@ -1,0 +1,12 @@
+<term value="aspartate aminotransferase" id="PRX000829" dbxref="EC:2.6.1.1">
+ <instance value="aspartate aminotransferase" species="Escherichia coli" dbxref="SPTR:P00509">
+ </instance>
+ <instance value="aspartate aminotransferase" species="Thermus aquaticus" dbxref="SPTR:Q56232">
+ </instance>
+ <instance value="cytosolic aspartate aminotransferase" species="Gallus gallus" dbxref="SPTR:P00504">
+ </instance>
+ <instance value="mitochondrial aspartate aminotransferase" species="Gallus gallus" dbxref="SPTR:P00508">
+ </instance>
+ <instance value="cytosolic aspartate aminotransferase" species="Saccharomyces cerevisiae" dbxref="SPTR:P23542">
+ </instance>
+</term>

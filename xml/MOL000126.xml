@@ -1,0 +1,9 @@
+<substructure value="MgW(dtpp)2" id="MOL000126">
+ &MOL000078;
+ &MOL000114;
+ &MOL000118;
+ <term value="tungstopterin cofactor" dbxref="PDBHET:PTE">
+ </term>
+ <term value="tungstopterin" dbxref="PDBHET:PTT">
+ </term>
+</substructure>

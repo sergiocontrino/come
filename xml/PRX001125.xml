@@ -1,0 +1,4 @@
+<term value="biotin operon repressor" id="PRX001125" dbxref="InterPro:IPR004409">
+ <instance value="BirA bifunctional protein" species="Escherichia coli" state="biotin-bound" dbxref="PDB:1HXD">
+ </instance>
+</term>

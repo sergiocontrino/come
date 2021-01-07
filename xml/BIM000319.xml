@@ -1,0 +1,5 @@
+<substructure id="BIM000319">
+ <bim>{Fe3S4}(SG.Cys)3*</bim>
+  &BIM000054;
+  &BIM000318;
+</substructure>

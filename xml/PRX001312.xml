@@ -1,0 +1,5 @@
+<term value="cytosolic copper chaperone Atx1" id="PRX001312">
+ <instance value="copper transport protein ATOX1" species="human" state="Cu-bound,homodimer" dbxref="PDB:1FEE" lref="PUBMED:10966647">
+  &BIM000126;
+ </instance>
+</term>

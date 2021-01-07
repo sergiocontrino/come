@@ -1,0 +1,8 @@
+<term value="glutamate mutase sigma subunit" id="PRX000642">
+ <instance value="glutamate mutase sigma subunit" species="Clostridium tetanomorphum" dbxref="SPTR:Q05488">
+  &MOL000086;
+ </instance>
+ <instance value="glutamate mutase sigma subunit" species="Clostridium cochlearium" dbxref="SPTR:Q60144">
+ </instance>
+ &GLM;
+</term>

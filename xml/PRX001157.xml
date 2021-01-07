@@ -1,0 +1,8 @@
+<term value="isocahedral dihydrolipoamide S-acetyltransferase" id="PRX001157">
+ <instance value="dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex" species="Bacillus stearothermophilus" dbxref="SPTR:P11961">
+ </instance>
+ <instance value="dihydrolipoamide acetyltransferase component of acetoin cleaving system" species="Bacillus subtilis" dbxref="SPTR:O31550">
+ </instance>
+ &PDH60;
+ &ACETDH;
+</term>

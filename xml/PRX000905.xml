@@ -1,0 +1,14 @@
+<term value="insect calmodulin" id="PRX000905">
+ <instance value="calmodulin" species="Drosophila melanogaster" centre="EF1" dbxref="PDB:4CLN">
+  &BIM000284;
+ </instance>
+ <instance value="calmodulin" species="Drosophila melanogaster" centre="EF2" dbxref="PDB:4CLN">
+  &BIM000289;
+ </instance>
+ <instance value="calmodulin" species="Drosophila melanogaster" centre="EF3" dbxref="PDB:4CLN">
+  &BIM000285;
+ </instance>
+ <instance value="calmodulin" species="Drosophila melanogaster" centre="EF4" dbxref="PDB:4CLN">
+  &BIM000287;
+ </instance>
+</term>

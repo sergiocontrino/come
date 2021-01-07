@@ -1,0 +1,5 @@
+<term value="mammalian lipoxygenase" id="PRX000130" dbxref="InterPro:IPR001885">
+  &BIM000047;
+ <instance value="arachidonate 15-lipoxygenase" species="Oryctolagus cuniculus" dbxref="SPTR:P12530">
+ </instance>
+</term>

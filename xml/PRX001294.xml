@@ -1,0 +1,13 @@
+<term value="animal-type metallothionein, four-metal-binding domain" id="PRX001294">
+ <instance value="metallothionein-2, alpha domain" species="human" state="Cd-bound" dbxref="PDB:1MHU" lref="PUBMED:2388267">
+  &BIM000500;
+ </instance>
+ <instance value="metallothionein-3, alpha domain" species="Mus musculus" state="Cd-bound" dbxref="PDB:1JI9" lref="PUBMED:11560491">
+  &BIM000500;
+ </instance>
+ <instance value="metallothionein A, alpha domain" species="Strongylocentrotus purpuratus" state="Cd-bound" dbxref="PDB:1QJK">
+ &BIM000500;
+ </instance>
+ &MAMMT;
+ &SURMT;
+</term>

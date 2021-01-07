@@ -1,0 +1,9 @@
+<term value="algal/cyanobacterial photosystem II" id="PRX000873">
+ &MOL000163;
+ <instance value="photosystem II" species="Synechococcus elongatus" dbxref="PDB:1FE1">
+ </instance>
+ <instance value="photosystem II" species="Thermosynechococcus elongatus" dbxref="PDB:1S5L" lref="PUBMED:14764885">
+ </instance>
+ <instance value="photosystem II" species="Thermosynechococcus vulcanus" dbxref="PDB:1IZL" lref="PUBMED:12518057">
+ </instance>
+</term>

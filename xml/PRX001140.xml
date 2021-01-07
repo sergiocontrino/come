@@ -1,0 +1,5 @@
+<term value="octahedral dihydrolipoamide S-acetyltransferase" id="PRX001140">
+ <instance value="dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex" species="Escherichia coli" dbxref="SPTR:P06959">
+ </instance>
+ &PDH24;
+</term>

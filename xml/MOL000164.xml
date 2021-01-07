@@ -1,0 +1,6 @@
+<substructure value="(HPO4)2-" id="MOL000164">
+ <term value="inorganic phosphate group" dbxref="PDBHET:IPS">
+ </term>
+ <term value="hydrogenphosphate ion" dbxref="PDBHET:PI">
+ </term>
+</substructure>

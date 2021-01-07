@@ -1,0 +1,11 @@
+<term value="copper amine oxidase" id="PRX000218" dbxref="InterPro:IPR000269">
+ &BIM000096;
+ <instance value="copper amine oxidase" species="Escherichia coli" dbxref="PDB:1OAC">
+ </instance>
+ <instance value="copper amine oxidase" species="Arthrobacter globiformis" dbxref="PDB:1AVL">
+ </instance>
+ <instance value="copper amine oxidase" species="Hansenula polymorpha" dbxref="PDB:1A2V">
+ </instance>
+ <instance value="copper amine oxidase" species="Pisum sativum" dbxref="PDB:1KSI">
+ </instance>
+</term>

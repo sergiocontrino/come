@@ -1,0 +1,5 @@
+<term value="catechol 2,3-dioxygenase" id="PRX000139" dbxref="EC:1.13.11.2">
+ <instance value="catechol 2,3-dioxygenase" species="Pseudomonas putida" dbxref="PDB:1MPY">
+  &BIM000128;
+ </instance>
+</term>

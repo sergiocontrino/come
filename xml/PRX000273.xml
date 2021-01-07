@@ -1,0 +1,8 @@
+<term value="pyruvate-ferredoxin oxidoreductase" id="PRX000273" dbxref="InterPro:IPR002869">
+ <instance value="pyruvate-ferredoxin oxidoreductase" species="Desulfovibrio africanus" dbxref="PDB:1B0P">
+  &BIM000471;
+ </instance>
+ <instance value="pyruvate-ferredoxin oxidoreductase" species="Desulfovibrio africanus" dbxref="PDB:2PDA">
+  &BIM000471;
+ </instance>
+</term>

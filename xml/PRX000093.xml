@@ -1,0 +1,6 @@
+<term value="glutamine PRPP amidotransferase" id="PRX000093" dbxref="InterPro:IPR000583">
+ <instance value="glutamine PRPP amidotransferase" species="Bacillus subtilis" dbxref="PDB:1AO0">
+ </instance>
+ <instance value="glutamine PRPP amidotransferase" species="Bacillus subtilis" dbxref="PDB:1GPH">
+ </instance>
+</term>

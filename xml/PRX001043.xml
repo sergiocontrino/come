@@ -1,0 +1,4 @@
+<term value="exonuclease-like nitrophorin" id="PRX001043" dbxref="InterPro:IPR000300">
+ <instance value="nitrophorin" species="Cimex lectularius" dbxref="SPTR:O76745" lref="PUBMED:9716517">
+ </instance>
+</term>

@@ -1,0 +1,8 @@
+<substructure id="BIM000109" lref="PUBMED:11456570">
+ <!-- CuZ centre in nitrous oxide reductase -->
+ <bim>{Cu4(&#181;4-S)}(ND.His)2(NE.His)5(OH)2</bim>
+ <term value="heptakis-L-histidino tetracopper mu4-sulfide hydroxide" dbxref="RESID:AA0298">
+ </term>
+ &MOL000124;
+ &MOL000143;
+</substructure>

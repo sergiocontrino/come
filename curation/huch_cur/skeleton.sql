@@ -1,0 +1,21 @@
+--  SET DOC OFF
+--  *************************************************************
+--
+--  Purpose:    
+--
+--  Usage:      sqlplus username/password @skeleton.sql
+--
+--
+--  $Source: /ebi/sp/pro1/HUmanCHromosome/curation/RCS/skeleton.sql,v $
+--  $Date: 2003/12/12 09:19:59 $
+--  $Author: pkersey $
+--
+--  _____________________________________________________________
+--
+--  $Log: skeleton.sql,v $
+--  Revision 1.1  2003/12/12 09:19:59  pkersey
+--  Initial revision
+--
+--
+--  *************************************************************
+

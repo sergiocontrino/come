@@ -1,0 +1,6 @@
+<term value="Cu-S-Mo carbon monoxide oxidase" id="PRX001084">
+ <instance value="carbon monoxide dehydrogenase" species="Oligotropha carboxidovorans" state="(Mo)6+" dbxref="PDB:1N5W">
+ </instance>
+ <instance value="carbon monoxide dehydrogenase" species="Oligotropha carboxidovorans" state="(Mo)4+" dbxref="PDB:1N61">
+ </instance>
+</term>

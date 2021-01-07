@@ -1,0 +1,4 @@
+<term value="NADPH:P450 reductase" id="PRX000111" dbxref="EC:1.6.2.4">
+ <instance value="NADPH-cytochrome P450 reductase" species="Rattus norvegicus" dbxref="SPTR:P00388">
+ </instance>
+</term>

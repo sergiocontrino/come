@@ -1,0 +1,6 @@
+<term value="acetolactate synthase catalytic subunit" id="PRX001026" dbxref="InterPro:IPR004407">
+ <instance value="acetohydroxy-acid synthase catalytic subunit" species="Saccharomyces cerevisiae" dbxref="PDB:1JSC">
+  &BIM000328;
+ </instance>
+ &ALS;
+</term>

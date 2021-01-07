@@ -1,0 +1,6 @@
+<term value="photosystem II subunit CP43" id="PRX001330" dbxref="InterPro:IPR005869">
+ <instance value="photosystem II CP43 protein" species="Synechococcus elongatus" dbxref="SPTR:Q8DIF8">
+ </instance>
+ &D1D2PSBBC;
+ &OEC;
+</term>

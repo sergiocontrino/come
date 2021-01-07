@@ -1,0 +1,6 @@
+<substructure value="haem b" id="MOL000013">
+ <term value="protoporphyrin IX containing Fe" dbxref="PDBHET:HEM">
+ </term>
+ <term value="heme" dbxref="COMPOUND:C00032">
+ </term>
+</substructure>

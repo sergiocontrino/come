@@ -1,0 +1,6 @@
+<term value="homodimeric pyruvate dehydrogenase (lipoamide)" id="PRX001033">
+ <instance value="pyruvate dehydrogenase E1 component" species="Escherichia coli" dbxref="PDB:1L8A">
+  &BIM000327;
+ </instance>
+ &PDH24;
+</term>

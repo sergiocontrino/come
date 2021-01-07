@@ -1,0 +1,14 @@
+<!-- ELEMENT substructure (bim) -->
+  <!-- ATTLIST substructure id #REQUIRED -->
+<!ELEMENT bim (#PCDATA)>
+  <!ATTLIST bim coordination ( PTS-3 | TP-3 | TPY-3 | T-4 | TPY-4 | SP-4 | SPY-4 | SPY-5 | TBPY-5 | OC-6 | TPR-6 | TPRS-7) #REQUIRED>
+<!ENTITY BIM000023 SYSTEM "BIM000023.xml" >
+<!ENTITY BIM000229 SYSTEM "BIM000229.xml" >
+<term value="CO sensor protein cooA" id="PRX000708">
+ <instance value="CO sensor protein cooA" species="Rhodospirillum rubrum" state="CO-free,Fe2+" dbxref="PDB:1FT9">
+  &BIM000229;
+ </instance>
+ <instance value="CO sensor protein cooA" species="Rhodospirillum rubrum" state="CO-bound,Fe2+" lref="PUBMED:11278259">
+  &BIM000023;
+ </instance>
+</term>

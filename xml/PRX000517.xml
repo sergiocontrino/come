@@ -1,0 +1,5 @@
+<term value="animal ferrochelatase" id="PRX000517" dbxref="InterPro:IPR001015">
+ &BIM000055;
+ <instance value="ferrochelatase" species="human" dbxref="SPTR:P22830">
+ </instance>
+</term>

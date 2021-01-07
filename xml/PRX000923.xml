@@ -1,0 +1,8 @@
+<term value="S100B protein" id="PRX000923">
+ <instance value="S100B protein" species="Bos taurus" centre="EF1" dbxref="PDB:1MHO">
+  &BIM000299;
+ </instance>
+ <instance value="S100B protein" species="Bos taurus" centre="EF2" dbxref="PDB:1MHO">
+  &BIM000300;
+ </instance>
+</term>

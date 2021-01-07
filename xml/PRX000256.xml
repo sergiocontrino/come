@@ -1,0 +1,5 @@
+<term value="HasA hemophore" id="PRX000256">
+ <instance value="heme-binding protein A" species="Serratia marcescens" state="haem-bound" dbxref="PDB:1B2V">
+  &BIM000017;
+ </instance>
+</term>

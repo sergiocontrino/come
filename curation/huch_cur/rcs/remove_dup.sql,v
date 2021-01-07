@@ -1,0 +1,48 @@
+head	1.1;
+access;
+symbols;
+locks
+	pkersey:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2003.12.12.09.19.39;	author pkersey;	state Exp;
+branches;
+next	;
+
+
+desc
+@fixing for PROT use.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@select timestamp from proteomes.cromosptr  
+where gid=12777
+group by timestamp 
+having max(timestamp)
+;
+
+
+select rowid, gid, acc 
+from cromosptr
+where gid=12777
+;
+
+delete from cromosptr where rowid='AAAsxoAMAAAAcTZAAM';
+
+select rowid, gid, acc 
+from cromosptr
+where gid=13897
+;
+delete from cromosptr where rowid='AAAsxoABeAACV5+AA4';
+delete from cromosptr where rowid='AAAsxoABeAACV5+AA3';
+
+
+
+@

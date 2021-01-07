@@ -1,0 +1,6 @@
+<term value="5-methyltetrahydrofolate-homocysteine S-methyltransferase" id="PRX000636" dbxref="EC:2.1.1.13">
+ <instance value="5-methyltetrahydrofolate-homocysteine S-methyltransferase" species="Escherichia coli" dbxref="PDB:1BMT">
+  &BIM000210;
+  &MOL000085;
+ </instance>
+</term>

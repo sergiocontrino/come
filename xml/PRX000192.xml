@@ -1,0 +1,5 @@
+<term value="azurin" id="PRX000192" dbxref="InterPro:IPR003246">
+ <instance value="azurin" species="Alcaligenes denitrificans" dbxref="PDB:2AZA">
+  &BIM000095;
+ </instance>
+</term>

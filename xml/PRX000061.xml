@@ -1,0 +1,5 @@
+<term value="thioredoxin-like ferredoxin" id="PRX000061" dbxref="GO:0009495">
+ &BIM000055;
+ <instance value="ferredoxin Fd4" species="Aquifex aeolicus" dbxref="SPTR:O66511">
+ </instance>
+</term>

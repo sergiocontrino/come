@@ -1,0 +1,721 @@
+head	1.8;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2001.08.08.14.06.18;	author contrino;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2001.07.26.08.47.11;	author contrino;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2001.07.24.11.02.08;	author contrino;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.06.15.16.19.34;	author contrino;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.06.13.16.16.56;	author contrino;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.06.13.08.55.15;	author contrino;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.06.12.10.22.54;	author contrino;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.06.08.14.06.54;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@changed field separator
+@
+text
+@/**
+//  =============================================================
+//
+//  Purpose: parse come xml files
+//           
+//
+//  Usage:   java bimp[arser file.xml
+//
+//
+//  $Source: /homes/contrino/come/parse/RCS/bimparser.java,v $
+//  $Date: 2001/07/26 08:47:11 $
+//  $Author: contrino $
+//
+//  _____________________________________________________________
+//
+//  $Log: bimparser.java,v $
+//  Revision 1.7  2001/07/26 08:47:11  contrino
+//  debug: added again the output forprotein terms (needed for dbx)
+//
+//  Revision 1.6  2001/07/24 11:02:08  contrino
+//  *** empty log message ***
+//
+//  Revision 1.5  2001/06/15 16:19:34  contrino
+//  ?
+//
+//  Revision 1.4  2001/06/13 16:16:56  contrino
+//  working version with relationship parsing.
+//  need cleaning, comments and test.
+//
+//
+//  =============================================================
+*/
+
+
+import org.xml.sax.*;
+import org.apache.xerces.parsers.*;
+
+
+/**Make this class implement various interfaces including
+DocumentHandler, Locator, ErrorHandler, etc.  
+
+Remember there is a helper class for the SAX API...
+
+*/
+public class bimparser extends HandlerBase 
+{    
+    private boolean in_substructure     = false;
+    private boolean in_bim              = false;
+    private boolean in_term             = false;
+    private boolean in_instance         = false;
+    private boolean untermed_bim        = true;
+    private boolean first_term          = true;
+    private boolean bim                 = false;
+
+    private int instance_count =0;
+
+    private String  o_id       = "-";     // all
+    private String  o_name     = "-";     // bim, mol
+    private String  o_term     = "-";     // bim, mol
+    private String  o_instance = "-";     // pr
+    private String  o_dbx      = "-";     // all
+    private String  o_rx       = "-";     // all
+    private String  o_coord    = "-";     // bim
+    private String  o_species  = "-";     // pr
+    private String  o_state    = "-";     // pr
+    private String  o_centre   = "-";     // pr
+
+    private String  o_rel      = "-";     // relation
+    private String  rel_site   = "-";     // substructure, term, instance, bim(?) 
+
+    private static String  S = "%";
+
+    /**Main method 
+       Usage: java bimparser XML_File */
+    public static void main(String[] args) 
+    {
+	if (args.length<1) 
+	    {
+		System.out.println("Usage: java bimparser XML_File");
+		System.exit(0);
+	    }
+	
+	//Create an instance of this class.
+	bimparser saxParser = new bimparser();
+	
+	//Call a method that takes the file name as input.
+	saxParser.parse(args[0]);
+    }
+    
+    /**This class will be where we:
+       (i) Instantiate the XML parser.
+       (ii) Register the document handler object, error handler, etc.
+       (iii) Tell the XML parser to start parsing the XML file.  
+    */
+
+    public void parse(String file) 
+    {
+	//Constructor for the xml4j validating SAX parser.
+	//ValidatingSAXParser myParser = new ValidatingSAXParser();
+	SAXParser myParser = new SAXParser();
+	
+	//Register the DocumentHandler object with the parser.
+	myParser.setDocumentHandler(this);
+	
+	//Parse the file - As it is read, it will fire off calls to
+	//the appropriate registered objects.
+	try 
+	    {
+		myParser.parse(file);
+	    } 
+	catch (SAXException ex) {System.out.println("SAXException"+ex);}
+	catch (java.io.IOException ex) {System.out.println("IOEXception:"+ex);}
+    }
+    
+    public void startDocument () 
+    {
+	System.out.println("Start doc" );
+}
+
+    public void startElement(String name, AttributeList atts) 
+    {
+	if (name.equals("substructure"))  
+	    in_substructure = true;
+
+	if (name.equals("bim"))           
+	    {	   
+		in_bim = true;
+		bim = true;
+	    }
+	if (name.equals("term"))
+	    {
+		// to print MOL data in substructure
+		if ( in_bim ) untermed_bim = false;
+		if ( bim == false ) 
+		    if ( in_substructure && first_term)
+			System.out.println( o_id +S+ o_name +S+ o_term +S+ o_instance +S+ o_dbx +S+ o_rx +S+ o_coord +S+ o_species +S+ o_state +S+ o_centre );
+		in_term = true;
+		first_term = false;
+	    }
+
+	if (name.equals("instance"))          
+	    {
+		// to print data in term
+		if ( in_term && instance_count == 0 )
+		    System.out.println(o_id +S+ o_name +S+ o_term +S+ o_instance +S+ o_dbx +S+ o_rx +S+ o_coord +S+ o_species +S+ o_state +S+ o_centre );
+		in_instance = true;
+		instance_count ++;
+	    }
+
+    	for (int i = 0; i < atts.getLength(); i++)
+	    {
+		if ( atts.getName(i).equals("id") ) 
+		    o_id = atts.getValue(i);
+		if ( atts.getName(i).equals("value") && in_term ) 
+		    o_term = atts.getValue(i);
+		if ( atts.getName(i).equals("name") )
+		    o_name = atts.getValue(i);
+		if ( atts.getName(i).equals("inst") )
+		    o_instance = atts.getValue(i);
+		if ( atts.getName(i).equals("dbxref") ) 
+		    o_dbx = atts.getValue(i);
+		if ( atts.getName(i).equals("lref") ) 
+		    o_rx = atts.getValue(i);
+
+		if ( atts.getName(i).equals("coordination") ) 
+		    o_coord = atts.getValue(i);
+	       
+		// these only for prx
+		if ( atts.getName(i).equals("species") ) 
+		    o_species = atts.getValue(i);
+		if ( atts.getName(i).equals("state") ) 
+		    o_state = atts.getValue(i);
+		if ( atts.getName(i).equals("centre") ) 
+		    o_centre = atts.getValue(i);
+	    }
+    }
+    
+    
+    public void endElement(String name) 
+    {
+	if (name.equals("substructure"))
+	    {
+		//needed for bim!!
+		if ( untermed_bim == true )
+		    System.out.println( o_id +S+ o_name +S+ o_term +S+ o_instance +S+ o_dbx +S+ o_rx +S+ o_coord +S+ o_species +S+ o_state +S+ o_centre );
+		reset();
+		//reset_output();
+		//in_substructure = false;
+	    }
+
+	if (name.equals("bim"))
+	    {
+		in_bim = false;
+	    }
+
+	if (name.equals("term"))
+	    { if (instance_count == 0 )
+		System.out.println( o_id +S+ o_name +S+ o_term +S+ o_instance +S+ o_dbx +S+ o_rx +S+ o_coord +S+ o_species +S+ o_state +S+ o_centre );
+
+	    //end of the entry if it is a protein (no substructure)
+	    if ( in_substructure == false ) reset();
+	    else
+		{
+		reset_output();
+		in_term = false;
+		untermed_bim = false;
+		}
+	    }
+
+	if (name.equals("instance"))
+	    {
+		System.out.println( o_id +S+ o_name +S+ o_term +S+ o_instance +S+ o_dbx +S+ o_rx +S+ o_coord +S+ o_species +S+ o_state +S+ o_centre );
+		reset_output();
+		in_instance = false;
+	    }
+    }
+
+    //    public void startElement(String name, AttributeList atts) {
+    //	System.out.println("Hit a start element: "+name);
+    //	for (int i = 0; i < atts.getLength(); i++)
+    //	    System.out.println("  Attribute: "+
+    //			       atts.getName(i)+"= \""+
+    //			       atts.getValue(i)+"\" : "+
+    //			       atts.getType(i));
+    //    }
+
+    
+
+    public void characters(char[] ch, int start, int length) 
+    {
+	// todo: rel..
+	if ( in_substructure && in_bim ) //?
+	    {
+		o_name = String.valueOf(ch, start, length).trim();
+	    }
+	else o_rel = String.valueOf(ch, start, length).trim().replace('\n', '%');
+
+	// set the relationship site
+	if ( in_substructure ) rel_site = "S"; 
+	if ( in_term ) rel_site = "T"; 
+	if ( in_instance ) rel_site = "I"; 
+	if ( in_bim ) rel_site = "B";      //? prob not allowed
+
+	// print relationship
+	if ( o_rel.length() > 1 )	
+	    System.out.println("REL" +S+ o_id +S+ rel_site +S+ o_rel );
+    }
+    
+    public void ignorableWhitespace(char[] ch, int start, int length) 
+    {
+	//System.out.println("Ignorable whitespace: <"+String.valueOf(ch, start, length)+">");
+    }
+
+
+    public void endDocument () 
+    {
+	System.out.println("End doc" );
+
+}
+
+    public void reset_output () 
+    {
+	//o_name     = "-";     // bim, mol
+	//o_term     = "-";     // bim, mol
+	o_instance = "-";     // pr
+	o_dbx      = "-";     // all
+	o_rx       = "-";     // all
+	o_coord    = "-";     // bim
+	o_species  = "-";     // pr
+	o_state    = "-";     // pr
+	o_centre   = "-";     // pr
+    }
+
+    public void reset () 
+    {
+	/** 
+	    reset all to the initial value
+	*/
+
+	o_name     = "-";     
+	o_term     = "-";     
+	o_instance = "-";
+	o_dbx      = "-";     
+	o_rx       = "-";     
+	o_coord    = "-";     
+	o_species  = "-";     
+	o_state    = "-";     
+	o_centre   = "-";     
+
+	o_rel      = "-";     
+	rel_site   = "-";     
+	
+	in_substructure     = false;
+	in_bim              = false;
+	in_term             = false;
+	in_instance         = false;
+	untermed_bim        = true;
+	first_term          = true;
+	bim                 = false;
+	
+	instance_count =0;
+    }
+}
+@
+
+
+1.7
+log
+@debug: added again the output forprotein terms (needed for dbx)
+@
+text
+@d11 1
+a11 1
+//  $Date: 2001/07/24 11:02:08 $
+d17 3
+d71 1
+a71 1
+    private static String  S = "|";
+d236 1
+a236 1
+	else o_rel = String.valueOf(ch, start, length).trim().replace('\n','|');
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+//  $Date: 2001/06/15 16:19:34 $
+d17 3
+d141 2
+a142 3
+		//		if ( in_term && first_instance)
+		//if ( in_term && instance_count == 0 )
+		//System.out.println("**2"+ o_id +S+ o_name +S+ o_term +S+ o_instance +S+ o_dbx +S+ o_rx +S+ o_coord +S+ o_species +S+ o_state +S+ o_centre );
+a144 1
+		//first_instance = false;
+@
+
+
+1.5
+log
+@?
+@
+text
+@d11 1
+a11 1
+//  $Date: 2001/06/13 16:16:56 $
+d17 3
+d139 2
+a140 2
+		if ( in_term && instance_count == 0 )
+		    System.out.println( o_id +S+ o_name +S+ o_term +S+ o_instance +S+ o_dbx +S+ o_rx +S+ o_coord +S+ o_species +S+ o_state +S+ o_centre );
+a144 1
+	//	    in_instance = true;
+d261 1
+d278 1
+@
+
+
+1.4
+log
+@working version with relationship parsing.
+need cleaning, comments and test.
+@
+text
+@d10 3
+a12 3
+//  $Source$
+//  $Date$
+//  $Author$
+d16 5
+a20 1
+//  $Log$
+d107 3
+a109 1
+    {}
+d250 4
+a253 1
+    {}
+@
+
+
+1.3
+log
+@before restructoring
+@
+text
+@d1 21
+d42 12
+a53 7
+    private String  o_id      = "-";
+    private String  o_name    = "-";
+    private String  o_term    = "-";
+    private String  o_instance = "-";
+    private String  o_dbx     = "-";
+    private String  o_species = "-";
+    private String  o_state   = "-";
+d55 4
+a58 1
+    private static String  sep = "|";
+a77 1
+       
+a78 1
+       
+d80 3
+a82 2
+       
+       (iii) Tell the XML parser to start parsing the XML file.  */
+d103 1
+a103 2
+    {
+    }
+d121 1
+a121 1
+			System.out.println( o_id + sep +o_name +sep + o_term + sep + o_instance + sep + o_dbx + sep + o_species + sep + o_state );
+a123 1
+		//		if ( in_bim ) untermed_bim = false;
+d127 10
+a136 1
+	    in_instance = true;
+a139 3
+		//System.out.println( "DEB" + in_term + sep + in_substructure +
+		//		sep + first_term + sep + o_name +sep + o_term);
+	
+d150 5
+d161 2
+d171 6
+a176 1
+		in_substructure = false;
+d178 1
+d183 1
+d185 8
+a192 4
+	    {
+		System.out.println( o_id + sep +o_name +sep + o_term + sep + o_instance + sep + o_dbx + sep + o_species + sep + o_state );
+		//		System.out.println( o_id + sep +o_name +sep + o_term + sep +o_dbx);
+		o_dbx = "-";
+d195 1
+d197 1
+d200 2
+a201 2
+		System.out.println( o_id + sep +o_name +sep + o_term + sep + o_instance + sep + o_dbx + sep + o_species + sep + o_state );
+		
+d219 2
+a220 1
+	if (in_substructure && in_bim )
+d224 11
+d244 3
+d248 37
+a284 4
+	//needed for bim!!
+	if ( untermed_bim == true )
+		System.out.println( o_id + sep +o_name +sep + o_term + sep + o_instance + sep + o_dbx + sep + o_species + sep + o_state );
+	//	    System.out.println( o_id + sep +o_name +sep + o_term + sep +o_dbx);
+@
+
+
+1.2
+log
+@first 'working' draft. need cleaning and check for particular cases.
+@
+text
+@d19 1
+d21 5
+a25 4
+    private String  o_id    = "-";
+    private String  o_name  = "-";
+    private String  o_term  = "-";
+    private String  o_dbx   = "-";
+d27 1
+a27 1
+    private String  o_state = "-";
+d80 1
+a80 1
+	if (name.equals("substructure"))  // start of the list of reference
+d83 1
+a83 1
+	if (name.equals("bim"))           // start of a reference
+d86 1
+d91 4
+a94 2
+		if ( in_substructure && first_term)
+		    System.out.println( o_id + sep +o_name +sep + o_term + sep +o_dbx);
+d97 1
+a97 1
+		if ( in_bim ) untermed_bim = false;
+d100 1
+a100 1
+	if (name.equals("instance"))            // journal
+a111 2
+		//		if ( atts.getName(i).equals("value") && in_term == false ) 
+		//  o_name = atts.getValue(i);
+a112 10
+		    {
+		    o_name = atts.getValue(i);
+			System.out.println( "DEB"+ o_name);
+			//		    o_name = atts.getValue(i);
+		    }
+		/*
+		// for MOL
+		// <substructure value="molybdopterin..." id="MOL000076">
+		if ( atts.getName(i).equals("value") && in_substructure 
+		     && in_term == false ) 
+d114 2
+a115 2
+		*/
+
+d119 1
+a119 1
+		// thse only for prx
+a123 10
+
+		/*
+		// for protein, the term is the actual name.
+		// not so for mol and bim
+		if ( o_id.substring(0,1).equals("-"))
+		    {
+			o_name = o_term;
+			o_term = "-";
+		    }
+		*/
+a131 3
+		//		System.out.println( o_id + "|" + o_name + "|" + o_dbx );
+		//				sep + "<JT>"+String.valueOf(ch, start, length).trim());
+		//		System.out.println( o_id + sep +o_name +sep + o_term + sep +o_dbx);
+d140 2
+a141 1
+		System.out.println( o_id + sep +o_name +sep + o_term + sep +o_dbx);
+d147 5
+a151 1
+	    in_instance = false;
+a168 1
+		System.out.println("!!");
+a169 3
+
+		//	    System.out.println( o_id + "|" + o_name + "|" + o_dbx +
+		//	sep + "<JT>"+String.valueOf(ch, start, length).trim());
+d181 1
+a181 1
+	//serve per bim!!
+d183 2
+a184 1
+	    System.out.println( o_id + sep +o_name +sep + o_term + sep +o_dbx);
+a185 2
+
+    //	System.out.println("UUU" + o_id + sep +o_name +sep + o_term + sep +o_dbx);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d14 14
+a27 16
+    private boolean in_bim     = false;
+    private boolean in_term     = false;
+    private boolean in_instance     = false;
+
+    /*
+    private boolean in_b     = false;
+
+    private int authors = -1;
+    private boolean pages_follow = false;
+
+    private boolean in_authors = false;
+    private boolean in_journal = false;
+    private boolean in_volume  = false;
+    private boolean title_follows = false;
+    private boolean medium = false;
+    */
+d78 1
+a78 1
+	if (name.equals("substructure"))           // start of the list of reference
+a83 1
+		//authors = -1;
+d87 3
+d91 2
+a92 1
+		//authors++;
+a97 1
+    	System.out.println("Hit a start element: "+name);
+d99 3
+a101 4
+    	    System.out.println("  Attribute: "+
+    			       atts.getName(i)+"= \""+
+			       atts.getValue(i)+"\" : "+
+    			       atts.getType(i));
+d103 39
+a141 10
+	/*
+	if (name.equals("b"))            // volume
+	    in_b = true;
+	*/
+	//	else {
+	//	    in_seq=false;
+	//	    in_unique_id = false;
+	//	}
+
+	//	System.out.println(name+" "+in_seq+" "+in_unique_id);
+d143 2
+a144 2
+
+
+d149 3
+a155 1
+		//		System.out.println("visto: " + name);
+a156 2
+		//authors=-1;
+		//pages_follow= false;
+d160 2
+a161 1
+		//		System.out.println("visto: " + name);
+d163 1
+a163 7
+		//authors++;
+	    }
+	/*
+	if (name.equals("b"))
+	    {	  
+		in_b = false;
+		//pages_follow = true;
+a164 1
+	*/
+a167 11
+    /*    
+    public void startElement(String name, AttributeList atts) 
+    {
+    	System.out.println("Hit a start element: "+name);
+    	for (int i = 0; i < atts.getLength(); i++)
+    	    System.out.println("  Attribute: "+
+    			       atts.getName(i)+"= \""+
+			       atts.getValue(i)+"\" : "+
+    			       atts.getType(i));
+    }
+    */
+a181 8
+	if (in_substructure && in_instance )
+	    System.out.println("<JT>"+String.valueOf(ch, start, length).trim());
+	if (in_substructure)
+	    System.out.println("<VO>"+String.valueOf(ch, start, length).trim());
+
+	if (in_term)
+	    System.out.println("<AU>"+String.valueOf(ch, start, length).trim());
+
+d184 5
+a188 8
+		System.out.println("<PG>"+String.valueOf(ch, start, length).trim());
+	System.out.println("//");
+	    }
+	/*
+	if (in_substructure &&in_bim && authors==1)
+	    {
+	    System.out.println("<TI>"+String.valueOf(ch, start, length).trim());
+	    authors++;
+a189 1
+	*/
+d196 10
+@

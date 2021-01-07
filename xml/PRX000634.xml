@@ -1,0 +1,8 @@
+<term value="methionyl aminopeptidase" id="PRX000634" dbxref="EC:3.4.11.18">
+ <instance value="methionyl aminopeptidase" species="Escherichia coli" dbxref="PDB:2MAT">
+  &BIM000204;
+ </instance>
+ <instance value="methionyl aminopeptidase" species="Pyrococcus furiosus" dbxref="PDB:1XGS">
+  &BIM000207;
+ </instance>
+</term>

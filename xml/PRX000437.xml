@@ -1,0 +1,8 @@
+<term value="C-phycocyanin" id="PRX000437">
+ &MOL000067;
+ &BIM000148;
+ <instance value="C-phycocyanin" species="Fremyella diplosiphon" dbxref="PDB:1CPC">
+ </instance>
+ <instance value="C-phycocyanin" species="Synechococcus vulcanus" dbxref="PDB:1I7Y">
+ </instance>
+</term>

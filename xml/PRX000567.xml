@@ -1,0 +1,7 @@
+<term value="arginase" id="PRX000567" dbxref="EC:3.5.3.1">
+ &BIM000193;
+ <instance value="arginase" species="Bacillus caldevelox" dbxref="SPTR:P53608">
+ </instance>
+ <instance value="arginase 1" species="Rattus norvegicus" dbxref="SPTR:P07824">
+ </instance>
+</term>

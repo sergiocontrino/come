@@ -1,0 +1,104 @@
+Ca|Me|calcium
+Cd|Me|cadmium
+Co|Me|cobalt
+Cu|Me|copper
+Fe|Me|iron
+Hg|Me|mercury
+Mg|Me|magnesium
+Mn|Me|manganese
+Mo|Me|molybdenum
+Ni|Me|nickel
+V|Me|vanadium
+W|Me|tungsten
+Zn|Me|zinc
+
+Inorganic cluster
+Fe3MoS3|IC|Fe3Mo(µ3-S)3|tetrairon trisulfide
+Fe4O3S3|IC|Fe4O3S3|tetrairon disulfide trioxide
+Fe2S2|IC|Fe2(µ2-S)2|diiron disulfide
+Fe3S4|IC|Fe3(µ3-S)(µ2-S)3|triiron tetrasulfide
+Fe4S3|IC|Fe4(µ3-S)3|tetrairon trisulfide
+Fe4S4|IC|Fe4(µ3-S)4|tetrairon tetrasulfide
+
+Organic molecule
+
+C1.4'-hydroxycinnamate|OR|C1 atom of 4'-hydroxycinnamic acid
+C6.FMN|OR|C6 atom of FMN
+C8M.FAD|OR|C8a atom of FAD
+C15.retinal|OR|C15 atom of retinal
+CAA.phycobilin|OR|C31 atom of phycobilin
+CAB.heme|OR|C31 atom of heme
+CAC.heme|OR|C81 atom of heme
+CAD.phycobilin|OR|C181 atom of phycobilin
+CBB.heme|OR|C32 atom of heme
+CHC.heme|OR|C5 atom of heme
+CMB.heme|OR|C21 atom of heme
+CMD.heme|OR|C121 atom of heme
+
+Ligand 
+
+Cl|L|Cl(-)|chloro
+CE.Tyr|L|C(epsilon) atom of tyrosine
+CN|L|(CN)(-)|cyano
+CO|L|carbon monoxide|carbonyl
+µ-(CO)|L|carbon monoxide, bridging|carbonyl
+CO2|L|carbon dioxide
+Crn|L|corrin
+Him|L|imidazole
+N.Cys|L|mainchain N atom of cysteine
+k2-(N,SG.Cys)|L| mainchain N and S(gamma) atoms of cysteine, didentate
+N.NO2|L|nitrito-N|dioxonitrato(1-)
+N.Pro|L|mainchain N atom of proline
+N.Ser|L|mainchain N atom of serine
+N1.Tyr|L|amino-terminal N atom of tyrosine
+k2-(N1,NE.His)|L|amino-terminal N and mainchain N(epsilon2) atoms of histidine, didentate
+k2-(N1,O.Gly)|L|amino-terminal N and mainchain O atoms of glycine, didentate
+ND.His|L|N(delta1) atom of histidine
+NE.His|L|N(epsilon2) atom of histidine
+NO|L|nitrogen monoxide|nitrosyl
+NO3|L|(NO3)(-)|trioxonitrato(1-)
+NX.Xaa|L|an N atom of an amino acid residue
+NZ.Lys|L|N(zeta) atom of lysine
+O|L|O(2-)|oxido
+O2|L|dioxygen
+O2-|L|(O2)(-)|dioxido(1-)
+k2-(O,SG.Cys)|L|mainchain O and S(gamma) atoms of cysteine, didentate
+O.Gly|L|mainchain O atom of glycine
+O.Leu|L|mainchain O atom of leucine
+O.NO2|L|nitrito-0|dioxonitrato(1-)
+O.PO4|L|(PO4)(3-), terminal|tetraoxophosphato(3-)
+O.Xaa|L|mainchain O atom of an amino acid residue
+k2-(O,O.catechol)|L|O atoms of 1,2-dihydroxybenzene, didentate
+O.inhibitor|L|O atom of an inhibitor
+k2-(O,O.inhibitor)|L|O atoms of an inhibitor, didentate
+µ-(O,O.PO4)|L|(PO4)(3-), bridging|tetraoxophosphato(3-)
+k2-(O,OD.Asp)|L|mainchain O and O(delta) atoms of aspartic acid, didentate
+O1.Fme|L|carbonyl O atom of N-formyl-L-methionine
+k2-(O5,O7.homocitrate)|L|O5 and O7 atoms of homocitrate, didentate
+OD.Asp|L|O(delta) atom of aspartic acid
+k2-(OD,OD.Asp)|L|O(delta1) and O(delta2) atoms of aspartic acid, didentate
+µ-(OD,OD.Asp)|L|O(delta1) and O(delta2) atoms of aspartic acid, bridging
+OE.Gln|L|O(epsilon1) atom of glutamine
+OE.Glu|L|O(epsilon) atom of glutamic acid
+k2-(OE,OE.Glu)|L|O(epsilon1) and O(epsilon2) atoms of glutamic acid, didentate
+µ-(OE,OE.Glu)|L|O(epsilon1) and O(epsilon2) atoms of glutamic acid, bridging
+OG.Ser|L|O(gamma) atom of serine
+OH|L|(OH)(-)|hydroxido
+OH.Tyr|L|O(eta) atom of tyrosine
+OH2|L|H2O|aqua
+OXT.Ile|L|carboxy terminal O atom of isoleucine
+µ-(OX,OX.N6-carboxyLys)|L| carboxyl O atoms of N6-carboxylysine, bridging
+por|L|porphyrin
+S|L|S(2-), terminal|sulfido
+µ-S|L|S(2-), bridging|sulfido
+µ3-S|L|S(2-), bridging|sulfido
+µ4-S|L|S(2-), bridging|sulfido
+µ-(S1,S2.1,3-propanedithiol)|L|S1 and S2 atoms of 1,3-propanedithiol, bridging
+k2-(S1',S2'.molybdopterin)|L|S1' and S2' atoms of molybdopterin, didentate|dithiolene group of molybdopterin
+SD.Met|L|S(delta) atom of methionine
+SG.Cys|L|S(gamma) atom of cysteine
+µ-(SG.Cys)|L|S(gamma) atom of cysteine, bridging
+SeG.Sec|L|Se(gamma) atom of selenocysteine
+SO|L|sulfur monoxide
+SO3|L|(SO3)(2-)|trioxosulfato(2-)
+X|L|ligand of unknown nature

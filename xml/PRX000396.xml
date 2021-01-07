@@ -1,0 +1,6 @@
+<term value="urease alpha subunit" id="PRX000396" dbxref="InterPro:IPR001924">
+ &BIM000143;
+ <instance value="urease alpha subunit" species="Klebsiella aerogenes" dbxref="SPTR:P18314">
+ </instance>
+ &UREASE;
+</term>

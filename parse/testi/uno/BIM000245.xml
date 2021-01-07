@@ -1,0 +1,7 @@
+<substructure id="BIM000245">
+ <bim>heme(OD.Asp)(OE.Glu)(SD.Met)</bim>
+ <term value="hemediol-L-aspartyl" dbxref="RESID:AA0280">
+ </term>
+ <term value="heme m">
+ </term>
+</substructure>

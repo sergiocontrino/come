@@ -1,0 +1,8 @@
+<substructure value="dtpp-mGDP" id="MOL000076">
+ <term value="molybdopterin guanosine dinucleotide" dbxref="PDBHET:MGD">
+ </term>
+ <term value="guanosine-5'-diphosphate pterin moiety of molybdopterin guanosine dinucleotide" dbxref="PDBHET:PGD">
+ </term>
+ <term value="molybdopterin guanine dinucleotide" dbxref="PDBHET:2MD">
+ </term>
+</substructure>

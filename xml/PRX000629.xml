@@ -1,0 +1,9 @@
+<term value="periplasmic nitrate reductase, cytochrome c subunit" id="PRX000629">
+ <instance value="diheme cytochrome c NapB" species="Haemophilus influenzae" dbxref="SPTR:P44654">
+ </instance>
+ <instance value="diheme cytochrome c NapB" species="Paracoccus pantotrophus" dbxref="SPTR:Q56351">
+ </instance>
+ <instance value="diheme cytochrome c NapB" species="Rhodobacter sphaeroides" dbxref="SPTR:Q53177">
+ </instance>
+ &NAPAB;
+</term>

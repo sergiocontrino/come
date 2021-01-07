@@ -1,0 +1,64 @@
+head	1.1;
+access;
+symbols;
+locks
+	contrino:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2001.03.23.17.56.40;	author contrino;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@--  SET DOC OFF
+--  *************************************************************
+--
+--  Purpose:
+--
+--  Usage:      add_syn old_issn(fake) new_issn(correct)
+--
+--
+--  $Source$
+--  $Date$
+--  $Author$
+--
+--  _____________________________________________________________
+--
+--  $Log$
+--
+--  *************************************************************
+--
+
+set verify off;
+set feedback off;
+set heading off;
+
+column embl_abbrev format a60
+prompt -----;
+select issn#, embl_abbrev from cv_journal where issn#='&1';
+
+update journalarticle set issn='&2' where issn= '&1';
+update accepted set issn='&2' where issn= '&1';
+
+declare 
+jt varchar2(80);
+
+begin
+select embl_abbrev into jt from cv_journal where issn#='&1';
+insert into journal_synonym (issn#, journal_syn) values ('&2', jt);
+end;
+/
+
+delete from cv_journal where issn#='&1';
+@

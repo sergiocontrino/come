@@ -1,0 +1,6 @@
+<term value="NADPH:adrenodoxin reductase" id="PRX000071" dbxref="InterPro:IPR000759">
+ <instance value="NADPH:adrenodoxin reductase" species="Bos taurus" dbxref="PDB:1CJC">
+ </instance>
+ <instance value="NADPH:adrenodoxin reductase" species="Bos taurus" dbxref="PDB:1E1L">
+ </instance>
+</term>

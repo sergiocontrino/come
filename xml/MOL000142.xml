@@ -1,0 +1,8 @@
+<substructure value="O" id="MOL000142">
+ <term value="oxygen anion" dbxref="CAS:14337-01-0">
+ </term>
+ <term value="oxygen atom" dbxref="PDBHET:O">
+ </term>
+ <term value="bound oxygen" dbxref="PDBHET:OX">
+ </term>
+</substructure>

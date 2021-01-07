@@ -1,0 +1,6 @@
+<substructure id="BIM000448">
+ <bim>(FAD|FMN)(*aa)</bim>
+ &BIM000196;
+ &BIM000443;
+ &BIM000447;
+</substructure>

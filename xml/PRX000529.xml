@@ -1,0 +1,7 @@
+<term value="arsenite oxidase catalytic subunit" id="PRX000529">
+ &BIM000054;
+ &BIM000179;
+ <instance value="arsenite oxidase large subunit" species="Alcaligenes faecalis" dbxref="SPTR:Q7SIF4">
+ </instance>
+ &ASOX;
+</term>

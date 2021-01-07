@@ -1,0 +1,5 @@
+<term value="peroxisomal sulphite oxidase" id="PRX001238">
+ <instance value="sulfite oxidase" species="Arabidopsis thaliana" state="(Mo)6+,dioxo" dbxref="PDB:1OGP" lref="PUBMED:14527393">
+  &BIM000463;
+ </instance>
+</term>

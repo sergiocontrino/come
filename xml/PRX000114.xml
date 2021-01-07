@@ -1,0 +1,4 @@
+<term value="NADH:nitrite reductase" id="PRX000114" dbxref="EC:1.7.1.4">
+ <instance value="NADH-dependent nitrite reductase" species="Bacillus subtilis" lref="PUBMED:9765565">
+ </instance>
+</term>

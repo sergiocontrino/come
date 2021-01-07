@@ -1,0 +1,4 @@
+<substructure id="BIM000105">
+ <!-- CuA centre in nitrous oxide reductase -->
+ <bim>{Cu(ND.His)(SD.Met)}{Cu(ND.His)(O.Trp)}{&#181;-(SG.Cys)}2</bim>
+</substructure>

@@ -1,0 +1,6 @@
+<term value="arsenite oxidase" id="PRX000528" dbxref="EC:1.20.98.1">
+ <instance value="arsenite oxidase" species="Alcaligenes faecalis" dbxref="PDB:1G8J">
+ </instance>
+ <instance value="arsenite oxidase" species="Alcaligenes faecalis" dbxref="PDB:1G8K">
+ </instance>
+</term>

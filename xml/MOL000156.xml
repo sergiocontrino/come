@@ -1,0 +1,8 @@
+<substructure value="1,2-benzenediol" id="MOL000156">
+ <term value="1,2-benzenediol" dbxref="CAS:120-80-9">
+ </term>
+ <term value="catechol" dbxref="COMPOUND:C00090">
+ </term>
+ <term value="catechol" dbxref="PDBHET:CAQ">
+ </term>
+</substructure>

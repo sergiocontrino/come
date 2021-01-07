@@ -1,0 +1,8 @@
+<term value="class II cholesterol oxidase" id="PRX001080" dbxref="EC:1.1.3.6">
+ <!-- class II cholesterol oxidase contains covalently bound FAD -->
+ &BIM000202;
+ <instance value="cholesterol oxidase" species="Brevibacterium sterolicum" dbxref="PDB:1I19">
+ </instance>
+ <instance value="cholesterol oxidase" species="Burkholderia cepacia" dbxref="SPTR:Q93RE1">
+ </instance>
+</term>

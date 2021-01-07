@@ -1,0 +1,9 @@
+<term value="insulin" id="PRX000678">
+ <instance value="insulin" species="Sus scrofa" dbxref="PDB:6INS">
+  &BIM000167;
+ </instance>
+ <instance value="insulin" species="human" dbxref="PDB:1BEN">
+  &BIM000219;
+  &BIM000220;
+ </instance>
+</term>

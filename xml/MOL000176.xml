@@ -1,0 +1,6 @@
+<substructure value="Mn{CaMn3(&#181;3-O)3}(&#181;4-O)" id="MOL000176">
+ <term value="Mn3CaO4 cluster" lref="PUBMED:14764885">
+ </term>
+ <term value="oxygen evolving system" dbxref="PDBHET:OEC">
+ </term>
+</substructure>

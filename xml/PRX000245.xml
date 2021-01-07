@@ -1,0 +1,8 @@
+<term value="cytochrome c''" id="PRX000245">
+ <instance value="cytochrome c''" species="Methylophilus methylotrophus" state="(Fe)3+" dbxref="PDB:1E8E" lref="PUBMED:11327772">
+  &BIM000012;
+ </instance>
+ <instance value="cytochrome c''" species="Methylophilus methylotrophus" state="(Fe)2+" dbxref="SPTR:Q9RQB9" lref="PUBMED:9312076">
+  &BIM000007;
+ </instance>
+</term>

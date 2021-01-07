@@ -1,0 +1,5 @@
+<term value="dihydroorotase" id="PRX001285" dbxref="EC:3.5.2.3">
+ <instance value="dihydroorotase" species="Escherichia coli" dbxref="PDB:1J79">
+  &BIM000476;
+ </instance>
+</term>

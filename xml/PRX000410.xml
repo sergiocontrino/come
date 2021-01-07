@@ -1,0 +1,9 @@
+<term value="iron peptide deformylase" id="PRX000410">
+ <instance value="peptide deformylase" species="Escherichia coli" dbxref="SPTR:P27251">
+ </instance>
+ <instance value="peptide deformylase" species="Staphylococcus aureus" dbxref="PDB:1LM4">
+  &BIM000414;
+ </instance>
+ <instance value="peptide deformylase, chloroplast" species="Arabidopsis thaliana" dbxref="SPTR:Q9FUZ2" lref="PUBMED:11733990">
+ </instance>
+</term>

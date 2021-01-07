@@ -1,0 +1,5 @@
+<term value="X-Pro aminopeptidase" id="PRX001182" dbxref="EC:3.4.11.9">
+ <instance value="aminopeptidase P" species="Escherichia coli" dbxref="PDB:1M35">
+  &BIM000405;
+ </instance> 
+</term>

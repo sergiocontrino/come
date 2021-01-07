@@ -1,0 +1,6 @@
+<substructure id="BIM000453">
+ <!-- 'hybrid' cluster -->
+ <bim>{Fe4(&#181;-S)2*}(NE.His)(OE.Glu)2(SG.Cys)3*</bim>
+ &BIM000058;
+ &BIM000413;
+</substructure>

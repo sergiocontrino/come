@@ -1,0 +1,7 @@
+<term value="NADH:ubiquinone oxidoreductase Fe8S8 ferredoxin subunit" id="PRX000762">
+ <instance value="NADH dehydrogenase I chain I" species="Escherichia coli" dbxref="SPTR:P33604">
+ </instance>
+ <instance value="NADH-ubiquinone oxidoreductase 23 kDa subunit" species="Bos taurus" dbxref="SPTR:P42028">
+ </instance>
+ &NUO;
+</term>

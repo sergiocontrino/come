@@ -1,0 +1,12 @@
+<substructure id="BIM000425">
+ <!-- "generic" organic prosthetic group-containing BIM -->
+ <bim>(organic prosthetic group)(*aa)*</bim>
+ &BIM000139;
+ &BIM000151;
+ &BIM000270;
+ &BIM000404;
+ &BIM000412;
+ &BIM000448;
+ &BIM000451;
+ &BIM000464;
+</substructure>

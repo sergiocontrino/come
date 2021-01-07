@@ -1,0 +1,12 @@
+<substructure value="O2" id="MOL000145">
+ <term value="dioxygen">
+ </term>
+ <term value="oxygen" dbxref="CAS:7782-44-7">
+ </term>
+ <term value="oxygen" dbxref="COMPOUND:C00007">
+ </term>
+ <term value="oxygen molecule" dbxref="PDBHET:O2">
+ </term>
+ <term value="oxygen molecule" dbxref="PDBHET:OXY">
+ </term>
+</substructure>

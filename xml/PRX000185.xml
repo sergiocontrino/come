@@ -1,0 +1,7 @@
+<term value="nitric oxide reductase" id="PRX000185" dbxref="EC:1.7.99.7">
+ &BIM000135;
+ <instance value="nitric oxide reductase" species="Paracoccus denitrificans" lref="PUBMED:9030265">
+ </instance>
+ <instance value="nitric oxide reductase" species="Pseudomonas stutzeri" lref="PUBMED:9521721">
+ </instance>
+</term>

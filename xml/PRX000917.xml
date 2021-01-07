@@ -1,0 +1,6 @@
+<term value="soluble quinohaemoprotein alcohol dehydrogenase" id="PRX000917">
+ <instance value="quinohaemoprotein ethanol dehydrogenase type I" species="Comamonas testosteroni" dbxref="SPTR:Q46444">
+ </instance>
+ <instance value="quinohemoprotein alcohol dehydrogenase" species="Pseudomonas putida" dbxref="PDB:1KV9">
+ </instance>
+</term>

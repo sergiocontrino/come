@@ -1,0 +1,9 @@
+<term value="heterodisulphide reductase iron-sulphur subunit" id="PRX001012">
+ <!-- contains two Fe4S4 clusters -->
+ <instance value="heterodisulfide reductase subunit HdrD" species="Methanosarcina barkeri" dbxref="SPTR:P96797">
+ </instance>
+ <instance value="heterodisulfide reductase subunit HdrC" species="Methanothermobacter marburgensis" dbxref="SPTR:Q50754">
+ </instance>
+ &CYTBHDR;
+ &HDR;
+</term>

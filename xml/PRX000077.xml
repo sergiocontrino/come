@@ -1,0 +1,6 @@
+<term value="naphthalene 1,2-dioxygenase" id="PRX000077" dbxref="EC:1.14.12.12">
+ <instance value="naphthalene 1,2-dioxygenase" species="Pseudomonas putida" dbxref="PDB:1NDO">
+ </instance>
+ <instance value="naphthalene 1,2-dioxygenase" species="Pseudomonas putida" dbxref="PDB:1EG9">
+ </instance>
+</term>

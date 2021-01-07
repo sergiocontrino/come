@@ -1,0 +1,6 @@
+<substructure id="BIM000147">
+ <bim>phycoerythrobilin(SG.Cys)</bim>
+ &BIM000252;
+ <term value="S-phycoerythrobilin-L-cysteine" dbxref="RESID:AA0132">
+ </term>
+</substructure>

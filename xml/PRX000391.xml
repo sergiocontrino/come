@@ -1,0 +1,12 @@
+<term value="Ni-Fe-Se hydrogenase small subunit" id="PRX000391">
+ <instance value="Ni-Fe-Se hydrogenase small subunit" species="Desulfovibrio baculatus" centre="proximal cluster" dbxref="SPTR:P13063">
+ &BIM000008;
+ </instance>
+ <instance value="Ni-Fe-Se hydrogenase small subunit" species="Desulfovibrio baculatus" centre="medial cluster" dbxref="SPTR:P13063">
+ &BIM000008;
+ </instance>
+ <instance value="Ni-Fe-Se hydrogenase small subunit" species="Desulfovibrio baculatus" centre="distal cluster" dbxref="SPTR:P13063">
+ &BIM000060;
+ </instance>
+ &NIFESEHASE;
+</term>

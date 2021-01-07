@@ -1,0 +1,5 @@
+<term value="carboxypeptidase" id="PRX000463" dbxref="InterPro:IPR000834">
+ &BIM000153;
+ <instance value="carboxypeptidase A" species="Bos taurus" dbxref="SPTR:P00730">
+ </instance>
+</term>

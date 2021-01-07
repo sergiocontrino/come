@@ -1,0 +1,8 @@
+<term value="periplasmic iron(3+)-binding protein" id="PRX001342">
+ <instance value="ferric-binding protein" species="Haemophilus influenzae" state="(Fe)3+,(PO4)3-" dbxref="PDB:1MRP" lref="PUBMED:9360608">
+  &BIM000516;
+ </instance>
+ <instance value="ferric ion-binding protein A" species="Mannheimia haemolytica" state="(Fe)3+,(CO3)2-" lref="PUBMED:15175304">
+  &BIM000514;
+ </instance>
+</term>

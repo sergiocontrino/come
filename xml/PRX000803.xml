@@ -1,0 +1,9 @@
+<term value="chloroplast-type light-harvesting complex II" id="PRX000803" dbxref="GO:0009517">
+ &MOL000003;
+ &MOL000004;
+ &MOL000096;
+ &MOL000097;
+ &MOL000106;
+ <instance value="major light-harvesting complex" species="Spinacia oleracea" dbxref="PDB:1RWT" lref="PUBMED:15029188">
+ </instance>
+</term>

@@ -1,0 +1,9 @@
+<term value="class beta carbonic anhydrase" id="PRX001376" dbxref="InterPro:IPR001765">
+ <instance value="carbonic anhydrase 2" species="Escherichia coli" lref="PUBMED:11316870" dbxref="SPTR:P61517">
+  &BIM000521;
+ </instance>
+ <instance value="beta-carbonic anhydrase" species="Methanobacterium thermoautotrophicum" lref="PUBMED:11096105" dbxref="PDB:1G5C">
+  &BIM000171;
+  &BIM000522;
+ </instance>
+</term>

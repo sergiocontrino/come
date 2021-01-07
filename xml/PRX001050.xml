@@ -1,0 +1,4 @@
+<term value="bacterial-type selenocysteine synthase" id="PRX001050" dbxref="InterPro:IPR004534">
+ <instance value="L-seryl-tRNA(Sec) selenium transferase" species="Escherichia coli" dbxref="SPTR:P23328">
+ </instance>
+</term>

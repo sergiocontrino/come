@@ -1,0 +1,4 @@
+<term value="NADPH:nitrate reductase" id="PRX000108" dbxref="EC:1.7.1.3">
+ <instance value="nitrate reductase [NADPH]" species="Neurospora crassa" dbxref="SPTR:P08619">
+ </instance>
+</term>

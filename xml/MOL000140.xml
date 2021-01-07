@@ -1,0 +1,8 @@
+<substructure value="OH2" id="MOL000140">
+ <term value="water" dbxref="CAS:7732-18-5">
+ </term>
+ <term value="H2O" dbxref="COMPOUND:C00001">
+ </term>
+ <term value="water" dbxref="PDBHET:HOH">
+ </term>
+</substructure>

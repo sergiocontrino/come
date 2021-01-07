@@ -1,0 +1,7 @@
+<substructure id="BIM000058">
+ <!-- 'hybrid' cluster -->
+ <bim>{Fe4(&#181;-O)3(&#181;-S)2)}(NE.His)(OE.Glu)2(SG.Cys)3{S(SG.Cys)}</bim>
+ <term value="tris-L-cysteinyl-L-cysteine persulfido-bis-L-glutamato-L-histidino tetrairon disulfide trioxide" dbxref="RESID:AA0268">
+ </term>
+ &MOL000129;
+</substructure>

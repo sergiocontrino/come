@@ -1,0 +1,5 @@
+<term value="monocluster Fe3S4 bacterial-type ferredoxin" id="PRX000311" dbxref="InterPro:IPR001080">
+ &BIM000054;
+ <instance value="ferredoxin II" species="Desulfovibrio gigas" dbxref="SPTR:P00209">
+ </instance>
+</term>

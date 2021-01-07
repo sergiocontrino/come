@@ -1,0 +1,6 @@
+<substructure value="Mn" id="MOL000116">
+ <term value="manganese" dbxref="COMPOUND:C00034">
+ </term>
+ <term value="manganese(II) ion" dbxref="PDBHET:MN">
+ </term>
+</substructure>

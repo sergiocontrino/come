@@ -1,0 +1,8 @@
+<term value="cytochrome b5/acyl lipid desaturase fusion protein" id="PRX000122">
+ <instance value="cytochrome b5/acyl lipid desaturase fusion protein" species="Helianthus annuus" dbxref="SPTR:Q43469">
+ </instance>
+ <instance value="Delta5 fatty acid desaturase" species="Mortierella alpina" dbxref="SPTR:O74212">
+ </instance>
+ <instance value="Delta9 fatty acid desaturase" species="Cryptococcus curvatus" dbxref="SPTR:P79077">
+ </instance>
+</term>

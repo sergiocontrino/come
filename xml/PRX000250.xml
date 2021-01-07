@@ -1,0 +1,9 @@
+<term value="cytochrome c nitrite reductase" id="PRX000250">
+ &BIM000336;
+ <instance value="cytochrome c nitrite reductase" species="Escherichia coli" dbxref="PDB:1GU6">
+ </instance>
+ <instance value="cytochrome c nitrite reductase" species="Sulfurospirillum deleyianum" dbxref="PDB:1QDB">
+ </instance>
+ <instance value="cytochrome c nitrite reductase" species="Wolinella succinogenes" dbxref="SPTR:Q9S1E5">
+ </instance>
+</term>
