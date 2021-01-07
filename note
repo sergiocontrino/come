@@ -1,0 +1,46 @@
+createdb come -h bert -U sc
+psql -d come -h bert -U sc < comepg.sql
+
+dropdb come -h bert -U sc
+
+
+NB: on sam failed because:
+createdb: database creation failed: ERROR:  encoding SQL_ASCII does not match server's locale en_US.UTF-8
+DETAIL:  The server's LC_CTYPE setting requires encoding UTF8.
+
+
+ld: use copy
+
+COPY alfa FROM '/home/contrino/come/data/alfa.ld'
+with delimiter as '%'
+null as '-'
+;
+
+to compile
+in 
+/home/contrino/come/webapp/contrino/come
+
+. ./.env
+unalias javac
+
+javac *.java -d class
+
+
+cp -f class/* /usr/local/tomcat/webapps/come/WEB-INF/classes
+cp  come.props /usr/local/tomcat/webapps/come/WEB-INF/classes
+
+ 
+SELECT distinct e.name, e.id 
+FROM entry e 
+WHERE e.old_id = 'PRX000123';
+
+SELECT distinct p.id, e.old_id, e.name, p.rel, p.child, p.len 
+FROM path p, entry e 
+WHERE e.id = p.id 
+and p.path = 3 
+order by len
+;
+
+
+NB: come.props is loaded at runtime, to be avoid classpath issues put it in classes as well
+

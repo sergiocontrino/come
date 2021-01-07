@@ -1,0 +1,113 @@
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>	
+
+
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <description> ...</description>
+        <servlet-class>HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>brok</servlet-name>
+        <description> ...</description>
+        <servlet-class>brok</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>come</servlet-name>
+        <description> ...</description>
+        <servlet-class>come</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>comeIN</servlet-name>
+        <description> ...</description>
+        <servlet-class>comeIN</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>comeON</servlet-name>
+        <description> ...</description>
+        <servlet-class>comeON</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>comeBY</servlet-name>
+        <description> ...</description>
+        <servlet-class>comeBY</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>comeX</servlet-name>
+        <description> querying using xrefs</description>
+        <servlet-class>comeX</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>comeIns</servlet-name>
+        <description> same as comeIN (text search, case insensitive</description>
+        <servlet-class>comeIns</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>comePath</servlet-name>
+        <description> ...</description>
+        <servlet-class>comePath</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>pathrough</servlet-name>
+        <description> ...</description>
+        <servlet-class>pathrough</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>pathrough2</servlet-name>
+        <description> a new attempt: should display paths through 2 points</description>
+        <servlet-class>pathrough2</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>brok</servlet-name>
+        <url-pattern>/broker</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>come</servlet-name>
+        <url-pattern>/entry</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>comeIN</servlet-name>
+        <url-pattern>/find</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>comeIns</servlet-name>
+        <url-pattern>/findIns</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>comeX</servlet-name>
+        <url-pattern>/byXref</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>comeON</servlet-name>
+        <url-pattern>/comeON</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>comeBY</servlet-name>
+        <url-pattern>/comeBY</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>comePath</servlet-name>
+        <url-pattern>/path</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pathrough</servlet-name>
+        <url-pattern>/pathrough</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pathrough2</servlet-name>
+        <url-pattern>/pathrough2</url-pattern>
+    </servlet-mapping>
+
+
+</web-app> 
+

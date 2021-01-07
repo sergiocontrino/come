@@ -1,0 +1,187 @@
+rm -rf XMLbup
+rm -rf databup
+
+mv XML XMLbup
+#mv XMLbup $mahome/sergio/come
+mv data databup
+
+cp -r ~kirill/XML/archive2 XML
+mkdir data
+
+mv XML/COME.xml  xtra
+
+cat XML/P*.xml > data/all.xml
+cat XML/B*.xml >> data/all.xml
+cat XML/M*.xml >> data/all.xml
+
+#cat XML/*.xml > data/all.xml
+grep ENTITY XML/CLASS.dtd | awk '{print $4, $2}' | tr -d '".xml' > data/eq.ld
+
+#use sed
+echo edit all.xml and..
+echo substructure value -> substructure name
+echo instance value -> instance inst
+echo replace &->nil 
+echo replace ;->nil
+echo 
+echo add enclosing tags <doc>...</doc>
+echo
+
+nedit data/all.xml
+
+cd parse
+source .path
+java bimparser ../data/all.xml > ../data/all
+cd ..
+
+
+grep ^REL data/all | cut -b 5- > data/rel
+grep -v ^REL data/all | grep -vx 'Start doc' | grep -vx 'End doc'> data/alfa.ld
+
+echo 
+echo replace #183->&#183;
+echo replace #181->&#181;
+echo from the file...
+echo
+nedit data/alfa.ld
+
+# build a relation file
+#cpp/readrel < data/rel | awk '{print $1, $2}' > data/rel.ld
+cd parse
+java getRel ../data/rel > ../data/rel.ld
+
+
+
+
+
+
+======= 
+
+# load into alfa rel e equivalence
+# it will truncate the tables
+#
+cd ../update
+
+
+sqlplus come/come @update_come
+
+#------- paths
+
+
+--loaded from file this time:
+/*
+COPY path FROM '/home/contrino/come/data/path.txt'
+with delimiter as ','
+CSV HEADER
+;
+*/
+
+
+cd ../path
+. ./env
+
+rm buildPaths.log
+java buildPaths > buildPaths.log
+
+#to cp formulae
+cd /usr/local/tomcat/webapps/come
+--cp ~kirill/XML/formulae/* formulae
+
+mv upform.sql upform.bup
+ls -1 /usr/local/tomcat/webapps/come/formulae| cut -c 1-9 | awk '{print "update entry set formula = \047gif\047 where old_id=\047"$1"\047;"}'> upform.sql
+
+psql -h bert -d come -U sc < upform.sql
+
+
+--to do the changes in the dags (wait for location)
+perl -pi -e 's/www.ebi.ac.uk/sam\/come/go;' *.html
+perl -pi -e 's/www.ebi.ac.uk/www.flymine.org/go;' *.html  
+
+perl -pi -e 's/include\/sty/come\/sty/go;' *.html
+
+
+
+COPY coordination FROM '/home/contrino/come/moved_data/coordination.txt'
+with delimiter as ','
+;
+
+
+
+#----- gv
+# connect to ma-login!!
+#======================
+
+setenv comep  /ebi/microarray/l/tools/tomcat/prod/webapps/contrino
+setenv madb   /net/nfs6/vol4/ma-db
+
+mv $madb/sergio/comedot $madb/sergio/comedot_`date +"%Y_%m_%d"`
+mkdir $madb/sergio/comedot
+mkdir $madb/sergio/comedot/map
+#mkdir $madb/sergio/dags
+
+cd ~/viz/gv
+# run 
+disegna.sh MOL
+disegna.sh BIM
+disegna.sh PRX
+
+
+# impression
+#======================
+?rm -rf $comep/newdags_bup
+?mv $comep/newdags $comep/newdags_bup
+
+#rm -rf $comep/newdags
+mv $madb/sergio/dags $comep/newdags
+mkdir $madb/sergio/dags
+
+
+#==============================================================================
+#
+#   PROD only
+#
+#==============================================================================
+
+#do exp.
+#notifica on $comep/index.html
+
+<h3><font color=red>Warning: database being updated!!</font></h3>
+It should last only a few minutes....
+
+
+
+cd ; cd come;
+
+#again: it could be substituted by a copy
+
+# load into alfa rel e equivalence
+# it will truncate the tables
+#
+cd update
+sqlldr come/come ld/alfa.ctl
+sqlldr come/come ld/eq.ctl
+sqlldr come/come ld/rel.ctl
+
+sqlplus come/come @update_come
+
+sqlplus come/come @copiath
+--copy from come/come@aedwd to come/come@aedwp replace path using select * from path;
+
+grant select on path to selcome;
+
+cp -p ~kirill/XML/come_html/index.html /ebi/microarray/l/tools/tomcat/prod/webapps/contrino
+
+cd $comep
+sqlplus come/come @upform
+
+
+--graphviz
+rm -r $comep/dags
+mv $comep/newdags $comep/dags
+#mkdir $comep/newdags
+
+
+--docs
+cp ~kirill/XML/come_html/*.html $comep/docs
+#if kirill forgot...
+cp ~kirill/XML/*.html $comep/docs

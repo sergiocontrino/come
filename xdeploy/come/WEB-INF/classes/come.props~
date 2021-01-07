@@ -1,0 +1,28 @@
+dbDriver=org.postgresql.Driver
+dbURL=jdbc:postgresql://modprod1:5432/come
+dbUser=sc
+dbPassword=sc
+
+comeLink=http://www.flymine.org/come/entry?gn=
+pathLink=http://www.flymine.org/come/path?nr=
+/*allPathLink=http://www.flymine.org:8080/come/pathrough?gn=*/
+
+home=http://www.flymine.org/come/
+formulae=http://www.flymine.org/come/formulae/
+dags=http://www.flymine.org/come/newdags/
+
+/*css=http://www.flymine.org/include/stylesheet.css*/
+css=http://www.flymine.org/come/stylesheet.css
+
+
+footer= <hr><table width=\"100%\" class=\"tabletop\" cellpadding=0>\
+<tr align=center class=\"tablebody\">\
+<td><a href=\"http://www.flymine.org/come/"\>\
+<img src=\"http://www.flymine.org/come/icons/come_s.gif\"  border=\"0\" alt=\"COMe back\" ></a></td>\
+<td><a href=\"http://www.flymine.org/come/docs/readme.html\">general</a></td>\
+<td><a href=\"http://www.flymine.org/come/docs/come_legend.html\">relationships</a></td>\
+<td><a href=\"http://www.flymine.org/come/docs/centres.html\">centres</a></td>\
+<td><a href=\"http://www.flymine.org/come/docs/ligands.html\">ligands</a></td>\
+<td><a href=\"http://www.flymine.org/come/docs/polyhedra.html\">coordination polyhedra</a></td>\
+<td><a href=\"mailto:kirill@ebi.ac.uk, sc486@cam.ac.uk\">contact</a></i></td>\
+</tr></table>
